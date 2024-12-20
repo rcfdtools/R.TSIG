@@ -1,2 +1,2 @@
-# CURSO - Sistemas de información geográfica aplicados
+# CURSO - Sistemas de información geográfica aplicados en ingeniería
 
