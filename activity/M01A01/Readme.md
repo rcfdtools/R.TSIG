@@ -26,12 +26,12 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                       | Descripción                                                                                                                     |
-|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                              | Notepad++.                                                                                                                      |
-| [:toolbox:Herramienta](https://qgis.org/)                                           | QGIS 3.42 o superior.                                                                                                           |
-| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)               | Factor de atenuación de la precipitación por área simultánea.                                                                   |
-| [:round_pushpin:Municipios.shp](../../file/data/IGAC/Municipios20250901.zip)        | Municipios, Distritos y Áreas no municipalizadas de Colombia versión 20250901 de www.colombiaenmapas.gov.co.                                              |
+| Requerimiento                                                                | Descripción                                                                                                  |
+|:-----------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                       | Notepad++.                                                                                                   |
+| [:toolbox:Herramienta](https://qgis.org/)                                    | QGIS 3.42 o superior.                                                                                        |
+| [:notebook:Lectura](R.HydroTools.FactorAtenuacionPrecipitacionFa.pdf)        | Factor de atenuación de la precipitación por área simultánea.                                                |
+| [:round_pushpin:Municipios.shp](../../file/data/IGAC/Municipios20250930.zip) | Municipios, Distritos y Áreas no municipalizadas de Colombia versión 20250930 de www.colombiaenmapas.gov.co. |
 
 </div>
 
@@ -39,6 +39,21 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 
 ## Procedimiento general
+
+* Representación de municipios por departamento.
+* Conteo de municipios por Departamento.
+* Representación de municipios por categoría.
+* Conteo de municipios por Categoría.
+* Cálculo de áreas geodésicas y planares, número de vértices, centroides, límites.
+* Cálculo de distancias 2D/3D entre centroides.
+* Clasificación por cantidades de municipios por área.
+* Clasificación por cantidades de municipios por área usando Python.
+* Análisis de valores de corte y elementos por clase.
+* Distribución porcentual de áreas con respecto al total nacional.
+* Distribución porcentual de áreas con respecto al total departamental.
+* Disolución de municipios a departamentos.
+* Representación de departamentos por área.
+* Quiz usando Zonificación Hidrográfica 2013 de Colombia.
 
 1. En QGIS, cargue la capa de [Municipios, Distritos y Áreas no municipalizadas de Colombia](../../file/data/IGAC/Municipios20250901.zip).
 
@@ -48,9 +63,9 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 ## Referencias
 
-* https://help.autodesk.com/view/ACD/2026/ESP
-* https://help.autodesk.com/view/ACD/2026/ENU/
-* https://www.andresdeltoro.es/realizar-una-linea-poligonal-autocad-conociendo-los-angulos/
+* www.colombiaenmapas.gov.co
+* https://www.contaduria.gov.co/categorizacion-de-departamentos-distritos-y-municipios
+* https://www.construyendomeritos.com/blog/con-base-a-que-criterios-se-establece-la-categoria-de-un-municipio-en-colombia
 
 
 ## Control de versiones
