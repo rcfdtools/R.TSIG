@@ -1,0 +1,23 @@
+TRIANGULO EQUILÁTERO
+Área: 519.615242 m2
+Perímetro: 103.923048 m
+Lado: 34.641016 m
+
+CUADRADO
+Área: 800 m2
+Perímetro: 113.137084‬‬‬ m
+Lado: 28.284271 m
+
+PENTÁGONO
+Área: 951.056516 m2
+Perímetro: 117.55705 m
+Lado: 23.51141 m
+
+HEXÁGONO
+Área: 1039.230484 m2
+Perímetro: 120 m
+Lado: 20
+
+FIGURA IRREGULAR
+Área: 2190 m2
+Perímetro: 328.396 m
