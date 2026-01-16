@@ -275,7 +275,7 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 
 ## :globe_with_meridians:Taller 9. Modelos hidrológicos computacionales con HEC-HMS y HEC-DSS
 
-En este taller aprenderá el proceso de construcción de un modelo hidrológico en HEC-GeoHMS, a partir de un modelo digital de terreno reacondicionado usando el ASTER GDEM de la NASA o ALOS PALSAR, con el objetivo de determinar los caudales pico en las cuencas y subcuencas de una determinada zona de estudio.
+En este taller aprenderá el proceso de construcción de un modelo hidrológico en HEC-HMS, a partir de un modelo digital de terreno DEM, con el objetivo de determinar los caudales pico en las cuencas y subcuencas de una determinada zona de estudio.
 
 **¿Qué es y para qué sirve un modelo hidrológico?**: Es la abstracción o representación del ciclo hidrológico y sus fenómenos asociados, en un prototipo o modelo abstracto simplificado de un evento particular y/o computacional continuo que sirve para estudiar la interacción de sus principales características y cuyo propósito general es estudiar la escorrentía y caudal producido por la lluvia de una tormenta. Existen diversas metodologías que dependen de diferentes parámetros y supuestos. Como mínimo se debe estimar el total de lluvia que se puede convertir en escorrentía (lluvia total menos pérdidas y abstracciones), la transformación de la lluvia en escorrentía y el tránsito hidrológico de la escorrentía a través de los cauces. 
 
@@ -297,6 +297,76 @@ Conceptos Generales de Modelos Hidrológicos Computacionales:
 
 </div>
 
+
+## :globe_with_meridians:Taller 10. Balance hidrológico discreto de largo plazo usando GIS
+
+En este taller aprenderá a calcular una grilla de caudales medios acumulados por celda a partir de grillas suministradas de precipitación media, evaporación real y direcciones de flujo en la zona central del Departamento del Cesar – Colombia.
+
+<div align="center">
+
+| Actividad                                                             | Descripción                                                     |
+|:----------------------------------------------------------------------|:----------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS. |
+| [Quiz 10. Habilidad - General](https://forms.office.com/r/42Jqi7GifT) | Quiz general de habilidad.                                      |
+
+</div>
+
+
+## :globe_with_meridians:Taller 11. Modelos hidráulicos 1D con HEC-RAS
+
+En este taller aprenderá a construir y ejecutar un modelo topológico hidráulico 1D de un tramo de río usando HEC-RAS. Los datos del proyecto han sido extraídos de una topografía real y fueron procesados en el taller de creación y operación de bases de datos geográficas. El objetivo del taller es determinar riesgos por inundación en las parcelas de un proyecto de vivienda campestre, localizar diques de protección y estimar cotas máximas en un paso de vía para determinar los gálibos horizontal y vertical de un puente.
+
+<div align="center">
+
+| Actividad                                                             | Descripción                                 |
+|:----------------------------------------------------------------------|:--------------------------------------------|
+| [Documento guía](activity/TSIG_Taller11.pdf)                         | Guía de modelos hidráulicos 1D con HEC-RAS. |
+| [Quiz 11. Habilidad - General](https://forms.office.com/r/qifNWNrgDS) | Quiz general de habilidad.                  |
+
+</div>
+
+
+## :globe_with_meridians:Taller 12. Sistemas de información geográfica y los estudios ambientales
+
+Objetivos: 
+
+* Ofrecer a los participantes un panorama general acerca del uso de los SIG como sistemas complementarios en la elaboración, evaluación y seguimiento de los estudios ambientales.
+* Conocer la reglamentación nacional de la Autoridad Nacional de Licencias Ambientales – ANLA y el actual modelo de datos geográfico nacional para la presentación de los Estudios de Impacto Ambiental – EIA, Diagnósticos Ambientales de Alternativas DAA, Planes de Manejo Ambiental – PMA y los Informes de Cumplimiento Ambiental ICA.
+* Visualizar un caso de estudio ambiental usando herramientas geográficas SIG.
+* Obtener conceptos generales de la aplicación de SIG en la ingeniería ambiental: ordenamiento del territorio, gestión del riesgo, administración de recursos naturales, manejo integrado de cuencas, conservación de especies, salud pública, control de contaminantes atmosféricos, elaboración de estudios de impacto ambiental y zonificación ambiental.
+
+Mejoras que introducen los SIG a los Estudios Ambientales:
+
+* Soporte digital de información geográfica y series de datos no espaciales que permite concebir los estudios ambientales, no como un proyecto acabado y rígido, sino como un proyecto abierto a complementarse durante todas las etapas de su desarrollo, adaptándose y dando respuesta a nuevas dinámicas.
+* Uso de la tecnología como herramienta de soporte para la toma de decisiones en la que la elección de alternativas va acorde con el conocimiento de todas las áreas profesionales debido a que la información se utiliza de forma transversal y racional.
+* Permite contextualizar el proyecto ambiental mediante simulaciones hipotéticas para posteriormente someterlo a diferentes evaluaciones y análisis que pueden inducir al conocimiento de factores sub o sobreestimados.
+
+<div align="center">
+
+| Actividad                                                       | Descripción                                                                        |
+|:----------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller12.pdf)                    | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia. |
+| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)  | Quiz de conocimiento.                                                              |
+
+</div>
+
+
+## :globe_with_meridians:Taller 13. Modelación y análisis de redes vehiculares en ArcGIS
+
+A través de este taller y utilizando la extensión de análisis de redes en ArcGIS podrá representar las principales características de una red vehicular y/o peatonal para determinar rutas óptimas de viaje (en función del tiempo o de la distancia), rutas alternas por interferencias, análisis de proximidad, y áreas de servicio. 
+
+Para el desarrollo de este taller son necesarios los conceptos de manejo de coberturas, bases de datos, dominios, visualizaciones, manejo de tablas y atributos vistos en talleres anteriores, en los cuales se presentó en detalle el manejo general de sistemas geográficos.
+
+En el desarrollo de esta guía se han utilizado los conceptos generales del tutorial oficial de ArcGIS y se ha utilizado como caso de estudio; la red vial, localización de estaciones de bomberos y la cobertura de establecimientos educativos de la ciudad de Punta Arenas – Chile. El ejercicio se desarrolla utilizando una red unimodal clasificada por categorías según su capacidad vehicular y dispone de mediciones de tiempo de viaje por tramos a partir de los cuales se realizan las acumulaciones en los procesos de tránsito. Para profundizar acerca del uso de Network Analyst y su aplicación para el análisis de redes multimodales, el mismo Tutorial Oficial contiene la información y procedimientos necesarios para tal fin.
+
+<div align="center">
+
+| Actividad                                                             | Descripción                                                   |
+|:----------------------------------------------------------------------|:--------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller13.pdf)                          | Guía de Modelación y análisis de redes vehiculares en ArcGIS. |
+| [Quiz 13. Habilidad - General](https://forms.office.com/r/KcXauaEC31) | Quiz general de habilidad.                                    |
+
+</div>
 
 
 ##
