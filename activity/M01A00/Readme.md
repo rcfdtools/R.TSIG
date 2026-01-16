@@ -42,7 +42,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 | [:notebook:Lectura](https://www.esri.com/es-es/what-is-gis/overview)                                | ¿Qué son los SIG?                                  |        
 | [:notebook:Lectura](https://resources.arcgis.com/es/help/main/10.1/index.html#//003r00000001000000) | ¿Qué son las proyecciones cartográficas?           |           
 | [:notebook:Lectura](https://es.wikipedia.org/wiki/Forma_de_la_Tierra)                               | Forma de la tierra.                                |
-| [:date:TSIG_Georreferenciacion.xlsx](../file/table/TSIG_Georreferenciacion.xlsx)                    | Cálculos básicos de la forma de la tierra.         |
+| [:date:TSIG_Georreferenciacion.xlsx](../../file/table/TSIG_Georreferenciacion.xlsx)                 | Cálculos básicos de la forma de la tierra.         |
 
 </div>
 
