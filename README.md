@@ -84,11 +84,11 @@ Este taller presenta los conceptos generales de los sistemas de información geo
 
 <div align="center">
 
-| Actividad                                                          | Descripción                                                         |
-|--------------------------------------------------------------------|---------------------------------------------------------------------|
-| [Introducción](activity/TSIG_Taller0_Introduccion.pdf)             | Introducción y conceptos básicos de GIS en ingeniería.              |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.         |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra. |
+| Actividad                                                           | Descripción                                                          |
+|:--------------------------------------------------------------------|:---------------------------------------------------------------------|
+| [Introducción](activity/TSIG_Taller0_Introduccion.pdf)              | Introducción y conceptos básicos de GIS en ingeniería.               |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf)  | Georreferenciación y sistemas de proyección de coordenadas.          |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)       | Quiz de conocimiento con cálculos básicos de la forma de la tierra.  |
 
 </div>
 
