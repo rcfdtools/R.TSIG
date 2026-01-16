@@ -681,6 +681,8 @@ El WGS84 es un sistema de coordenadas geográficas mundial que permite localizar
 
 > El Sistema Geodésico Mundial es un estándar para su uso en la cartografía, geodesia y navegación. Cuenta con un estándar de coordenadas de la Tierra, un estándar de referencia de la superficie esférica (el dato o elipsoide de referencia) para los datos de altitud primas, y una superficie equipotencial gravitacional (el geoide) que define el nivel del mar nominal. El origen de coordenadas de WGS84 está destinado a ser ubicado en el centro de la masa de la Tierra, se cree que el error es menos de 2 cm por lo que es en la que se basa el Sistema de Posicionamiento Global (GPS).
 
+#### EPSG: 4326
+
 <div align="center">
 Visualización del sistema de proyección usando QGIS<br>
 <img src="graph/EPSG4326.png" alt="R.SIGE" width="100%" border="0" /><br>
@@ -716,6 +718,70 @@ Coeficiente de forma dinámica
 * J2= -484,166 85 x 10-6
 
 > El WGS84 utiliza el meridiano de referencia IERS definido por la Oficina Internacional de l'Heure. Se definió por la compilación de las observaciones de estrellas en diferentes países. La media de estos datos causó un desplazamiento de unos 100 metros al este lejos del Meridiano de Greenwich en Greenwich en el Reino Unido. 
+
+
+#### EPSG: 3857
+
+El EPSG:3857 es un código estándar (European Petroleum Survey Group) para el sistema de proyección cartográfica WGS 84 / Pseudo-Mercator, fundamental para mapas online como Google Maps o Leaflet, que transforma coordenadas geográficas (latitud/longitud) a un sistema cartesiano (metros) apto para la web, usando el elipsoide WGS 84 pero con una proyección Mercator esférica para simplificar cálculos y visualización, aunque introduce distorsiones, especialmente cerca de los polos. 
+
+```
+WGS 84 / Pseudo-Mercator
+Properties
+Units: meters
+Dynamic (relies on a datum which is not plate-fixed)
+Celestial body: Earth
+Based on World Geodetic System 1984 ensemble (EPSG:6326), which has a limited accuracy of at best 2 meters.
+Method: Mercator
+WKT
+PROJCRS["WGS 84 / Pseudo-Mercator",
+    BASEGEOGCRS["WGS 84",
+        ENSEMBLE["World Geodetic System 1984 ensemble",
+            MEMBER["World Geodetic System 1984 (Transit)"],
+            MEMBER["World Geodetic System 1984 (G730)"],
+            MEMBER["World Geodetic System 1984 (G873)"],
+            MEMBER["World Geodetic System 1984 (G1150)"],
+            MEMBER["World Geodetic System 1984 (G1674)"],
+            MEMBER["World Geodetic System 1984 (G1762)"],
+            MEMBER["World Geodetic System 1984 (G2139)"],
+            MEMBER["World Geodetic System 1984 (G2296)"],
+            ELLIPSOID["WGS 84",6378137,298.257223563,
+                LENGTHUNIT["metre",1]],
+            ENSEMBLEACCURACY[2.0]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433]],
+        ID["EPSG",4326]],
+    CONVERSION["Popular Visualisation Pseudo-Mercator",
+        METHOD["Popular Visualisation Pseudo Mercator",
+            ID["EPSG",1024]],
+        PARAMETER["Latitude of natural origin",0,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8801]],
+        PARAMETER["Longitude of natural origin",0,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8802]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["easting (X)",east,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["northing (Y)",north,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Web mapping and visualisation."],
+        AREA["World between 85.06°S and 85.06°N."],
+        BBOX[-85.06,-180,85.06,180]],
+    ID["EPSG",3857]]
+Proj4
++proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs
+Extent
+-180.00, -85.06, 180.00, 85.06
+```
 
 
 ## Referencias
