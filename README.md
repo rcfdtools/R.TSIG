@@ -1,7 +1,7 @@
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 # Sistemas de información geográfica aplicados en ingeniería - TSIG
-Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` `mapping-system` `landsat` `lidar` `copernicus` `era5` `dem` `dsm` `dtm`
+Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` `mapping-system` `landsat` `lidar` `copernicus` `era5` `dem` `dsm` `dtm` `spatial-analyst` `3d-analyst` `network-analyst`
 
 Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y detallado del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones o complementos Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
 
@@ -67,15 +67,16 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                                          | Descripción                                        |
-|:---------------------------------------------------------------------------------------|:---------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                        | Microsoft 365 (Word, Excel, OneDrive, Teams).      |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                 | Notepad++ (editor de texto).                       |
-| [:toolbox:Herramienta](https://qgis.org/)                                              | QGIS 3.44 o superior.                              |
-| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) | ESRI ArcGIS Pro 3.3.1 o superior.                  |
-| [:toolbox:Herramienta](https://www.7-zip.org/)                                         | 7-Zip File Manager (descompresor de archivos).    |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)                          | Estructura requerida para el desarrollo del curso. |
-| [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)    | Datos por taller temático.                         |
+| Requerimiento                                                                          | Descripción                                                                             |
+|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                                        | Microsoft 365 (Word, Excel, OneDrive, Teams).                                           |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                 | Notepad++ (editor de texto).                                                            |
+| [:toolbox:Herramienta](https://qgis.org/)                                              | QGIS 3.44 o superior.                                                                   |
+| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) | ESRI ArcGIS Pro 3.3.1 o superior.                                                       |
+| [:toolbox:Herramienta](https://www.7-zip.org/)                                         | 7-Zip File Manager (descompresor de archivos).                                          |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)                          | Estructura requerida para el desarrollo del curso.                                      |
+| [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)    | Datos por taller temático.                                                              |
+| [:open_file_folder:Plantilla informe ténico](file/report/)                             | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad. |
 
 </div>
 
@@ -88,12 +89,12 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                          |
-|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Auto-presentación](https://forms.office.com/r/NhgAUZkPFP)         | Posgrado: El diligenciamiento completo de este formulario me permitirá conocer su perfil académico y profesional, saber con que recursos informáticos cuenta para preparar y desarrollar las pruebas técnicas asignadas, conocer sus conocimientos generales en el uso de herramientas computacionales, lenguajes de programación, métodos de estudio y habilidades. |
-| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Guía de introducción y conceptos básicos de GIS en ingeniería.                                                                                                                                                                                                                                                                                                       |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.                                                                                                                                                                                                                                                                                                          |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra.                                                                                                                                                                                                                                                                                                  |
+| Actividad                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                 |
+|:-------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Auto-presentación](https://forms.office.com/r/NhgAUZkPFP)         | El diligenciamiento completo de este formulario me permitirá conocer su perfil académico y profesional, saber con que recursos informáticos cuenta para preparar y desarrollar las pruebas técnicas asignadas, conocer sus conocimientos generales en el uso de herramientas computacionales, lenguajes de programación, métodos de estudio y habilidades.  |
+| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Guía de introducción y conceptos básicos de GIS en ingeniería.                                                                                                                                                                                                                                                                                              |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.                                                                                                                                                                                                                                                                                                 |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra.                                                                                                                                                                                                                                                                                         |
 
 </div>
 
