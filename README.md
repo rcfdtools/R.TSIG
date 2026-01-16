@@ -82,9 +82,11 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 Este taller presenta los conceptos generales de los sistemas de información geográfica, aplicación, utilidad, georreferenciación, funciones de un SIG, tipos de datos y codificación, formatos para almacenamiento geográfico, tipos de herramientas SIG, versiones y herramientas que componen los paquetes ArcGIS y QGIS. Este taller es una introducción general a los SIG como herramienta de toma de decisiones en ingeniería y presenta contenidos relacionados con conceptos de sistemas de proyección y georreferenciación.
 
-| Actividad | Descripción |
-|-----------|-------------|
-| []()      |             |
+| Actividad                                                          | Descripción                                                       |
+|--------------------------------------------------------------------|-------------------------------------------------------------------|
+| [Introducción](activity/TSIG_Taller0_Introduccion.pdf)             | Introducción y conceptos básicos de GIS en ingeniería.            |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.       |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento y cálculos básicos de la forma de la tierra. |
 
 
 ##
