@@ -88,11 +88,12 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                          | Descripción                                                         |
-|:-------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Guía de introducción y conceptos básicos de GIS en ingeniería.      |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.         |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra. |
+| Actividad                                                          | Descripción                                                                                                                                                                                                                                                                                                                                                 |
+|:-------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Auto-presentación](https://forms.office.com/r/NhgAUZkPFP)        | El diligenciamiento completo de este formulario me permitirá conocer su perfil académico y profesional, saber con que recursos informáticos cuenta para preparar y desarrollar las pruebas técnicas asignadas, conocer sus conocimientos generales en el uso de herramientas computacionales, lenguajes de programación, métodos de estudio y habilidades.  |
+| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Guía de introducción y conceptos básicos de GIS en ingeniería.                                                                                                                                                                                                                                                                                              |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.                                                                                                                                                                                                                                                                                                 |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra.                                                                                                                                                                                                                                                                                         |
 
 </div>
 
