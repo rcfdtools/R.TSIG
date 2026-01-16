@@ -73,6 +73,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                 | Notepad++ (editor de texto).                       |
 | [:toolbox:Herramienta](https://qgis.org/)                                              | QGIS 3.44 o superior.                              |
 | [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) | ESRI ArcGIS Pro 3.3.1 o superior.                  |
+| [:toolbox:Herramienta](https://www.7-zip.org/)                                         | 7-Zip File Manager (descompresor de archivos).    |
 | [:open_file_folder:Estructura de directorios](file/Readme.md)                          | Estructura requerida para el desarrollo del curso. |
 | [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)    | Datos por taller temático.                         |
 
