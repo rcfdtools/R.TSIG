@@ -78,7 +78,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 </div>
 
 
-## :globe_with_meridians:Taller 0. Introducción y Conceptos Básicos de GIS en Ingeniería
+## :globe_with_meridians:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
 Este taller presenta los conceptos generales de los sistemas de información geográfica, aplicación, utilidad, georreferenciación, funciones de un SIG, tipos de datos y codificación, formatos para almacenamiento geográfico, tipos de herramientas SIG, versiones y herramientas que componen los paquetes ArcGIS y QGIS. Este taller es una introducción general a los SIG como herramienta de toma de decisiones en ingeniería y presenta contenidos relacionados con conceptos de sistemas de proyección y georreferenciación.
 
@@ -95,7 +95,7 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 </div>
 
 
-## :globe_with_meridians:Taller 1. Fundamentos Generales de Herramientas GIS
+## :globe_with_meridians:Taller 1. Fundamentos generales de herramientas GIS
 
 Este taller es una introducción a ArcGIS y QGIS. Utilice estas aplicaciones para crear un mapa vectorial de la zona central de Colombia para departamentos, municipios y de las estaciones de temperatura, precipitación y evaporación; luego elabore gráfica de los datos mensuales en diferentes valores. Utilice ArcCatalog para visualizar cada shapefile, sus tablas de atributos y metadatos.
 
@@ -119,7 +119,7 @@ Adicionalmente aprenderá a:
 </div>
 
 
-## :globe_with_meridians:Taller 2. Búsqueda, Selección y Estadísticas Generales
+## :globe_with_meridians:Taller 2. Búsqueda, selección y estadísticas generales
 
 En este taller aprenderá a visualizar fácilmente diferentes lugares en un mismo mapa, realizar búsquedas simples y complejas sobre los diferentes atributos de cada capa y a seleccionar elementos y exportarlos a diferentes formatos utilizando diferentes criterios. Aprenderá a realizar análisis estadísticos por campos independientes y resúmenes estadísticos de agrupamiento de múltiples variables.
 
@@ -142,7 +142,7 @@ Adicionalmente aprenderá a:
 </div>
 
 
-## :globe_with_meridians:Taller 3. Tablas Relacionales y Reportes
+## :globe_with_meridians:Taller 3. Tablas relacionales y reportes
 
 En este taller aprenderá a realizar uniones y relaciones de tablas de datos externos con elementos geográficos a partir de una llave de unión. Por otra parte, podrá crear entidades geográficas a partir de tablas geo-codificadas XY e informes o reportes con atributos básicos de elementos espaciales y con los datos de unión a tablas externas.
 
@@ -164,7 +164,7 @@ Manejo de tablas en bases de datos
 </div>
 
 
-## :globe_with_meridians:Taller 4. Entrada, Edición y Digitalización de Datos Geográficos
+## :globe_with_meridians:Taller 4. Entrada, edición y digitalización de datos geográficos
 
 A través de este taller aprenderá el manejo de las herramientas de edición y digitalización esquemática y de precisión con ArcGIS y QGIS.
 
@@ -184,7 +184,7 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 </div>
 
 
-## :globe_with_meridians:Taller 5. Diseño, Creación y Operación de Bases de Datos Geográficas
+## :globe_with_meridians:Taller 5. Diseño, creación y operación de bases de datos geográficas
 
 Este taller le enseñará como planificar y crear la estructura de una base de datos geográfica o Geodatabase sobre ESRI ArcGIS y QGIS, también a través del ArcCatalog, definir los dominios de un determinado campo numérico de atributos. El caso de estudio está relacionado con la creación de un modelo de datos geográfico para la representación de un tramo de río.
 
@@ -192,14 +192,14 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 
 <div align="center">
 
-| Actividad                                                                                               | Descripción                                                  |
-|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller5.pdf)                                                             | Diseño, Creación y Operación de Bases de Datos Geográficas.  |
-| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                           | Quiz de conocimiento.                                        |
-| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                   | Quiz general de habilidad.                                   |
-| [Quiz 5B. Habilidad - Energía solar](https://forms.office.com/r/W0vDAmK7LQ)                             | Quiz aplicado de habilidad.                                  |
-| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                             | Quiz aplicado de habilidad.                                  |
-| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA)  | Quiz aplicado de habilidad.                                  |
+| Actividad                                                                                              | Descripción                                                  |
+|:-------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Diseño, Creación y Operación de Bases de Datos Geográficas.  |
+| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                          | Quiz de conocimiento.                                        |
+| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                  | Quiz general de habilidad.                                   |
+| [Quiz 5B. Habilidad - Energía solar](https://forms.office.com/r/W0vDAmK7LQ)                            | Quiz aplicado de habilidad.                                  |
+| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad.                                  |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad.                                  |
 
 </div>
 
