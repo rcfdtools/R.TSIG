@@ -675,13 +675,13 @@ El elipsoide GRS80 fue definido y adoptado oficialmente por la Asociación Inter
 <div align="center"><img src="graph/GRS80.png" alt="R.SIGE" width="70%" border="0" /><sub><br>Proyección cartesiana<br>Tomado de: <a href="https://www.igac.gov.co/">https://www.igac.gov.co/</a></sub><br><br></div>
 
 
-### 3. Sistema geodésico mundial WGS84 – EPSG: 4326 
+### 3. Sistema geodésico mundial WGS84 
 
 El WGS84 es un sistema de coordenadas geográficas mundial que permite localizar cualquier punto de la Tierra (sin necesitar otro de referencia) por medio de tres unidades dadas. WGS84 son las siglas en inglés de World Geodetic System 84 que significa Sistema Geodésico Mundial 1984. 
 
 > El Sistema Geodésico Mundial es un estándar para su uso en la cartografía, geodesia y navegación. Cuenta con un estándar de coordenadas de la Tierra, un estándar de referencia de la superficie esférica (el dato o elipsoide de referencia) para los datos de altitud primas, y una superficie equipotencial gravitacional (el geoide) que define el nivel del mar nominal. El origen de coordenadas de WGS84 está destinado a ser ubicado en el centro de la masa de la Tierra, se cree que el error es menos de 2 cm por lo que es en la que se basa el Sistema de Posicionamiento Global (GPS).
 
-#### EPSG: 4326
+#### 3.1. EPSG: 4326
 
 <div align="center">
 Visualización del sistema de proyección usando QGIS<br>
@@ -720,7 +720,7 @@ Coeficiente de forma dinámica
 > El WGS84 utiliza el meridiano de referencia IERS definido por la Oficina Internacional de l'Heure. Se definió por la compilación de las observaciones de estrellas en diferentes países. La media de estos datos causó un desplazamiento de unos 100 metros al este lejos del Meridiano de Greenwich en Greenwich en el Reino Unido. 
 
 
-#### EPSG: 3857
+#### 3.2 EPSG: 3857
 
 El EPSG:3857 es un código estándar (European Petroleum Survey Group) para el sistema de proyección cartográfica WGS 84 / Pseudo-Mercator, fundamental para mapas online como Google Maps o Leaflet, que transforma coordenadas geográficas (latitud/longitud) a un sistema cartesiano (metros) apto para la web, usando el elipsoide WGS 84 pero con una proyección Mercator esférica para simplificar cálculos y visualización, aunque introduce distorsiones, especialmente cerca de los polos. 
 
