@@ -71,16 +71,19 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                                          | Descripción                                                                             |
-|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                        | Microsoft 365 (Word, Excel, OneDrive, Teams).                                           |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                 | Notepad++ (editor de texto).                                                            |
-| [:toolbox:Herramienta](https://qgis.org/)                                              | QGIS 3.44 o superior.                                                                   |
-| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) | ESRI ArcGIS Pro 3.3.1 o superior.                                                       |
-| [:toolbox:Herramienta](https://www.7-zip.org/)                                         | 7-Zip File Manager (descompresor de archivos).                                          |
-| [:open_file_folder:Estructura de directorios](file/Readme.md)                          | Estructura requerida para el desarrollo del curso.                                      |
-| [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)    | Datos por taller temático.                                                              |
-| [:open_file_folder:Plantilla informe ténico](file/report/)                             | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad. |
+| Requerimiento                                                                                         | Descripción                                                                                             |
+|:------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                                                       | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                           |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                                | Notepad++ (editor de texto).                                                                            |
+| [:toolbox:Herramienta](https://qgis.org/)                                                             | QGIS 3.44 o superior.                                                                                   |
+| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)                | ESRI ArcGIS Pro 3.3.1 o superior.                                                                       |
+| [:toolbox:Herramienta](https://www.7-zip.org/)                                                        | 7-Zip File Manager (descompresor de archivos).                                                          |
+| [:construction_worker:Cuenta de usuario USGS](https://ers.cr.usgs.gov/register/contact)               | Cuenta de usuario en el USGS - United States Geological Survey (Satellital images).                     |
+| [:construction_worker:Cuenta de usuario Copernicus](https://dataspace.copernicus.eu/)                 | Cuenta de usuario en el European Union's Earth observation program (ERA5 data).                         |
+| [:construction_worker:Cuenta de usuario OpenTopography](https://portal.opentopography.org/newUser)    | Cuenta de usuario en OpenTopography (high-resolution topographic data as LiDAR, radar, photogrammetry). |
+| [:open_file_folder:Estructura de directorios](file/Readme.md)                                         | Estructura requerida para el desarrollo del curso.                                                      |
+| [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)                   | Datos por taller temático.                                                                              |
+| [:open_file_folder:Plantilla informe ténico](file/report/)                                            | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad.                 |
 
 </div>
 
