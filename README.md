@@ -112,11 +112,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                     | Descripción                                        |
-|:--------------------------------------------------------------|:---------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller1.pdf)                   | Guía de fundamentos generales de herramientas GIS. |
-| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz de conocimiento.                              |
-| [Quiz 1. Habilidad](https://forms.office.com/r/Q8uFjtQiuP)    | Quiz general de habilidad.                         |
+| Actividad                                                            | Descripción                                        |
+|:---------------------------------------------------------------------|:---------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller1.pdf)                          | Guía de fundamentos generales de herramientas GIS. |
+| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm)        | Quiz de conocimiento.                              |
+| [Quiz 1. Habilidad - General](https://forms.office.com/r/Q8uFjtQiuP) | Quiz general de habilidad.                         |
 
 </div>
 
@@ -135,11 +135,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                     | Descripción                                             |
-|:--------------------------------------------------------------|:--------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller2.pdf)                   | Guía de búsqueda, selección y estadísticas generales.   |
-| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ) | Quiz de conocimiento.                                   |
-| [Quiz 2. Habilidad](https://forms.office.com/r/j1HHQhmutN)    | Quiz general de habilidad.                              |
+| Actividad                                                            | Descripción                                             |
+|:---------------------------------------------------------------------|:--------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller2.pdf)                          | Guía de búsqueda, selección y estadísticas generales.   |
+| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ)        | Quiz de conocimiento.                                   |
+| [Quiz 2. Habilidad - General](https://forms.office.com/r/j1HHQhmutN) | Quiz general de habilidad.                              |
 
 </div>
 
@@ -157,11 +157,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                       | Descripción                             |
-|:----------------------------------------------------------------|:----------------------------------------|
-| [Documento guía](activity/TSIG_Taller3.pdf)                     | Guía de tablas relacionales y reportes. |
-| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)   | Quiz de conocimiento.                   |
-| [Quiz 3. Habilidad](https://forms.office.com/r/WFZuF5c2ge)      | Quiz general de habilidad.              |
+| Actividad                                                            | Descripción                             |
+|:---------------------------------------------------------------------|:----------------------------------------|
+| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes. |
+| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)        | Quiz de conocimiento.                   |
+| [Quiz 3. Habilidad - General](https://forms.office.com/r/WFZuF5c2ge) | Quiz general de habilidad.              |
 
 </div>
 
@@ -236,12 +236,28 @@ Adicionalmente aprenderá a:
 | [Quiz 6. Conocimiento](https://forms.office.com/r/r9zYLankHs)                                                                 | Quiz de conocimiento.                |
 | [Quiz 6A. Habilidad - DEM satélite](https://forms.office.com/r/cfnfrMbLrb)                                                    | Quiz aplicado de habilidad.          |
 | [Quiz 6B. Habilidad - DEM Lidar](https://forms.office.com/r/scJK7euLJ2)                                                       | Quiz aplicado de habilidad.          |
-| [Quiz 6C. Habilidad Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                           | Quiz aplicado de habilidad.          |
+| [Quiz 6C. Habilidad - Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                         | Quiz aplicado de habilidad.          |
 | [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.office.com/r/8VYS2BsaWZ) | Quiz aplicado de habilidad.          |
 | [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.office.com/r/UCdc5fYMes)                       | Quiz aplicado de habilidad.          |
 
 </div>
 
+
+## :globe_with_meridians:Taller 7. Conceptos de geo-procesamiento, análisis de datos climatológicos y automatización
+
+En este taller aprenderá a utilizar varias de las herramientas comunes utilizadas para análisis espacial, como interpolación espacial de variables a partir de puntos geográficos, estudio y evaluación de áreas aferentes, creación de isolíneas a partir de mapas interpolados, cálculo de estadísticas espaciales, utilización de la herramienta de algebra de mapas para crear nuevas grillas, analizar modelos de terreno para obtener curvas de almacenamiento en embalses y automatización de procesos geográficos utilizando Model Builder y Python.
+
+**¿Qué es el análisis usando GIS?**: El uso de los sistemas de información geográficos ha evolucionado hasta el punto que se pueden realizar análisis complejos de información vectorial asociada a datos en diferentes fuentes de información. Anteriormente estos análisis se realizaban a partir de la relación entre datos sin que se pudiera entender la espacialidad de dicha información o a través de cartografía impresa en láminas transparentes en las cuales se observaba la superposición de diferentes áreas de dibujo.
+
+<div align="center">
+
+| Actividad                                                             | Descripción                                                                                 |
+|:----------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización. |
+| [Quiz 7. Conocimiento](https://forms.office.com/r/PJB3yKeB6k)         | Quiz de conocimiento.                                                                       |
+| [Quiz 7. Habilidad - General](https://forms.office.com/r/vzfUdX2xmg) | Quiz general de habilidad.                                                                  |
+
+</div>
 
 
 
