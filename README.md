@@ -86,10 +86,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                          | Descripción                                                                 |
-|:-------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Introducción y conceptos básicos de GIS en ingeniería.                      |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.                 |
+| Actividad                                                          | Descripción                                                         |
+|:-------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Guía de introducción y conceptos básicos de GIS en ingeniería.      |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.         |
 | [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra. |
 
 </div>
@@ -110,11 +110,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                     | Descripción                                |
-|:--------------------------------------------------------------|:-------------------------------------------|
-| [Documento guía](activity/TSIG_Taller1.pdf)                   | Fundamentos generales de herramientas GIS. |
-| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz de conocimiento.                      |
-| [Quiz 1. Habilidad](https://forms.office.com/r/Q8uFjtQiuP)    | Quiz general de habilidad.                 |
+| Actividad                                                     | Descripción                                        |
+|:--------------------------------------------------------------|:---------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller1.pdf)                   | Guía de fundamentos generales de herramientas GIS. |
+| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz de conocimiento.                              |
+| [Quiz 1. Habilidad](https://forms.office.com/r/Q8uFjtQiuP)    | Quiz general de habilidad.                         |
 
 </div>
 
@@ -133,11 +133,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                     | Descripción                                     |
-|:--------------------------------------------------------------|:------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller2.pdf)                   | Búsqueda, Selección y Estadísticas Generales.   |
-| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ) | Quiz de conocimiento.                           |
-| [Quiz 2. Habilidad](https://forms.office.com/r/j1HHQhmutN)    | Quiz general de habilidad.                      |
+| Actividad                                                     | Descripción                                             |
+|:--------------------------------------------------------------|:--------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller2.pdf)                   | Guía de búsqueda, selección y estadísticas generales.   |
+| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ) | Quiz de conocimiento.                                   |
+| [Quiz 2. Habilidad](https://forms.office.com/r/j1HHQhmutN)    | Quiz general de habilidad.                              |
 
 </div>
 
@@ -155,11 +155,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                       | Descripción                     |
-|:----------------------------------------------------------------|:--------------------------------|
-| [Documento guía](activity/TSIG_Taller3.pdf)                     | Tablas Relacionales y Reportes. |
-| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)   | Quiz de conocimiento.           |
-| [Quiz 3. Habilidad](https://forms.office.com/r/WFZuF5c2ge)      | Quiz general de habilidad.      |
+| Actividad                                                       | Descripción                             |
+|:----------------------------------------------------------------|:----------------------------------------|
+| [Documento guía](activity/TSIG_Taller3.pdf)                     | Guía de tablas relacionales y reportes. |
+| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)   | Quiz de conocimiento.                   |
+| [Quiz 3. Habilidad](https://forms.office.com/r/WFZuF5c2ge)      | Quiz general de habilidad.              |
 
 </div>
 
@@ -174,12 +174,12 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                             | Descripción                                             |
-|:--------------------------------------------------------------------------------------|:--------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                           | Entrada, Edición y Digitalización de Datos Geográficos. |
-| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                         | Quiz de conocimiento.                                   |
-| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)                 | Quiz general de habilidad.                              |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/E0PWSe8Mtb)   | Quiz aplicado de habilidad.                             |
+| Actividad                                                                             | Descripción                                                     |
+|:--------------------------------------------------------------------------------------|:----------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                           | Guía de entrada, edición y digitalización de datos geográficos. |
+| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                         | Quiz de conocimiento.                                           |
+| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)                 | Quiz general de habilidad.                                      |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/E0PWSe8Mtb)   | Quiz aplicado de habilidad.                                     |
 
 </div>
 
@@ -192,19 +192,53 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 
 <div align="center">
 
-| Actividad                                                                                              | Descripción                                                  |
-|:-------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Diseño, Creación y Operación de Bases de Datos Geográficas.  |
-| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                          | Quiz de conocimiento.                                        |
-| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                  | Quiz general de habilidad.                                   |
-| [Quiz 5B. Habilidad - Energía solar](https://forms.office.com/r/W0vDAmK7LQ)                            | Quiz aplicado de habilidad.                                  |
-| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad.                                  |
-| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad.                                  |
+| Actividad                                                                                              | Descripción                                                         |
+|:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Guía de diseño, creación y operación de bases de datos geográficas. |
+| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                          | Quiz de conocimiento.                                               |
+| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                  | Quiz general de habilidad.                                          |
+| [Quiz 5B. Habilidad - Energía solar](https://forms.office.com/r/W0vDAmK7LQ)                            | Quiz aplicado de habilidad.                                         |
+| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad.                                         |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad.                                         |
 
 </div>
 
 
+## :globe_with_meridians:Taller 6. Imágenes y sensores remotos
 
+Este taller le enseñará a descargar, georreferenciar y procesar imágenes satelitales y datos espaciales desde diferentes fuentes públicas de información.
+
+**¿Qué es la Teledetección?**: Los sensores remotos o teledetección comprenden diversas técnicas para localización, captura y transmisión de datos de objetos y fenómenos a distancia, sin contacto físico con el elemento o fenómeno de interés. Algunas de sus aplicaciones más interesantes en la ingeniería civil y ambiental son: representación y análisis de modelos de terreno - elevación, elaboración de mapas de pendientes, composición de bandas de imágenes para la restitución masiva de cuerpos de agua, delimitación detallada de cuencas hidrográficas y morfometría, monitoreo de vegetación y evaluación de su calidad por medio de índices, monitoreo de contaminación atmosférica, seguir trayectoria de huracanes, medir fenómenos de remoción en masa, flujo por avalanchas, inundaciones y fenómenos de expansión urbana, entre otros.
+
+**¿Qué son las Pirámides de visualización ráster?**: Las pirámides se utilizan para mejorar el rendimiento de visualización. Son una versión con submuestreo del dataset ráster original y pueden contener varias capas con submuestreo. Se realiza un submuestreo a cada capa consecutiva de la pirámide en una escala de 2:1. Tomado de https://pro.arcgis.com/es/pro-app/help/data/imagery/raster-pyramids.htm
+
+Adicionalmente aprenderá a:
+
+* Procesar y comparar modelos de terreno.
+* Crear mapa de sombreado de colinas o Hillshade.
+* Componer bandas y hacer análisis clasificado.
+* Identificar nubes en modelos ASTER GDEM.
+* Crear mapas de pendientes de terreno.
+* Crear mapas binarizados.
+* Generar curvas de nivel categorizadas.
+* Ensamblar y visualizar escenas 3D.
+* Calcular el índice de vegetación NDVI.
+* Descargar, visualizar y procesar datos climatológicos en formato NetCDF.
+
+
+<div align="center">
+
+| Actividad                                                                                                                     | Descripción                          |
+|:------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------|
+| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                   | Guía de imágenes y sensores remotos. |
+| [Quiz 6. Conocimiento](https://forms.office.com/r/r9zYLankHs)                                                                 | Quiz de conocimiento.                |
+| [Quiz 6A. Habilidad - DEM satélite](https://forms.office.com/r/cfnfrMbLrb)                                                    | Quiz aplicado de habilidad.          |
+| [Quiz 6B. Habilidad - DEM Lidar](https://forms.office.com/r/scJK7euLJ2)                                                       | Quiz aplicado de habilidad.          |
+| [Quiz 6C. Habilidad Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                           | Quiz aplicado de habilidad.          |
+| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.office.com/r/8VYS2BsaWZ) | Quiz aplicado de habilidad.          |
+| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.office.com/r/UCdc5fYMes)                       | Quiz aplicado de habilidad.          |
+
+</div>
 
 
 
