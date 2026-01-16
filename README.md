@@ -82,13 +82,15 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 Este taller presenta los conceptos generales de los sistemas de información geográfica, aplicación, utilidad, georreferenciación, funciones de un SIG, tipos de datos y codificación, formatos para almacenamiento geográfico, tipos de herramientas SIG, versiones y herramientas que componen los paquetes ArcGIS y QGIS. Este taller es una introducción general a los SIG como herramienta de toma de decisiones en ingeniería y presenta contenidos relacionados con conceptos de sistemas de proyección y georreferenciación.
 
+La gran diferencia que existe entre un aplicativo SIG y otros paquetes de software gráfico radica en que el aplicativo SIG es esencialmente una base de datos espacial, lo que otorga una cualidad incomparable en el desarrollo de análisis enfocados a resolver problemas reales que afectan el espacio geográfico estudiado.
+
 <div align="center">
 
-| Actividad                                                          | Descripción                                                          |
-|:-------------------------------------------------------------------|:---------------------------------------------------------------------|
-| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Introducción y conceptos básicos de GIS en ingeniería.               |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.          |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra.  |
+| Actividad                                                          | Descripción                                                                 |
+|:-------------------------------------------------------------------|:----------------------------------------------------------------------------|
+| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Introducción y conceptos básicos de GIS en ingeniería.                      |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.                 |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra. |
 
 </div>
 
@@ -97,17 +99,69 @@ Este taller presenta los conceptos generales de los sistemas de información geo
 
 Este taller es una introducción a ArcGIS y QGIS. Utilice estas aplicaciones para crear un mapa vectorial de la zona central de Colombia para departamentos, municipios y de las estaciones de temperatura, precipitación y evaporación; luego elabore gráfica de los datos mensuales en diferentes valores. Utilice ArcCatalog para visualizar cada shapefile, sus tablas de atributos y metadatos.
 
+Adicionalmente aprenderá a:
+
+* Establecer el sistema de proyección de coordenadas para un mapa geográfico.
+* Proyectar al vuelo capas geográficas desde diferentes sistemas de proyección.
+* Crear rótulo dinámicos básicos y avanzados.
+* Representar capas vectoriales por múltiples métodos de visualización.
+* Crear filtros básicos y avanzados a partir de los atributos contenidos en una capa.
+* Crear gráficos de una o múltiples variables y matrices de dispersión dinámicas para evaluar datos atípicos en registros mensuales.
+
 <div align="center">
 
 | Actividad                                                     | Descripción                                |
 |:--------------------------------------------------------------|:-------------------------------------------|
 | [Documento guía](activity/TSIG_Taller1.pdf)                   | Fundamentos generales de herramientas GIS. |
-| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz general de conocimiento.              |
+| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz de conocimiento.                      |
 | [Quiz 1. Habilidad](https://forms.office.com/r/Q8uFjtQiuP)    | Quiz general de habilidad.                 |
 
 </div>
 
 
+## :globe_with_meridians:Taller 2. Búsqueda, Selección y Estadísticas Generales
+
+En este taller aprenderá a visualizar fácilmente diferentes lugares en un mismo mapa, realizar búsquedas simples y complejas sobre los diferentes atributos de cada capa y a seleccionar elementos y exportarlos a diferentes formatos utilizando diferentes criterios. Aprenderá a realizar análisis estadísticos por campos independientes y resúmenes estadísticos de agrupamiento de múltiples variables.
+
+Adicionalmente aprenderá a:
+
+* Obtener localización por coordenadas en diferentes sistemas y a consultar esta localización en mapas de dominio público.
+* Medir elementos vectoriales con precisión.
+* Crear mapas con etiquetas dinámicas e hipervínculos.
+* Crear máscaras para selección masiva de elementos de forma espacial.
+* Exportar datos vectoriales a formato .kml o .kmz y visualizarlos en Google Earth Pro para obtener imágenes satelitales históricas.
+
+<div align="center">
+
+| Actividad                                                     | Descripción                                     |
+|:--------------------------------------------------------------|:------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller2.pdf)                   | Búsqueda, Selección y Estadísticas Generales.   |
+| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ) | Quiz de conocimiento.                           |
+| [Quiz 2. Habilidad](https://forms.office.com/r/j1HHQhmutN)    | Quiz general de habilidad.                      |
+
+</div>
+
+
+## :globe_with_meridians:Taller 3. Tablas Relacionales y Reportes
+
+En este taller aprenderá a realizar uniones y relaciones de tablas de datos externos con elementos geográficos a partir de una llave de unión. Por otra parte, podrá crear entidades geográficas a partir de tablas geo-codificadas XY e informes o reportes con atributos básicos de elementos espaciales y con los datos de unión a tablas externas.
+
+Las tablas de datos contienen información descriptiva de las entidades vectoriales o elementos geográficos que componen un sistema de información geográfico. Se estructuran por filas y columnas, las filas representan cada uno de los registros o elementos vectoriales y las columnas los distintos atributos de cada registro. En talleres previos se visualizaron y simbolizaron diferentes capas a partir de los atributos propios de la tabla de atributos. En este taller aprenderá a realizar uniones y relaciones de tablas de datos externos con elementos geográficos a partir de una llave de unión. Por otra parte, podrá crear entidades geográficas a partir de tablas XY, informes con atributos básicos de elementos y con los datos de unión a tablas externas.
+
+Manejo de tablas en bases de datos
+
+* Las bases de datos deben ser eficientes para un manejo más ágil de los datos. Por lo general, una base de datos debe ser planificada con antelación a la entrada de datos. Lo mismo se aplica para bases de datos de carácter geográfico.
+* Se recomienda escoger el tipo de datos adecuado para representar los datos y se debe eliminar todo tipo de repetición de datos en las tablas. Este proceso se le conoce como normalización.
+
+<div align="center">
+
+| Actividad                                                       | Descripción                     |
+|:----------------------------------------------------------------|:--------------------------------|
+| [Documento guía](activity/TSIG_Taller3.pdf)                     | Tablas Relacionales y Reportes. |
+| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)   | Quiz de conocimiento.           |
+| [Quiz 3. Habilidad](https://forms.office.com/r/WFZuF5c2ge)      | Quiz general de habilidad.      |
+
+</div>
 
 
 
