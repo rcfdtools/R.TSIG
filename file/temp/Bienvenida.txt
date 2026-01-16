@@ -1,0 +1,35 @@
+Asunto: Escuela - TSIG - Bienvenid@ al Curso de Sistemas de Información Geográfica Aplicados en Ingeniería
+
+UNIVERSIDAD ESCUELA COLOMBIANA DE INGENIERÍA JULIO GARAVITO
+Instructor: William Ricardo Aguilar Piña
+william.aguilar@escuelaing.edu.co
+
+Horario: lunes de 6:30am – 8:45am
+Fecha de inicio: lunes 20 de enero de 2025
+Modalidad remota por grupo de clase TSIG 2025-1 en Microsoft Teams
+
+Micrositio del curso: https://shorturl.at/KSDhZ
+
+Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y detallado del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-GeoRAS, HEC-GeoHMS, HEC-DSS y el manejo las extensiones Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geoprocesamiento, manejo de datos relacionales y automatización. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio.
+
+Para el óptimo desempeño del curso, el desarrollo de los talleres prácticos y pruebas técnicas, se recomienda el uso de un equipo personal con el software descrito en las guías de cada taller; adicionalmente, es necesario descargar y descomprimir desde el contenedor virtual en su equipo personal, los datos adjuntos a cada taller y realizar la lectura completa de la guía antes de cada clase.
+
+Autopresentación: El diligenciamiento completo de este formulario me permite como instructor, conocer su perfil académico y profesional, saber con qué recursos informáticos cuenta para preparar y desarrollar las pruebas técnicas asignadas, conocer sus conocimientos generales en el uso de herramientas computacionales, lenguajes de programación, métodos de estudio y habilidades. https://forms.office.com/r/NhgAUZkPFP
+
+Metodología: El curso inicia con una introducción a los sistemas de información geográfica y explicación general de la metodología a emplear, luego, cada estudiante procede al desarrollo de los talleres temáticos que contienen diferentes micro contenidos prácticos disponibles en video o guías de clase. La evaluación de avance se realiza a través de diferentes pruebas técnicas; antes del inicio de cada tema se presenta una prueba técnica de conocimiento, correspondiente a la lectura de guías de clase y lecturas complementarias, luego, diferentes pruebas prácticas de habilidad y para completar el curso, se presenta un examen general o proyecto (dependiendo del curso y nivel de experticia del estudiante). Para estudiantes en grado avanzado, el curso se desarrolla a través de un proyecto final usando herramientas de automatización de procesos geográficos y programación con Python.
+
+Programación detallada: las actividades asignadas para cada semana, así como las fechas límite para entrega de pruebas técnicas, se encuentran disponibles en el siguiente enlace: https://bit.ly/3GJ5EQ4 
+
+Consejería académica individual: previo a cada sesión, el estudiante preparara los contenidos asignados y durante el horario de clase en aula o a través de un chat directo por Microsoft Teams, se realiza la consejería y soporte de herramientas computacionales a utilizar, para así completar los talleres y pruebas técnicas asignadas semanalmente.
+
+Agradecemos su interés y esperamos que este curso le aporte algunos conocimientos que complementen, fortalezcan y faciliten sus actuales o futuras labores académicas y profesionales.
+
+
+
+
+
+Texto complementario para chat grupal:
+
+En este chat publicaré la programación semanal, las calificaciones de las pruebas técnicas del curso y podrán interactuar con sus compañeros de clase.
+
+Para consejería individual, escribir a william.aguilar@escuelaing.edu.co a través de un chat directo de Microsoft Teams.

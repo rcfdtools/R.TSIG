@@ -1,0 +1,360 @@
+Contenido detallado TSIG: 
+
+Aula E-314
+dir /b >sss.txt
+
+
+Pendientes
+***********
+
+Varios
+	Revisar todos los enlaces de interés.
+	Record the final T9 workshops.
+	Quiz 10 - Habilidad
+	Quiz 11 - Conocimiento
+	Incluir Python del Taller 7 en Taller temático de Algoritmos y programación.
+	Guardar forms de cada taller.
+	Verificar enlaces de interés en todas las clases.
+	Lista de herramientas de geoprocesamiento en cada clase.
+	Crear carpeta Ilustraciones en Tema 9 para cada clase.
+
+Videos TSIG Taller 0.
+	Clase estructura de directorios
+	
+Videos TSIG Taller 1.
+	Clase configuración O.S.
+	***Clase adicional mostrando la gráfica de cantidades con media y desviación std. Luego de TSIG0033 debido a que en esa clase no se visualizó la gráfica.
+	Llevar datos de GIS a Excel por copiado y pegado o por apertura de archivos .dbf.
+
+Videos Taller 2
+	Crear Google api key
+
+Videos TSIG Taller 3.
+	Clase de reportes con ejemplo de exportación a pdf con 1 departamento por hoja y con escala ajustada.
+
+Videos TSIG Taller 6.
+	Introducción.
+	
+Videos TSIG Taller 7.
+	3.9. Automatización de procesos usando Graphical Modeler en QGIS (No disponible en TSIG 2020-01)
+
+Videos TSIG Taller 9.
+	Modelación en HEC-HMS.
+
+
+ESRI Educational
+r.cfdtools@gmail.com
+User: r_cfdtools_LearnArcGIS
+Pass: P************2**************
+
+Elipsoides WKID o EPSG
+4326 WGS84
+3116 MAGNAColombiaBogota
+9377 MAGNA-SIRGAS / Origen-Nacional
+
+Nvidia canvas for ilustrations
+
+Convert e57 to las
+https://lastools.github.io/download/
+
+
+Landsat 9
+https://www.youtube.com/watch?v=WvhxwGLkWdA
+
+Tasseled Cap function
+https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/tasseled-cap-function.htm
+
+Recalculate Feature Class Extent (Data Management)
+https://pro.arcgis.com/en/pro-app/2.8/tool-reference/data-management/recalculate-feature-class-extent.htm
+
+ArcGIS 10.2.2 (solo para uso académico)
+https://drive.google.com/file/d/1DWV1J4L8rnhnKDPrYYd6PdLxYwfaUIWM/view?usp=sharing
+
+ArcGIS Pro
+https://drive.google.com/file/d/1NQFGfNBDiqx4z5plOeudNBUxmrRvyQYU/view?usp=sharing
+
+https://www.qr-code-generator.com/
+Short url with https://bitly.com/
+
+Calculate Statistics: Permite recalcular los estadísticos de un ráster.
+
+
+Reserva sala
+************
+	Estudiantes que aún no dispongan de equipo para el desarrollo del quiz, pueden solicitar un equipo en la Sala D310 por TI - Recursos Ofimáticos - Sala informática - Reserva sala. Pueden hacer la solicitud de reserva para trabajar en el horario de clase o en un horario diferente indicando en la justificación de reserva que requieren de ArcGIS y QGIS para la clase de Principios y Aplicaciones de GIS - PYAS en Ingeniería Ambiental.
+
+Calificación
+************
+
+xxxx, la nota obtenida en el quiz de conocimiento 7 fue xxxx, se recomienda presentar el recuperatorio que estará habilitado hasta las 1:30pm de hoy.
+
+
+Q6D: Solo falto indicar en los análisis que los valores obtenidos son aproximados por la presencia de nubes en las imágenes utilizadas y su posterior clasificación como bosque, por lo que es necesario marcar los pixeles con esta condición y solo hacer los cálculos en zonas visibles coincidentes.
+
+Teams de grupo TSIG
+Ayuda y soporte técnico a través de Microsoft Teams ​​​​​​​https://teams.microsoft.com
+En Microsoft Teams, haga clic en Unirse a un equipo o crear uno debajo de la lista de equipos y busque la tarjeta Unirse a un equipo con un código.
+Código: chckgv8
+
+Estudiantes que quieran presentar nuevamente el quiz como recuperatorio, enviar un mensaje directo de chat por Teams con la solicitud. La hora límite de presentación es hoy domingo hasta las 10:00pm.
+
+Ya se puede presentar el quiz recuperatorio a partir de este momento.
+
+Estudiantes con notas inferiores al promedio de clase pueden escribirme un chat directo por Teams solicitando la presentación de la prueba recuperatoria. La fecha límite será el día siguiente del vencimiento de la prueba inicial hasta las 10:00pm.
+ 
+Estudiantes que presentaron el quiz varias veces, recordar que solo se debe presentar una primera vez y luego podrán solicitar la presentación de la prueba recuperatoria si la nota obtenida esta por debajo del promedio de clase.
+
+"PFuente" like '%Antonio%'
+
+
+Autocalificación, 10%
+*********************
+
+La nota a reportar en este quiz corresponde a la nota asignada por el estudiante en esta autocalificación (10%) y la nota obtenida de acuerdo a las respuestas marcadas (90%) o entrega realizada que será verificada con el documento soporte de desarrollo.
+
+De acuerdo al trabajo presentado, a mi esfuerzo y dedicación, al cumplimiento de las diferentes actividades requeridas, desarrolladas y soportadas mediante capturas detalladas de pantalla y/o la preparación de la sustentación de avance cuando se deba hacer una presentación oral, considero como estudiante que la nota obtenida en este quiz es:
+
+Autoevaluación
+
+De acuerdo al trabajo presentado, a mi esfuerzo y dedicación, al cumplimiento de las diferentes actividades requeridas, desarrolladas y soportadas mediante capturas detalladas de pantalla y/o la preparación de la sustentación de avance cuando se deba hacer una presentación oral, considero como estudiante que la nota que obtendré en este quiz es:
+
+
+Texto estudiante con experiencia
+***********************************
+
+De acuerdo a su nivel de conocimiento actual y a su experiencia, se recomienda avanzar en el desarrollo y presentación de los talleres y pruebas técnicas del curso, para de esta forma poder dedicar tiempo al final del semestre, en el estudio y desarrollo de los talleres complementarios relacionados con automatización.
+
+Considerar esta opción si dispone de tiempo suficiente cada semana y si su carga académica lo permite, de lo contrario, avanzar con el calendario programado.
+
+
+Draw.io
+
+Python.
+[ESTACION] + '\n' + 'P, mm: ' + str([TotalAnno])
+str(round(((float([vEne]) + float ([vFeb]) + float ([vMar]))/3), 2)) + "mm"
+
+Screen recorder 11.2.1.0
+r@r.r
+Key: CB03Q-7CU41-212FE-MB5SS-UM0FA
+Ejemplo de: path allocation distance
+
+Segoe UI Light
+HEX: Forms #A0A0A0 RGB 160
+
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/HCMC
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/PYTHON
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/HPSD
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/HIDG0001
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/TSIG626/_layouts/15/siteanalytics.aspx?view=19
+https://docs.microsoft.com/en-us/sharepoint/troubleshoot/sites/error-when-changing-o365-site-logo
+Para cambiar la descripción del grupo acceder por: https://outlook.office365.com/people/group/escuelaing.edu.co/tsig626
+
+Notebook
+/sites/TSIG626/_layouts/15/Doc.aspx?sourcedoc=%7Bfe927cdf-b615-4a16-a90f-d6d2ac6ab100%7D&action=editnew
+
+Documents
+/sites/TSIG626/Shared Documents/Forms/AllItems.aspx
+
+Conversations
+/sites/TSIG626/_layouts/15/groupstatus.aspx?Target=CONVERSATIONS&Source=QuickLaunch
+/sites/HIDG0001/_layouts/15/groupstatus.aspx?Target=CONVERSATIONS&Source=QuickLaunch
+
+Teams HIDG0001
+https://teams.microsoft.com/l/team/19:58342e71e22b479db0b11e68b969d20e%40thread.tacv2/conversations?groupId=e5c38908-aca1-4d77-abd6-b4da3caaccb5&tenantId=50640584-2a40-4216-a84b-9b3ee0f3f6cf
+
+Contenidos HIDG0001
+/sites/HIDG0001/_layouts/15/viewlsts.aspx
+
+
+PRYE: motas123
+
+Minas del mundo, calcular volumenes usando ASTER GDEM V3
+Explicación general de escalación de datos hidroclimatológicos. 
+	Máximos: Máximos, Medios, Mínimos
+	Medios: Máximos, Medios, Mínimos
+	Minimos: Máximos, Medios, Mínimos
+
+Segoe UI Light
+Photo Collage Picasa
+
+Ya agregados.
+---------------
+
+HPSD2020-1
+
+
+Analisis de precipitación por pisos térmicos.
+
+
+Texto estudiantes sin autoevaluación
+------------------------------------
+Estudiante, buen día.
+
+Aún no he recibido la autoevaluación inicial del Curso de Sistemas de Información Geográfica Aplicados. Esta evaluación me permite conocer sus conocimientos generales en el uso de las herramientas computacionales a utilizar, para así enfocar el alcance del curso y poder orientar mejor su proceso de formación. 
+
+Recordar que mediante la presentación de la autoevaluación inicial se obtiene el 10% de la nota del curso.
+
+Para aquellos estudiantes que ya han enviado este documento, verificar la bandeja de salida y reenviar nuevamente a william.aguilar@escuelaing.edu.co.
+
+
+
+Python over ArcMAP 10.2.2
+	arcpy.Select_analysis("CGG_MunicipioPol_v0","MunicipioSelect_v0","MunArea>1000")
+
+
+
+Pending Task
+*************
+Que es un cuantil
+ArcScene make up
+	Numeros aleatorios arcgis en calculadora de campo: Rnd*25+5
+Workshop with HecHMS continuous models.
+https://wildlandhydrology.com/resources/
+https://extension.umass.edu/riversmart/publications
+
+
+
+Enlaces de interes
+******************
+
+Descargar el mapa geológico de Colombia desde
+https://www2.sgc.gov.co/ProgramasDeInvestigacion/Geociencias/Paginas/MapaGeologico.aspx
+Dar clic en el ícono de descarga de la geodatabase, obtendrá un archivo denominado SIG.zip con un peso de 42.3Mb.
+
+DESCARGABLE ESRI
+http://appsforms.esri.com/products/download/index.cfm?fuseaction=download.all
+
+http://www.ideam.gov.co/geoservicios-institucionales
+
+http://research.iac.es/sieinvens/python-course/source/modulos.html
+
+https://public.wmo.int/en/about-us/employment
+
+http://geoapps.ideam.gov.co:8080/geonetwork/srv/es/main.home
+
+http://desktop.arcgis.com/es/arcmap/10.3/manage-data/editing-topology/validating-a-geodatabase-topology.htm
+
+http://downloads.gvsig.org/download/events/jornadas-lac/4as-jornadas-lac/reports/4asLAC_Factor.pdf
+
+Mapas de clima en https://www.ecmwf.int/en/forecasts
+
+Archivos .xlsx en ArCgis: https://www.microsoft.com/en-us/download/details.aspx?id=39358
+
+Introduction to GIS Analysis with GeoPandas using Python
+https://www.youtube.com/watch?v=slqZVgB8tIg
+
+https://pypi.org/project/pyshp/
+
+Introduction to Python 3 Programming Tutorial
+https://www.youtube.com/watch?v=eXBD2bB9-RA&list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln
+
+Introduction - Data Analysis and Data Science with Python and Pandas
+https://www.youtube.com/watch?v=nLw1RNvfElg&list=PLQVvvaa0QuDfSfqQuee6K8opKtZsh7sA9
+
+Matplotlib Tutorial 1 - Introduction and Line
+https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
+
+QGIS Python (PyQGIS)
+https://www.youtube.com/playlist?list=PLzHdTn7Pdxs7bWcdXMaaf3Wpz-W8q0Lbj
+
+ArcPy
+https://www.youtube.com/playlist?list=PLdIOvDWZMZ_0RGri_31Eo_v1PmG9iyL6_
+
+Creates a scatter plot of raster maps
+https://grass.osgeo.org/grass76/manuals/addons/r.scatterplot.html
+
+Obtener Latitud y Longitud a partir de una dirección Python, Geocoder
+https://www.youtube.com/watch?v=0JbDDbWH1ZY
+https://help.openstreetmap.org/questions/13717/where-to-get-an-api-key
+https://www.youtube.com/watch?v=hT4b9vFZRB0
+https://pythonspot.com/read-excel-with-pandas/
+https://www.youtube.com/watch?v=pqDXmnhWFoE
+Api key mastersys2000: 
+	AIzaSyCGTbUEjqUeaAXw_2lJCywyhyjXYq_Wa9k
+	AIzaSyDC97Re95CeEatNU3KqBPO4hXsbLc-wzT0
+
+https://www.worldometers.info/world-population/colombia-population/
+
+http://visor.codigopostal.gov.co/472/visor/
+
+https://developers.google.com/maps/documentation/javascript/get-api-key
+
+Copernicus
+https://www.youtube.com/watch?v=SWwVfonGWaw
+
+Rotate NetCDF
+https://stackoverflow.com/questions/31549880/how-to-convert-a-rotated-netcdf-back-to-a-normal-lat-lon-grid
+https://gis.stackexchange.com/questions/272184/netcdf-layer-nc-appears-flipped-and-rotated-in-qgis
+https://code.mpimet.mpg.de/boards/2/topics/5849
+https://www.unidata.ucar.edu/downloads/netcdf/
+https://agrimetsoft.com/netcdf-viewer
+
+Calcular la temperatura de la superficie terrestre con imágenes Landsat 8
+https://acolita.com/calcular-temperatura-superficie-tierra-imagenes-landsat-8/
+
+https://nasagrace.unl.edu/
+
+Morfometría de cuencas: http://repositorio.utp.edu.co/dspace/bitstream/handle/11059/7626/57768B516%20_Anexo.pdf?sequence=2&isAllowed=y
+
+Metalinks
+extensión aria2 para Chrome
+
+https://www.cursosgis.com/comparacion-modelos-hidraulicos-bidimiensionales-iber-hec-ras/
+
+Comparación entre un modelo hidrodinámico completo y un modelo hidrológico
+http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-31952013000300001
+
+Volcanes América Latina
+https://www.msn.com/es-co/noticias/fotos/los-volcanes-m%C3%A1s-populares-de-am%C3%A9rica-latina/ar-BB11mIPe?ocid=ems.msn.latamvolcanoes.esmxsa%E2%80%8B%20%E2%80%8B
+
+ArcGIS Pro student
+https://www.youtube.com/watch?v=qk7DeLSJN0Q
+
+Global Bathymetry and Topography at 15 Arc Sec: SRTM15+ V2.1
+https://portal.opentopography.org/raster?opentopoID=OTSRTM.122019.4326.1
+
+Following Tropical Weather in ArcGIS Pro Using NOAA Data
+https://www.youtube.com/watch?v=0fkW_2iXFhk
+
+How to Mosaic or Merge Raster Datasets | Remove Background value | Mosaic satellite images in ArcGIS
+https://www.youtube.com/watch?v=jDG5Ec_MlpI
+
+
+Aplicaciones moviles usando Flutter
+
+Embalses y Morning Glory
+Embalse Ladybower, Inglaterra
+Mount Vesuvius
+
+
+Sí esta evaluación fue asignada en parejas o grupos, en la casilla de respuesta indique los nombres completos de los integrantes y sus códigos.
+
+Apreciado estudiante, tenga en cuenta que las pruebas técnicas solo estarán habilitadas en el horario asignado por el instructor. 
+
+*Si éste quiz fue asignado en parejas o grupo, sume los últimos dígitos de su carné y de la suma tome el último dígito para conocer el punto de estudio asignado. (No aplica a partir de 2020-i).
+
+Calcular volúmen roca SIgiriya Sri Lanca
+ https://www.google.com/maps/place/Sigiriya,+Sri+Lanka/@7.9541085,80.754698,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPOwotFUReZ5Arlh6HpsbHxQm1IlzrQJPJLAQA!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPOwotFUReZ5Arlh6HpsbHxQm1IlzrQJPJLAQA%3Dw86-h95-k-no!7i1080!8i1204!4m5!3m4!1s0x3afca0dfa73179d1:0x1e04c1150cff0edf!8m2!3d7.9541085!4d80.754698
+ 
+ https://hatarilabs.com/ih-en
+
+Nombre: COLABORATIVO IHE
+Usuario: colaborativo.ihe@escuelaing.edu.co
+Contraseña: Colab2021
+
+https://socalgis.org/2020/12/02/add-google-maps-to-arcmap-and-pro/
+https://www.aquaveo.com/software/wms-watershed-modeling-system-introduction
+https://www.fhwa.dot.gov/engineering/hydraulics/software/hy8/
+
+
+QGIS Plugins
+	QuickMapServices
+
+https://www.icde.gov.co/geoservicio?search_api_fulltext=&field_tipo_servicio=All&field_entidad=50
+Clima_Analisis_Climatico
+
+Límites autoridades ambientales
+https://www.colombiaenmapas.gov.co/
+
+
+Soporte de desarrollo: para pruebas técnicas que sean asignadas para desarrollar fuera del horario regular de clase, todas las respuestas deben ser justificadas mediante captura(s) de pantalla en donde se visualice el resultado o la referencia consultada. Respuestas sin captura de pantalla no serán calificadas. En la captura de pantalla deberá observarse su código en el nombre del mapa, para así verificar que fue desarrollado por usted. En el caso de que esta prueba técnica requiera de la creación de uno o varios mapas, nómbrelos utilizando su código de alumno y sufijos o partes. Ej.: 20012566_ParteA.mxd, 20012566_ParteB.mxd. Recuerde que al final de esta prueba deberá adjuntar un archivo de Microsoft Word con las capturas de pantalla que justifiquen cada respuesta. Para pruebas de habilidad, las capturas de pantalla deben mostrar las herramientas utilizadas, así con los parámetros de entrada, la coordenada o localización solicitada, estadísticos característicos y el valor obtenido desde la ventana de identificación. Se recomienda identificar a escala 1:10.
