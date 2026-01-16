@@ -39,7 +39,7 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 * Topógrafos.
 * Arquitectos.
 
-> Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario en este idioma.
+> Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario en este idioma.  
 > Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
 
