@@ -60,9 +60,9 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * Quices: 40%
 * Examen: 50%
 
-> Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
+> Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _"La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)"_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 >
-> Acorde con el _literal b_ del Artículo 46 del reglamento estudiantil de posgrado, los estudiantes de posgrado deben _Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios_.
+> Acorde con el _literal b_ del Artículo 46 del reglamento estudiantil de posgrado, los estudiantes de posgrado deben _"Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios"_.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
