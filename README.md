@@ -52,6 +52,8 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 
 **Evaluación**
 
+Se entiende por evaluación del aprendizaje el proceso que valora el logro de los objetivos, el avance del estudiante en su proceso formativo y sus resultados obtenidos, durante y al final de las asignaturas y actividades académicas en las que se inscribió, para un determinado período académico.
+
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas.
 
 * Asistencia: 10%
@@ -59,6 +61,8 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * Examen: 50%
 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
+>
+> Acorde con el _literal b_ del Artículo 46 del reglamento estudiantil de posgrado, los estudiantes de posgrado deben _Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios_.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
