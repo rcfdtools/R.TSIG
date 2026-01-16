@@ -164,6 +164,32 @@ Manejo de tablas en bases de datos
 </div>
 
 
+## :globe_with_meridians:Taller 4. Entrada, Edición y Digitalización de Datos Geográficos
+
+A través de este taller aprenderá el manejo de las herramientas de edición y digitalización esquemática y de precisión con ArcGIS y QGIS.
+
+Como hemos visto, ArcGIS y QGIS son utilizados para consultar información geográfica en proyectos previamente creados, también permite al usuario la creación de un proyecto GIS utilizando archivos shapefile y bases de datos geográficas en las cuales se puede importar la información vectorial que previamente se ha obtenido por medio de procesos de medición en campo. Las herramientas GIS cuentan con las funciones de entrada y edición de datos vectoriales, los cuales no solo permiten importar información previamente creada en aplicativos, sino que además permite digitalizar nuevas entidades. A través de este taller aprenderá el manejo de las herramientas de edición de ArcGIS y QGIS.
+
+ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modificación de elementos geográficos en distintas capas dentro de una misma sesión. Una sesión puede tener una o más capas de información en un directorio o carpeta o en una geodatabase - GDB.
+
+<div align="center">
+
+| Actividad                                                                             | Descripción                                             |
+|:--------------------------------------------------------------------------------------|:--------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                           | Entrada, Edición y Digitalización de Datos Geográficos. |
+| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                         | Quiz de conocimiento.                                   |
+| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)                 | Quiz general de habilidad.                              |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/E0PWSe8Mtb)   | Quiz aplicado de habilidad.                             |
+
+</div>
+
+
+
+
+
+
+
+
 
 
 ##
