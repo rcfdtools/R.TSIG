@@ -23,5 +23,5 @@ Al consultar, descargar, descomprimir, instalar, usar o explorar las herramienta
 
 ### Citación
 
-Se permite la reproducción digital parcial o total de estas actividades, scripts, guías de desarrollo, modelos de datos y documentación, siempre que se haga referencia como: _"CURSO - Sistemas de información geográfica aplicados en ingeniería - TSIG", r.cfdtools@gmail.com, https://github.com/rcfdtools/R.TSIG, Bogotá - Colombia - Suramérica."_.
+Se permite la reproducción digital parcial o total de estas actividades, scripts, guías de desarrollo, modelos de datos y documentación, siempre que se haga referencia como: _"CURSO - Sistemas de información geográfica aplicados en ingeniería - TSIG", https://github.com/rcfdtools/R.TSIG, Bogotá - Colombia - Suramérica."_.
 
