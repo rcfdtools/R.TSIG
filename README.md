@@ -84,16 +84,28 @@ Este taller presenta los conceptos generales de los sistemas de información geo
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                          |
-|:--------------------------------------------------------------------|:---------------------------------------------------------------------|
-| [Introducción](activity/TSIG_Taller0_Introduccion.pdf)              | Introducción y conceptos básicos de GIS en ingeniería.               |
-| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf)  | Georreferenciación y sistemas de proyección de coordenadas.          |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)       | Quiz de conocimiento con cálculos básicos de la forma de la tierra.  |
+| Actividad                                                          | Descripción                                                          |
+|:-------------------------------------------------------------------|:---------------------------------------------------------------------|
+| [Lectura de Introducción](activity/TSIG_Taller0_Introduccion.pdf)  | Introducción y conceptos básicos de GIS en ingeniería.               |
+| [Georreferenciación](activity/TSIG_Taller0_Georreferenciacion.pdf) | Georreferenciación y sistemas de proyección de coordenadas.          |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)      | Quiz de conocimiento con cálculos básicos de la forma de la tierra.  |
 
 </div>
 
 
+## :globe_with_meridians:Taller 1. Fundamentos Generales de Herramientas GIS
 
+Este taller es una introducción a ArcGIS y QGIS. Utilice estas aplicaciones para crear un mapa vectorial de la zona central de Colombia para departamentos, municipios y de las estaciones de temperatura, precipitación y evaporación; luego elabore gráfica de los datos mensuales en diferentes valores. Utilice ArcCatalog para visualizar cada shapefile, sus tablas de atributos y metadatos.
+
+<div align="center">
+
+| Actividad                                                     | Descripción                                |
+|:--------------------------------------------------------------|:-------------------------------------------|
+| [Documento guía](activity/TSIG_Taller1.pdf)                   | Fundamentos generales de herramientas GIS. |
+| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm) | Quiz general de conocimiento.              |
+| [Quiz 1. Habilidad](https://forms.office.com/r/Q8uFjtQiuP)    | Quiz general de habilidad.                 |
+
+</div>
 
 
 
