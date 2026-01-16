@@ -376,8 +376,8 @@ _R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusu
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
-| [:sun_with_face: Iniciar curso](activity/M01A01/Readme.md) | [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.TSIG/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Comandos, iconografía, abreviaturas y definiciones](Definitions.md) |
-|------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|------------------------------------------------------------------------------|
+| [:infinity: Otros cursos y herramientas](https://github.com/rcfdtools) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.TSIG/discussions/1) | [:notebook: Referencias](file/ref/Readme.md) | [:label: Comandos, iconografía, abreviaturas y definiciones](Definitions.md) |
+|------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------|------------------------------------------------------------------------------|
 
 
 
