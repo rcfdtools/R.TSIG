@@ -184,6 +184,26 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 </div>
 
 
+## :globe_with_meridians:Taller 5. Diseño, Creación y Operación de Bases de Datos Geográficas
+
+Este taller le enseñará como planificar y crear la estructura de una base de datos geográfica o Geodatabase sobre ESRI ArcGIS y QGIS, también a través del ArcCatalog, definir los dominios de un determinado campo numérico de atributos. El caso de estudio está relacionado con la creación de un modelo de datos geográfico para la representación de un tramo de río.
+
+La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y de tipo ráster qué combinados permiten definir múltiples niveles de asociación, incluso con reglas topológicas para la definición precisa del comportamiento entre las diferentes capas de información. Este taller le enseñará como planificar y crear la estructura de una base de datos geográfica o Geodatabase sobre ESRI ArcGIS, también a través del ArcCatalog, definir los dominios de un determinado campo numérico de atributos. Realizaremos las etapas de definición y diseño del modelo de datos de proyecto hasta la importación y validación de elementos vectoriales desde CAD. Más adelante, aprenderá a crear modelos hidráulicos con HEC-RAS.
+
+<div align="center">
+
+| Actividad                                                                                               | Descripción                                                  |
+|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                             | Diseño, Creación y Operación de Bases de Datos Geográficas.  |
+| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                           | Quiz de conocimiento.                                        |
+| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                   | Quiz general de habilidad.                                   |
+| [Quiz 5B. Habilidad - Energía solar](https://forms.office.com/r/W0vDAmK7LQ)                             | Quiz aplicado de habilidad.                                  |
+| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                             | Quiz aplicado de habilidad.                                  |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA)  | Quiz aplicado de habilidad.                                  |
+
+</div>
+
+
 
 
 
