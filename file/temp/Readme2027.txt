@@ -1,13 +1,7 @@
 Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
-	Conceptos básicos de topografía, fotogrametría y fotointerpretación
-	https://github.com/rcfdtools/R.SIGE/blob/main/activity/TopoBasic/Readme.md	
-	
-	Conceptos básicos de SIG
-	https://github.com/rcfdtools/R.SIGE/blob/main/activity/GISBasic/Readme.md
-	
-	Georreferenciación
-	https://github.com/rcfdtools/R.SIGE/blob/main/activity/CRS/Readme.md
+	Introducción y fundamentos
+	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A01a/Readme.md
 	
 	Conceptos generales de Ordenamiento Territorial - OT
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/POTBasic/Readme.md
