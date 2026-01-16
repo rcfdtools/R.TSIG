@@ -5,7 +5,7 @@ Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` 
 
 Canal de videos: https://www.youtube.com/watch?v=QCd3-oXy9_0&list=PLZGvAjHkhphA2DZsifSW5YBwPAJFSsBHV
 
-Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y detallado del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
+Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y detallado del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones o complementos Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
 
 <div align="center"><img src="file/graph/Gemini_Generated_Image_z9aw69z9aw69z9aw.png" alt="R.SIGE" width="60%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/3c7be39d932df644">https://gemini.google.com</a></sub><br><br></div>
 
@@ -38,7 +38,6 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 * Arquitectos.
 
 > Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario en este idioma.
-> 
 > Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
 
@@ -53,9 +52,9 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 
 La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas.
 
-* Asistencia (10%): se evalúa individualmente.
-* Quices de cococimiento y de habilidad por actividad (40%): se evalúan individualmente.
-* Examen por tercio (50%): se evalúa individualmente y al final de cada tercio, comprende todos los temas tratados durante el semestre.
+* Asistencia: 10%
+* Quices: 40%
+* Examen: 50%
 
 > Acorde con el parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 
@@ -91,8 +90,6 @@ Este taller presenta los conceptos generales de los sistemas de información geo
 _:beginner: **Ayuda / Colabora**: a través de la pestaña _[Discussions](https://github.com/rcfdtools/R.TSIG/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios o noticias_](https://github.com/rcfdtools/R.SIGE/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/rcfdtools/R.SIGE/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/rcfdtools/R.SIGE/discussions/categories/q-a) y realizar [_publicaciones o consultas generales_](https://github.com/rcfdtools/R.SIGE/discussions/categories/general) públicas._
 
 _R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
-
-_Clonación: para compatibilidad completa de las rutas utilizadas en los scripts y herramientas de R.TSIG, en Microsoft Windows clonar y/o descomprimir en _D:\R.TSIG_. Enlace para clonación https://github.com/rcfdtools/R.TSIG.git._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
