@@ -1,4 +1,4 @@
-# :globe_with_meridians:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
+# :earth_americas:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
 Este taller presenta los conceptos generales de los sistemas de información geográfica, aplicación, utilidad, georreferenciación, funciones de un SIG, tipos de datos y codificación, formatos para almacenamiento geográfico, tipos de herramientas SIG, versiones y herramientas que componen los paquetes ArcGIS y QGIS. Este taller es una introducción general a los SIG como herramienta de toma de decisiones en ingeniería y presenta contenidos relacionados con conceptos de sistemas de proyección y georreferenciación.
 
