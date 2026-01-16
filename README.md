@@ -260,7 +260,42 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 </div>
 
 
+## :globe_with_meridians:Taller 8. Mapas cartográficos, plantillas y mapas distribuibles
 
+En este taller se presentan los conceptos generales para tener en cuenta para la producción de mapas cartográficos y plantillas, además de diferentes procedimientos para distribución de mapas en intranet o en Internet a través de herramientas comerciales y de dominio público. 
+
+<div align="center">
+
+| Actividad                                                            | Descripción                                                     |
+|:---------------------------------------------------------------------|:----------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller8.pdf)                          | Guía de mapas cartográficos, plantillas y mapas distribuibles. |
+
+</div>
+
+
+## :globe_with_meridians:Taller 9. Modelos hidrológicos computacionales con HEC-HMS y HEC-DSS
+
+En este taller aprenderá el proceso de construcción de un modelo hidrológico en HEC-GeoHMS, a partir de un modelo digital de terreno reacondicionado usando el ASTER GDEM de la NASA o ALOS PALSAR, con el objetivo de determinar los caudales pico en las cuencas y subcuencas de una determinada zona de estudio.
+
+**¿Qué es y para qué sirve un modelo hidrológico?**: Es la abstracción o representación del ciclo hidrológico y sus fenómenos asociados, en un prototipo o modelo abstracto simplificado de un evento particular y/o computacional continuo que sirve para estudiar la interacción de sus principales características y cuyo propósito general es estudiar la escorrentía y caudal producido por la lluvia de una tormenta. Existen diversas metodologías que dependen de diferentes parámetros y supuestos. Como mínimo se debe estimar el total de lluvia que se puede convertir en escorrentía (lluvia total menos pérdidas y abstracciones), la transformación de la lluvia en escorrentía y el tránsito hidrológico de la escorrentía a través de los cauces. 
+
+> Un modelo es continuo cuando se obtienen múltiples o una serie de resultados instantáneos en un intervalo de tiempo determinado.
+
+Conceptos Generales de Modelos Hidrológicos Computacionales:
+
+* Un modelo hidrológico computacional está diseñado para simular el ciclo hidrológico en cuencas hidrográficas. HEC-HMS incluye varios de los análisis tradicionales que se realizan en hidrología, tales como, eventos de infiltración, hidrogramas unitarios y tránsito hidrológico. También incluye procedimientos para modelación continua de eventos que incluyen evapotranspiración, derretimiento de nieve, evaluación de la humedad del suelo, calidad del agua y sedimentos. Algunas de las funciones avanzadas de esta herramienta computacional, incluyen un modelo de optimización, pronóstico de flujo, reducciones en almacenamientos (área – profundidad), calibración, erosión y transporte de sedimentos y calidad de agua.
+* HEC-HMS está completamente integrado en un ambiente de trabajo que incluye interfaz gráfica, bases de datos externas usando HEC-DSS, herramientas para cargue de datos, motor de cálculo, gráficas de resultados y herramientas para producción de reportes. 
+* Este tipo de modelos pueden ser utilizados para evaluar la disponibilidad de agua en una cuenca o en una corriente, modelar el drenaje urbano, pronosticar comportamientos en el flujo, evaluación de impactos por la implantación de futuros proyectos urbanísticos, diseño de reservorios y vertederos, evaluación de impactos debido a daños producidos por excesos de flujo, regulación de llanuras de inundación y operación de sistema de drenaje. Más información en: https://www.hec.usace.army.mil/software/hec-hms/features.aspx
+
+<div align="center">
+
+| Actividad                                                             | Descripción                                                           |
+|:----------------------------------------------------------------------|:----------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller9.pdf)                           | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS.   |
+| [Quiz 9. Conocimiento](https://forms.office.com/r/KsbXuFjX2K)         | Quiz de conocimiento.                                                 |
+| [Quiz 9. Habilidad - General](https://forms.office.com/r/1eJAsXZseh)  | Quiz general de habilidad.                                            |
+
+</div>
 
 
 
