@@ -1,6 +1,6 @@
 Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
-	Introducción y fundamentos
+	Introducción y conceptos básicos
 	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A01a/Readme.md
 	
 	Conceptos generales de Ordenamiento Territorial - OT
@@ -177,10 +177,6 @@ Taller 12. Sistemas de información geográfica y los estudios ambientales
 
 	Modelo nacional para presentación de estudios ambientales
 	https://pruebacorreoescuelaingeduco.sharepoint.com/sites/TSIG626/SitePages/Taller12.aspx
-
-
-
-
 
 
 

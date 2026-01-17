@@ -87,6 +87,14 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 </div>
 
+**:blue_heart:Configuración regional**
+
+En _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca:
+
+* Símbolo decimal (Decimal symbol): punto (.)
+* Símbolo de agrupación de miles (Digit grouping symbol): coma (,)
+* Separador de listas (List separator): coma (,)
+
 
 ## :large_blue_circle:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
