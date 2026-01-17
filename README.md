@@ -87,7 +87,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 </div>
 
-**:blue_heart:Configuración regional**
+**Configuración regional**
 
 En _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca:
 
