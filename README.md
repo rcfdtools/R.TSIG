@@ -58,7 +58,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 
 * Asistencia: 10%
 * Quices: 40%
-* Examen: 50% (sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)
+* Examen: 50% _(sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)_.
 
 > Acorde con el Parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _"La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)"_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 >
