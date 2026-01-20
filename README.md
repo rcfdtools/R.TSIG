@@ -26,7 +26,7 @@ Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipo
 * Evaluar el nivel de aprendizaje a través de la presentación de pruebas técnicas de conocimiento y habilidad en cada taller temático.
 
 
-## Participantes, metodología y requerimientos
+## Participantes, metodología, requerimientos y evaluación
 
 Los contenidos presentados en este curso taller, están dirigidos a estudiantes y profesionales de diferentes disciplinas, que requieran aprender y/o fortalecer sus conocimientos en el manejo de herramientas SIG y bases de datos geográficas, tales como:
 
