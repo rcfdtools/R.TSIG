@@ -1,8 +1,9 @@
-#Processing Persiann & Mirador NetCDF files in QGIS
-#From OSGeo4W Shell install: 
-#python -m pip install rasterio
-#Convert CRS from QGIS command
-#>gdal_translate -a_srs EPSG:4326 -of netCDF 3B42_Daily.20191230.7.nc4.nc 3B42_Daily.20191230.7.nc4.4326.nc
+# https://github.com/rcfdtools/R.TSIG
+# Processing Persiann & Mirador NetCDF files in QGIS
+# From OSGeo4W Shell install: 
+# python -m pip install rasterio
+# Convert CRS from QGIS command
+# >gdal_translate -a_srs EPSG:4326 -of netCDF 3B42_Daily.20191230.7.nc4.nc 3B42_Daily.20191230.7.nc4.4326.nc
 
 import rasterio
 from matplotlib import pyplot

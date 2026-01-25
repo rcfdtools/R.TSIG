@@ -1,3 +1,5 @@
+# https://github.com/rcfdtools/R.TSIG
+
 from qgis.core import *
 from qgis.gui import *
 # To test online https://www.online-python.com/
