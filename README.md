@@ -43,14 +43,14 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 > Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
 
 
-**Metodología académica**
+### Metodología académica
 
 * Mediante el desarrollo de talleres prácticos, presentar a los participantes, diferentes conceptos y aplicaciones de Sistemas de Información Geográfica en la ingeniería.
 * Al inicio de cada clase, el instructor realizará una presentación y demostración general de los conceptos y las herramientas computacionales a utilizar y luego los estudiantes desarrollarán los contenidos de cada taller, actividad o ejercicio.
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
 
-**Evaluación**
+### Evaluación
 
 Se entiende por evaluación del aprendizaje el proceso que valora el logro de los objetivos, el avance del estudiante en su proceso formativo y sus resultados obtenidos, durante y al final de las asignaturas y actividades académicas en las que se inscribió, para un determinado período académico.
 
@@ -63,6 +63,19 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 > Acorde con el Parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _"La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)"_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
 >
 > Acorde con el _Literal b_ del Artículo 46 del reglamento estudiantil de posgrado, los estudiantes de posgrado deben _"Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios"_.
+
+
+### Directrices para quices y exámenes (pregrado)
+
+* La duración es indicada en clase al inicio de la prueba técnica.
+* Se permite la apertura de la guía de clase en el navegador de Internet.
+* Se presenta presencial e individualmente en el horario de clase.
+* Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas.
+* El quiz solo será válido sí se desarrolla en el aula de clase.
+* El quiz solo será válido sí registra sus respuestas en Forms y envía por correo electrónico los adjuntos solicitados.
+* No se admite presentación extemporánea.
+* No se permite el uso de ninguna aplicación de mensajería instantánea.
+* No se permite hablar con otros estudiantes durante el quiz, este será anulado.
 
 
 ## Software requerido, repositorio de proyecto y estructura de directorios
