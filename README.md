@@ -1,4 +1,4 @@
-<div align="center"><img alt="R.TSIG" src="file/graph/R.TSIG.svg" width="200px"><br><i>COURSE: Geographic information systems applied in engineering - TSIG</i></div>
+<div align="center"><img alt="R.TSIG" src="file/graph/R.TSIG.svg" width="250px"><br><i>COURSE: Geographic information systems applied in engineering - TSIG</i></div>
 
 # CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG
 Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` `mapping-system` `landsat` `lidar` `copernicus` `era5` `dem` `dsm` `dtm` `spatial-analyst` `3d-analyst` `network-analyst`
