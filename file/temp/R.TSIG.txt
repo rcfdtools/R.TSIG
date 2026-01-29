@@ -358,3 +358,7 @@ https://www.colombiaenmapas.gov.co/
 
 
 Soporte de desarrollo: para pruebas técnicas que sean asignadas para desarrollar fuera del horario regular de clase, todas las respuestas deben ser justificadas mediante captura(s) de pantalla en donde se visualice el resultado o la referencia consultada. Respuestas sin captura de pantalla no serán calificadas. En la captura de pantalla deberá observarse su código en el nombre del mapa, para así verificar que fue desarrollado por usted. En el caso de que esta prueba técnica requiera de la creación de uno o varios mapas, nómbrelos utilizando su código de alumno y sufijos o partes. Ej.: 20012566_ParteA.mxd, 20012566_ParteB.mxd. Recuerde que al final de esta prueba deberá adjuntar un archivo de Microsoft Word con las capturas de pantalla que justifiquen cada respuesta. Para pruebas de habilidad, las capturas de pantalla deben mostrar las herramientas utilizadas, así con los parámetros de entrada, la coordenada o localización solicitada, estadísticos característicos y el valor obtenido desde la ventana de identificación. Se recomienda identificar a escala 1:10.
+
+
+Header 
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
