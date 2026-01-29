@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools.png" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 <div align="center"><sub><i>COURSE: Geographic information systems applied in engineering - TSIG</i></sub></div>
 
