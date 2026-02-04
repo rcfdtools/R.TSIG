@@ -141,9 +141,11 @@ Extensiones usadas en los archivos utilizados en este repositorio.
 
 Cálculo de propiedades geométricas
 
+> Para cálculos geodésicos de longitud, área o perímetro, agregar el símbolo `$` al inicio de la expresión.
+
 * Longitud de una poli-línea: `length(@geometry)`
 * Perimetro de un polígono: `perimeter(@geometry)`
-* Área de un polígono: `area(@geometry)`
+* Área planar de un polígono: `area(@geometry)` o `area`
 * Coordenada x inicio: `x(start_point(@geometry))`
 * Coordenada y inicio: `y(start_point(@geometry))`
 * Coordenada x fin: `x(end_point(@geometry))`
