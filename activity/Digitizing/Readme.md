@@ -1,11 +1,11 @@
-# 2.2.a. Definición y edición de elementos / Digitalización de campus
-Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon` `m02a02a`
+# Definición y edición de elementos / Digitalización de campus
+Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon`
 
 Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades.
 
 **Caso de estudio**: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
-<div align="center"><img src="graph/m02a02a.jpg" alt="R.DAPC" width="80%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
+<div align="center"><img src="graph/Digitizing.jpg" alt="R.TSIG" width="80%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -30,7 +30,6 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 </div>
 
-> Para los diferentes avances de proyecto, es necesario guardar y publicar las diferentes versiones generadas del (los) libro (s) de Microsoft Excel, reportes o informes y dibujos generados, agregando al final la fecha de control documental en formato aaaammdd, p. ej., _M01A01_20250710.dwg_.
 
 
 ## 0. Instrucciones generales
@@ -45,7 +44,7 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 * Algunos edificios requieren de la digitalización de zonas semicirculares o arcos.
 * Varias de las esquinas de las edificaciones están construidas a un ángulo de 90 grados, tenga en cuenta que debe conservar este ángulo en la digitalización.
 * Para los índices solicitados, es necesario mostrar captura de pantalla de la herramienta GIS con la ventana del Calculador de Campo, donde se observe la operación realizada.
-* Comprimir independientemente cada archivo de formas shapefile (_DAPC_Predio.shp, DAPC_Construccion.shp, DAPC_Vial.shp, DAPC_VialBuffer.shp, DAPC_Arbolado.shp, DAPC_ArboladoBuffer.shp, DAPC_Luminaria.shp, DAPC_LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
+* Comprimir independientemente cada archivo de formas shapefile (_TSIG_Predio.shp, TSIG_Construccion.shp, TSIG_Vial.shp, TSIG_VialBuffer.shp, TSIG_Arbolado.shp, TSIG_ArboladoBuffer.shp, TSIG_Luminaria.shp, TSIG_LuminariaBuffer.shp_) y guardar en la carpeta /shp de su repositorio. Recuerde que un archivo de forma shapefile está compuesto por 4 archivos: .shp, .shx, .prj, .dbf.
 
 > Para facilitar la edición y visualización, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
@@ -57,7 +56,7 @@ Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp).
 
 ### 1.1. Predio o lote
 
-Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `DAPC_Predio.shp`.
+Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `TSIG_Predio.shp`.
 
 Atributos requeridos:
 
@@ -86,9 +85,9 @@ Fuentes de datos para obtención de predios y/o lotes:
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating DAPC_Predio.shp
+# Creating TSIG_Predio.shp
 import qgis
-output_path = 'D:/R.DAPC/file/shp/DAPC_Predio.shp'
+output_path = 'D:/R.TSIG/file/shp/TSIG_Predio.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('PredioID', QVariant.String, len=200))
@@ -113,7 +112,7 @@ Label: `'Predio: ' || "PredioID" || '\n● A(m²): ' || round("AreaPm2",1) || ' 
 
 ### 1.2. Construcción 
 
-Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `DAPC_Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
+Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `TSIG_Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
 
 Atributos requeridos:
 
@@ -142,9 +141,9 @@ Construcciones Bogotá:
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating DAPC_Construccion.shp
+# Creating TSIG_Construccion.shp
 import qgis
-output_path = 'D:/R.DAPC/file/shp/DAPC_Construccion.shp'
+output_path = 'D:/R.TSIG/file/shp/TSIG_Construccion.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('EdifID', QVariant.String, len=200))
@@ -173,7 +172,7 @@ Label: `"EdifID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || r
 
 ### 1.3. Vías
 
-Crear una capa tipo línea 2D para las vías del campus, nombrar como `DAPC_Vial.shp`.
+Crear una capa tipo línea 2D para las vías del campus, nombrar como `TSIG_Vial.shp`.
 
 Atributos requeridos:
 
@@ -191,9 +190,9 @@ Atributos requeridos:
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating DAPC_Vial.shp
+# Creating TSIG_Vial.shp
 import qgis
-output_path = 'D:/R.DAPC/file/shp/DAPC_Vial.shp'
+output_path = 'D:/R.TSIG/file/shp/TSIG_Vial.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('ViaID', QVariant.String, len=200))
@@ -216,7 +215,7 @@ Label: `"ViaID" || ' ● Ancho(m): ' || round("AnchoProm",2) || ' ● Tipo: ' ||
 
 ### 1.4. Arbolado
 
-Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `DAPC_Arbolado.shp`.
+Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `TSIG_Arbolado.shp`.
 
 Atributos requeridos:
 
@@ -241,9 +240,9 @@ Arbolado
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating DAPC_Arbolado.shp
+# Creating TSIG_Arbolado.shp
 import qgis
-output_path = 'D:/R.DAPC/file/shp/DAPC_Arbolado.shp'
+output_path = 'D:/R.TSIG/file/shp/TSIG_Arbolado.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('ArbolID', QVariant.Int))
@@ -269,7 +268,7 @@ Label: `'Árbol: ' || "ArbolID" || '\n● Altura(m): ' || round("Altura",2) || '
 
 ### 1.5. Luminarias
 
-Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `DAPC_Luminaria.shp`.
+Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `TSIG_Luminaria.shp`.
 
 Atributos requeridos:
 
@@ -294,9 +293,9 @@ Atributos requeridos:
 
 Código de creación en Python sobre QGIS:
 ```
-# Creating DAPC_Luminaria.shp
+# Creating TSIG_Luminaria.shp
 import qgis
-output_path = 'D:/R.DAPC/file/shp/DAPC_Luminaria.shp'
+output_path = 'D:/R.TSIG/file/shp/TSIG_Luminaria.shp'
 crs = QgsCoordinateReferenceSystem('EPSG:9377')
 fields = QgsFields()
 fields.append(QgsField('LumID', QVariant.Int))
@@ -324,17 +323,17 @@ Label: `'Luminaria: ' || "LumID" || '\n● Altura(m): ' || round("Altura",2) || 
 
 ## 2. Aferencias e índices
 
-Para las capas `DAPC_Vial.shp`, `DAPC_Arbolado.shp` y `DAPC_Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
+Para las capas `TSIG_Vial.shp`, `TSIG_Arbolado.shp` y `TSIG_Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
 
 <div align="center">
 
 | Capa de aferencia        | Descripción                                                    |
 |--------------------------|----------------------------------------------------------------|
-| DAPC_VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
-| DAPC_ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
-| DAPC_LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
+| TSIG_VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
+| TSIG_ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
+| TSIG_LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
 
-Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `DAPC_Predio.shp`:
+Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `TSIG_Predio.shp`:
 
 | Campo     | Tipo         | Descripción                                                                         |
 |:----------|:-------------|:------------------------------------------------------------------------------------|
@@ -353,9 +352,9 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 
 > `AreaPm2` corresponde al área del lote o predio.
 
-Código de creación de campos en Python sobre QGIS (antes de ejecutar, asegúrese de seleccionar en el panel _Layers_ la capa _DAPC_Predio.shp_):
+Código de creación de campos en Python sobre QGIS (antes de ejecutar, asegúrese de seleccionar en el panel _Layers_ la capa _TSIG_Predio.shp_):
 ```
-# Add new fields to DAPC_Predio.shp
+# Add new fields to TSIG_Predio.shp
 import qgis
 layer = iface.activeLayer()
 if layer and layer.isValid():
@@ -391,24 +390,6 @@ Cree una visualización 3D con alzados que integre:
 * Luminarias y cobertura de iluminación
 
 
-## Actividades de proyecto (opcional no calificable) :triangular_ruler:
-
-Utilizando la [Plantilla de Microsoft Word](../../file/report/R.DAPC.PlantillaInformeTecnico.docx) suministrada, cree un informe técnico mostrando las actividades desarrolladas en el orden presentado en esta actividad, junto con las consideraciones de diseño, los análisis y recomendaciones realizadas para las actividades del proyecto. Convierta a Adobe Acrobat (.pdf) y guarde en la carpeta _/report_ del repositorio de datos, nombre el archivo con el código de la actividad agregando al final la fecha de control documental en formato aaaammdd (p. ej. M01A01_20250531.pdf).
-
-En la siguiente tabla se listan las actividades que deben ser desarrolladas y documentadas por cada grupo de proyecto o individualmente.
-
-| Actividad | Alcance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| M02A02a   | Individual: los numerales vistos en esta actividad son evaluados individualmente a través de un quiz de conocimiento y habilidad.<br/><br/>Cada estudiante presenta un informe técnico incluyendo como mínimo:<br/>• 1 predio.<br/>• 5 construcciones.<br/>• 1 kilómetro de ejes viales.<br/>• Buffer vial.<br/>• 20 árboles.<br/>• Buffer de arbolado.<br/>• 5 luminarias.<br/>• Buffer de luminarias.<br/>• Calculo de índices.<br/>• Representación 3D.<br/><br/>El informe técnico debe contener capturas de pantalla donde se visualice cada capa, la tabla de atributos y los rótulos de cada elemento.  |
-| M02A02a   | En grupo: desarrolle los numerales indicados en esta actividad, incluída la digitalización completa del campus y presente un informe técnico detallado.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| M02A02a   | En grupo: en una tabla y al final del informe de avance de esta entrega, indique el detalle de las actividades realizadas por cada integrante de su grupo; utilice las siguientes columnas: `Nombre del integrante`, `Actividades realizadas`, `Tiempo dedicado en horas` (si presenta la entrega individualmente, no es necesaria la presentación de esta tabla).<br><br>Para actividades que no requieren del desarrollo de elementos de avance, indicar si realizo la lectura de la guía de clase y las lecturas indicadas al inicio en los requerimientos.                                                 | 
-
-> Nota 1: para la revisión del proyecto final, guarde los libros cálculo de Microsoft Excel y los archivos generados en esta actividad, en las localizaciones indicadas en cada numeral.
->
-> Nota 2: una vez el instructor realice la revisión y el estudiante presente las correcciones o ajustes solicitados, será necesario cargar una nueva versión de los archivos en el repositorio del proyecto, incluyendo o actualizando al final del nombre del archivo, la fecha de presentación en formato aaaammdd y manteniendo las versiones anteriores presentadas.
->
-
-
 ## Referencias
 
 * https://es.zgsm-china.com/blog/coefficient-of-utilization-for-street-lighting-why-it-matters.html
@@ -429,12 +410,12 @@ En la siguiente tabla se listan las actividades que deben ser desarrolladas y do
 
 ##
 
-_R.DAPC es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
+_R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
 
-| [◄ Anterior](../M02A01b/Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.DAPC/discussions/1) | [Siguiente ►](../M02A02b/Readme.md) |
-|----------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------|
+| [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.TSIG/discussions/1) |
+|-----------------------------------|----------------------------------------------------------------------------------|
 
 [^1]: 
