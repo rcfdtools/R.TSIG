@@ -31,8 +31,41 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 </div>
 
 
+## 0. Conceptos generales de escala
 
-## 0. Instrucciones generales
+Tomado o adaptado de: Lineamientos para el uso de información geográfica en el desarrollo del componente rural de los Planes de Ordenamiento Territorial, IGAC.[^1]
+
+La escala (entendida como la relación existente entre la distancia en el terreno y su equivalente en el mapa) de la cartografía básica es un aspecto de gran relevancia a la hora de planear el ordenamiento del territorio, pues dependiendo de esta, es posible apreciar mayor o menor cantidad de elementos del paisaje. Así, a mayor escala (o más cerca), se aprecian más elementos y con mayor detalle, mientras que, a menor escala (o más lejos), la información será más general y con menor detalle.
+
+La escala de la cartografía determina la forma y el tamaño en que se ven los elementos del paisaje. Un ejemplo claro de ello es la forma como se ven las construcciones. Cuando estas se representan en una escala general, se ven como puntos, y al aumentar la escala, las mismas aparecen como polígonos, siendo más grandes cuanto mayor es la escala.
+
+<div align="center"><img src="graph/IGAC_ConceptoEscala.png" alt="R.SIGE" width="100%" border="0" /><sub><br>Tomado de: <a href="../../ref/cartilla_pot.pdf">Concepto de escala. IGAC, 2019</a></sub><br><br></div>
+
+La cartografía básica de Colombia creada por el [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/), puede ser descargada desde www.colombiaenmapas.com a nivel general en escalas 1:500000 (Precisión planimétrica de 1000m y altimétrica de 100m), 1:100000 (Precisión planimétrica de 200m y altimétrica de 50m) y por planchas a escala 1:25000 (Precisión planimétrica de 50m y altimétrica de 25m). 
+
+<div align="center"><img src="graph/CartografiaBasicaIGAC.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+Es de aclarar que, en el ámbito municipal, para el ejercicio del ordenamiento territorial, tradicionalmente se ha privilegiado el uso de cartografía a escala 1:25.000 para el sector rural y 1:5.000 o 1:2.000 en el sector urbano. Sin embargo, el IGAC recomienda que para la formulación y/o procesos de revisión y ajuste de los POT, la escala de la cartografía se defina en función de los procesos y dinámicas de cada territorio. En este sentido, se propone que para el suelo rural se contemplen factores como el área municipal, la pendiente, el tamaño de los predios, la densidad de la red hidrográfica y de la infraestructura vial, entre otros.
+
+En la siguiente tabla se relaciona la escala ideal de trabajo recomendada a escala rural de acuerdo con las características mencionadas.
+
+<div align="center">
+
+| Escala    | Pendientes           | Densidad de la<br>red hidrográfica | Densidad de la infra-<br>estructura vial | Tamaño predios                    |
+|-----------|----------------------|------------------------------------|------------------------------------------|-----------------------------------|
+| 1:100.000 | Moderada: hasta 12%  | Baja: <3 km/km²                    | Baja: <3 km/km²                          | Latifundio: >200 Ha               |
+| 1:25.000  | Montañosa: >12%      | Alta: >3 km/km²                    | Alta: >3 km/km²                          | Mediano a pequeño: De 10 a 200 Ha |
+| 1:10.000  | Montañosa: >12%      | Alta: >3 km/km²                    | Alta: >3 km/km²                          | Minifundio: De 3 a 10 Ha          |
+| 1:5.000   | Montañosa: >12%      | Alta: >3 km/km²                    | Alta: >3 km/km²                          | Microfundio: <3 Ha                |
+
+</div>
+
+Con base en la información de la tabla anterior, se recomienda que para el suelo rural de aquellos municipios localizados en las zonas montañosas, se utilice cartografía básica a escala 1:10.000 y para los ubicados sobre los valles interandinos y las costas Caribe y Pacífica, cartografía básica a escala 1:25.000. Por otro lado, para la mayoría de municipios del oriente del país, en donde existen características homogéneas de cobertura boscosa y territorios colectivos, se considera suficiente la cartografía a escala 1:100.000. 
+
+Asimismo, teniendo en cuenta los factores mencionados en la anterior, se recomienda que para las áreas urbanas, de expansión urbana y centros poblados, se utilice información geográfica con escalas entre 1:1.000 y 1:5.000. Adicionalmente, para definir la escala, se deben tener en cuenta las dinámicas de urbanización y las relaciones del sistema de asentamientos, lo que permitirá un análisis detallado de la distribución de los procesos físicos, ambientales, y sociales que allí se presentan. Además, se debe contemplar la información catastral, de gran importancia y utilidad para el conocimiento de las estructuras y las dinámicas urbanas.
+
+
+## 1. Instrucciones generales
 
 Siga en clase las indicaciones del instructor y complete la digitalización teniendo en cuenta las siguientes directrices:
 
@@ -49,12 +82,12 @@ Siga en clase las indicaciones del instructor y complete la digitalización teni
 > Para facilitar la edición y visualización, agregue el mapa base de Google Satellite desde el conector https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}. Mapas base adicionales pueden ser agregados usando los enlaces contenidos en el repositorio https://github.com/opengeos/qgis-basemaps
 
 
-## 1. Capas geográficas requeridas
+## 2. Capas geográficas requeridas
 
 Para cada capa requerida, cree archivos de formas geográficas shapefile (.shp). 
 
 
-### 1.1. Predio o lote
+### 2.1. Predio o lote
 
 Crear una capa tipo polígono en 2D para digitalizar el predio de la institución educativa, nombrar como `TSIG_Predio.shp`.
 
@@ -110,7 +143,7 @@ del writer
 Label: `'Predio: ' || "PredioID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 6) || ' ● Lon(°): ' || round("LonDD", 6)`
 
 
-### 1.2. Construcción 
+### 2.2. Construcción 
 
 Crear una capa tipo polígono en 2D para las construcciones y/o edificios bajo cubierta, nombrar como `TSIG_Construccion.shp`. En las construcciones incluir elementos como: invernaderos, casetas, carpas porterías.
 
@@ -170,7 +203,7 @@ del writer
 Label: `"EdifID" || '\n● A(m²): ' || round("AreaPm2",1) || ' ● P(m): ' || round("PerimPm",1) || ' ● Pisos: ' || "Pisos" || '\n● Area Cons(m²): ' || round("AreaCons", 1) || '\n● Material Est.: ' || "MaterialEs" || '\n● Cubierta: ' || "TipoCubier" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 6) || ' ● Lon(°): ' || round("LonDD", 6)`
 
 
-### 1.3. Vías
+### 2.3. Vías
 
 Crear una capa tipo línea 2D para las vías del campus, nombrar como `TSIG_Vial.shp`.
 
@@ -213,7 +246,7 @@ del writer
 Label: `"ViaID" || ' ● Ancho(m): ' || round("AnchoProm",2) || ' ● Tipo: ' || "ViaTipo" || ' ● Rodadura: ' || "Rodadura"`
 
 
-### 1.4. Arbolado
+### 2.4. Arbolado
 
 Crear una capa tipo punto 2D para el arbolado del Campus, nombrar como `TSIG_Arbolado.shp`.
 
@@ -266,7 +299,7 @@ del writer
 Label: `'Árbol: ' || "ArbolID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Radio(m): ' || round("RadioC",2) || '\n● Tipo: ' || "TipoArbol" || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 6) || ' ● Lon(°): ' || round("LonDD", 6)`
 
 
-### 1.5. Luminarias
+### 2.5. Luminarias
 
 Crear una capa tipo punto 2D para las luminarias del campus, nombrar como `TSIG_Luminaria.shp`.
 
@@ -321,7 +354,7 @@ del writer
 Label: `'Luminaria: ' || "LumID" || '\n● Altura(m): ' || round("Altura",2) || ' ● Tipo: ' || "LumTipo" || ' ● Potencia(Watt): ' || round("Potencia",0) || '\n● Radio(m): ' || round("RadioC",2) || ' ● Consumo: ' || round("Consumo",0) || '\n● X(m): ' || round("CX", 1) || ' ● Y(m): ' || round("CY", 1) || '\n● Lat(°): ' || round("LatDD", 6) || ' ● Lon(°): ' || round("LonDD", 6)`
 
 
-## 2. Aferencias e índices
+## 3. Aferencias e índices
 
 Para las capas `TSIG_Vial.shp`, `TSIG_Arbolado.shp` y `TSIG_Luminaria.shp`, cree aferencias para crear los corredores viales, el canopy o cobertura de la vegetación y las áreas iluminadas. En QGIS, utilice la herramienta _Processing Toolbox / Vector Geometry / Buffer_.
 
@@ -378,7 +411,7 @@ else:
     print("No active layer or layer is invalid.")  
 ```
 
-## 3. Representación 3D
+## 4. Representación 3D
 
 Cree una visualización 3D con alzados que integre:
 

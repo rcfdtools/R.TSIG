@@ -127,6 +127,7 @@ Taller 9. Modelos hidrológicos computacionales con HEC-HMS y HEC-DSS
 	Perfiles de muestreo en red hidrográfica
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/DEMProfile/Readme.md
 	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A03b/Readme.md
+	(Se ha incluido en el Quiz 6A una investigación usando el Plugin OpenTopography para crear y comparar el perfil de todo el Río Bogotá.)
 
 	Análisis de elevaciones, densidad, cobertura y radio de acción de estaciones terrestres
 	https://github.com/rcfdtools/R.LTWB/tree/main/Section03/CNEStationElevation
