@@ -56,9 +56,6 @@ Taller 3. Tablas relacionales y reportes
 
 Taller 4. Entrada, edición y digitalización de datos geográficos
 
-	Digitalización de campus
-	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A02a/Readme.md
-	
 	Digitalización de drenajes, vías y predios
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/Digitizing/Readme.md
 	
@@ -68,10 +65,6 @@ Taller 5. Diseño, creación y operación de bases de datos geográficas
 	Modelo de datos LADM_COL
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/POTLayer/Readme.md
 
-	Definición y edición de elementos / Potencial fotovoltáico campus
-	Tablas geo-codificadas
-	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A02b/Readme.md
-	
 	Análisis topográfico a partir de datos terrestres
 	https://forms.office.com/r/uKunLJAnPR
 	
@@ -110,7 +103,6 @@ Taller 6. Imágenes y sensores Remotos
 	
 	Análisis hidro-climatológico ERA5 Land Monthly
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/RemoteSensingERA5/Readme.md
-	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A03c/Readme.md
 	
 
 Taller 7. Conceptos de geoprocesamiento, análisis de datos climatológicos y automatización
