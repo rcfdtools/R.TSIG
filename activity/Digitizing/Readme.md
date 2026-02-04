@@ -451,4 +451,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.TSIG/discussions/1) |
 |-----------------------------------|----------------------------------------------------------------------------------|
 
-[^1]: 
+[^1]: Lineamientos para el uso de información geográfica en el desarrollo del componente rural de los Planes de Ordenamiento Territorial
