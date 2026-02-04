@@ -37,7 +37,7 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 A partir del archivo [TSIG_CubiertaNodoUECIJG.csv](../../file/table/TSIG_CubiertaNodoUECIJG.csv) y utilizando el CRS 9377, cree la capa geográfica de puntos. 
 
-1. En QGIS, cree un proyecto nuevo en blanco con el nombre _/map/M02A02b.qgz_, asigne el CRS 9377 y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cree la capa temporal de localización geográfica de puntos de cubierta.
+1. En QGIS, cree un proyecto nuevo en blanco con el nombre _/map/SolarPanel.qgz_, asigne el CRS 9377 y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cree la capa temporal de localización geográfica de puntos de cubierta.
 
 <div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.TSIG" width="100%" border="0" /></div>
 
