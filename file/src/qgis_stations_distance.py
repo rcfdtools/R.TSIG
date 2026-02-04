@@ -3,7 +3,7 @@
 # Tested in QGIS 3.44.6
 # Only for points layer
 # Stop editing before run the script
-# Mmake sure a layer is selected in the Layers panel
+# Make sure a layer is selected in the Layers panel
 
 from qgis.PyQt.QtCore import QVariant
 from qgis.core import QgsField, edit
