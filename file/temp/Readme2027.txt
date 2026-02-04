@@ -1,8 +1,6 @@
 Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
-	Introducción y conceptos básicos
-	https://github.com/rcfdtools/R.DAPC/blob/main/activity/M02A01a/Readme.md
-	
+
 	Conceptos generales de Ordenamiento Territorial - OT
 	https://github.com/rcfdtools/R.SIGE/blob/main/activity/POTBasic/Readme.md
 	

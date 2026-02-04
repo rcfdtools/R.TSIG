@@ -5,7 +5,7 @@ Este taller presenta los conceptos generales de los sistemas de información geo
 La gran diferencia que existe entre un aplicativo SIG y otros paquetes de software gráfico radica en que el aplicativo SIG es esencialmente una base de datos espacial, lo que otorga una cualidad incomparable en el desarrollo de análisis enfocados a resolver problemas reales que afectan el espacio geográfico estudiado.
 
 # 1.0 Introducción, conceptos básicos y georreferenciación
-Keywords: `topography` `photogrammetric` `earth-shape` `gnss` `gis-basics` `gis-utility` `gis-functions` `gis-history` `data-types` `related-sciences` `shapefile` `gdb` `crs` `srs` `epsg-4326` `wgs84` `m01a00`
+Keywords: `topography` `photogrammetric` `earth-shape` `gnss` `gis-basics` `gis-utility` `gis-functions` `gis-history` `data-types` `related-sciences` `shapefile` `gdb` `crs` `srs` `epsg-4326` `wgs84`
 
 Sistemas de información geográfica. Fundamentos. Proyecciones y origen de coordenadas. 
 
