@@ -210,12 +210,13 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                             | Descripción                                                     |
-|:--------------------------------------------------------------------------------------|:----------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                           | Guía de entrada, edición y digitalización de datos geográficos. |
-| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                         | Quiz de conocimiento.                                           |
-| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)                 | Quiz general de habilidad.                                      |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/E0PWSe8Mtb)   | Quiz aplicado de habilidad.                                     |
+| Actividad                                                                                     | Descripción                                                                                                                                                          |
+|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                                   | Guía de entrada, edición y digitalización de datos geográficos.                                                                                                      |
+| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                                 | Quiz de conocimiento.                                                                                                                                                |
+| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)                         | Quiz general de habilidad.                                                                                                                                           |
+| [Definición y edición de elementos / Digitalización de campus](activity/Digitizing/Readme.md) | Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades.  |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/Sa1UHvwN5K)           | Quiz aplicado de habilidad.                                                                                                                                          |
 
 </div>
 
