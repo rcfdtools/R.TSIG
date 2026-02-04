@@ -1,4 +1,4 @@
-# Definición y edición de elementos / Digitalización de campus
+# Digitalización de campus
 Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon`
 
 Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, raster, vectores, etc.). Edición de elementos. Digitalización y entrada de entidades.
