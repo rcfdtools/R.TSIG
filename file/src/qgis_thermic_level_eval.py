@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools/R.TSIG
+# https://github.com/rcfdtools
 # This script has to be loaded in QGIS into a Field Calculator function
 # Call the function as: thermiclevel("your_elevation_field")
 # return i[1] give you the Tag and return i[0] the range value.

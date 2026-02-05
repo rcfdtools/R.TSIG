@@ -1,47 +1,93 @@
-# https://github.com/rcfdtools/R.TSIG
-# Calculate the hipotetical stations year length
-# This script has to be loaded in QGIS into a Field Calculator function
-# Call function for full length (Field LYearS): len_year_serie("FECHA_INST", "FECHA_SUSP")[0]
-# Call function for an specified time period (Field LYearSTW): len_year_serie("FECHA_INST", "FECHA_SUSP")[1]
-# You must set in the Panel de Control / Region, short dates as d/MM/yyyy.
+# https://github.com/rcfdtools
+# Calculate the hipotetical stations year length in a full range or in a specified time window
+# This script has to be run in the QGIS Python console
+# Stop editing before run the script
+# Make sure a layer is selected in the Layers panel
 # Tested in QGIS 3.44.6
 
-from qgis.core import *
-from qgis.gui import *
-from datetime import date
+
+from qgis.PyQt.QtCore import QVariant
+from qgis.core import QgsField, edit
+import qgis.utils
 from PyQt5.QtCore import QDate
 
-@qgsfunction(group='_TSIG', referenced_columns=[])
-def len_year_serie(installation_date, suspension_date):
-    date_format = '%d/%m/%Y'
-    #tw_start_date = datetime.strptime('01/01/1980', date_format) # Time-window start. Use '' for set 01/01/1900
-    #tw_end_date = datetime.strptime('31/12/2023', date_format) # Time-window end. Use '' for use the current date and prevent over-time wrong suspension dates
-    tw_start_date = QDate(1980, 1, 1)
-    tw_end_date = QDate(2025, 12, 31)
-    if not tw_start_date: tw_start_date = datetime.strptime('01/01/1900', date_format)
-    if not tw_end_date: tw_end_date = str(datetime.today().date())
-    if installation_date:
-        if installation_date <= tw_start_date:
-            tw_installation_date = tw_start_date
+
+# Get the active layer from Layer panel
+layer = iface.activeLayer()
+
+
+# General parameters
+tw_start_date_name = 'InDateTW'
+tw_end_date_name = 'OutDateTW'
+lyears_name = 'LYearS'
+lyearstw_name = 'LYearSTW'
+tw_start_date = QDate(1980, 1, 1) # Time-window start ●
+tw_end_date = QDate(2025, 12, 31) # Time-window end ●
+installation_date_field = 'FECHA_INST'
+suspension_date_field = 'FECHA_SUSP'
+
+
+# Add fields and do calculations
+new_field_list = [[tw_start_date_name, QVariant.Date], [tw_end_date_name, QVariant.Date], [lyears_name, QVariant.Double], [lyearstw_name, QVariant.Double]]
+if layer and layer.dataProvider().capabilities() & QgsVectorDataProvider.AddAttributes:
+    # Fields creation
+    for field in new_field_list:
+        # Check and delete existind required fields
+        field_index = layer.fields().indexFromName(field[0])
+        if field_index != -1:
+            with edit(layer):
+                 layer.dataProvider().deleteAttributes([field_index])
+        layer.updateFields()
+        
+        # New Field, parameters are: field name, data type, field length, precision
+        if field[1] == QVariant.Date:
+            new_field = QgsField(field[0], field[1])
         else:
-            tw_installation_date = installation_date
-        if suspension_date:
-            if suspension_date >= tw_end_date:
-                tw_suspension_date = tw_end_date
+            new_field = QgsField(field[0], field[1], len=20, prec=10)
+            
+        # Use an editing buffer to add the field and commit changes automatically
+        with edit(layer):
+            layer.dataProvider().addAttributes([new_field])
+            layer.updateFields() # Update the layer's fields after adding
+        
+        print(f'Field "{field[0]}" added to layer "{layer.name()}"')
+    layer.commitChanges()
+    
+    # Calculate LYearS
+    for feature in layer.getFeatures():
+        fid = feature.id()
+        installation_date = feature[layer.fields().indexFromName(installation_date_field)]
+        suspension_date = feature[layer.fields().indexFromName(suspension_date_field)]
+        if installation_date:
+            if installation_date <= tw_start_date:
+                tw_installation_date = tw_start_date
             else:
-                tw_suspension_date = suspension_date
-            #diff_date = suspension_date - installation_date
-            diff_date = installation_date.daysTo(suspension_date)
-            #tw_diff_date = tw_suspension_date - tw_installation_date
-            tw_diff_date = tw_installation_date.daysTo(tw_suspension_date)
+                tw_installation_date = installation_date
+            if suspension_date:
+                if suspension_date >= tw_end_date:
+                    tw_suspension_date = tw_end_date
+                else:
+                    tw_suspension_date = suspension_date
+                diff_date = installation_date.daysTo(suspension_date)
+                tw_diff_date = tw_installation_date.daysTo(tw_suspension_date)
+            else:
+                diff_date = installation_date.daysTo(tw_end_date)
+                tw_diff_date = tw_installation_date.daysTo(tw_end_date)
+            diff_date = float(diff_date)/365
+            tw_diff_date = float(tw_diff_date)/365
+            if diff_date < 0: diff_date = 0
+            if tw_diff_date < 0: tw_diff_date = 0
         else:
-            diff_date = tw_end_date - installation_date
-            tw_diff_date = tw_end_date - tw_installation_date
-        diff_date = float(diff_date)/365
-        tw_diff_date = float(tw_diff_date)/365
-        if diff_date < 0: diff_date = 0
-        if tw_diff_date < 0: tw_diff_date = 0
-    else:
-        diff_date = 0
-        tw_diff_date = 0
-    return [diff_date, tw_diff_date] # First value is complete length. Second value is time window length
+            diff_date = 0
+            tw_diff_date = 0
+        layer.startEditing()
+        field_index = layer.fields().indexOf(tw_start_date_name)
+        layer.changeAttributeValue(fid, field_index, tw_start_date)        
+        field_index = layer.fields().indexOf(tw_end_date_name)
+        layer.changeAttributeValue(fid, field_index, tw_end_date)   
+        field_index = layer.fields().indexOf(lyears_name)
+        layer.changeAttributeValue(fid, field_index, diff_date)
+        field_index = layer.fields().indexOf(lyearstw_name)
+        layer.changeAttributeValue(fid, field_index, tw_diff_date)
+    layer.commitChanges()
+    print('Calculations done')    

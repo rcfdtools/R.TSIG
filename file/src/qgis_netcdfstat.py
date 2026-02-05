@@ -1,3 +1,4 @@
+# https://github.com/rcfdtools
 # ERA5 / Surface net solar radiation (ssr) / Zonal statistics
 # Dataset: ERA5-Land monthly averaged data from 1950 to present
 # Polygon layer requieres the area value over a real variable called AGm2

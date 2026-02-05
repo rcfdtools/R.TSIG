@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools/R.TSIG
+# https://github.com/rcfdtools
 # Processing Persiann & Mirador NetCDF files in QGIS
 # From OSGeo4W Shell install: 
 # python -m pip install rasterio

@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools/R.TSIG
+# https://github.com/rcfdtools
 # This script has to be loaded in QGIS into a Field Calculator function
 # Call the function as: class_range_eval("your_area_field")
 

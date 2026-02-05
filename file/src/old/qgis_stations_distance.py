@@ -1,10 +1,9 @@
-# https://github.com/rcfdtools
+# https://github.com/rcfdtools/R.TSIG
 # Calculate distance between a reference station and multiple stations with transform coordinates 
-# This script has to be run in the QGIS Python console
+# Tested in QGIS 3.44.6
 # Only for points layer
 # Stop editing before run the script
-# Make sure a point layer is selected in the Layers panel
-# Tested in QGIS 3.44.6
+# Make sure a layer is selected in the Layers panel
 
 from qgis.PyQt.QtCore import QVariant
 from qgis.core import QgsField, edit
@@ -17,10 +16,10 @@ layer = iface.activeLayer()
 
 
 # General parameters
-cx_ref = 4635914.2014494929 # Main station x coordinate ●
-cy_ref = 1953586.8749296966 # Main station y coordinate ●
-cz_ref = 1059.00000000000 # Main station z coordinate ●
-cz_ref_name = 'altitud' # CZ field in original stations table, e.g., COORD_Z_m or altitud ●
+cx_ref = 953750.4722457461 # Main station x coordinate ●
+cy_ref = 1083615.4754182266 # Main station y coordinate ●
+cz_ref = 1270.00000000000 # Main station z coordinate ●
+cz_ref_name = 'COORD_Z_m' # CZ field in original stations table ●
 crs_source = '4326' # Check the original CRS in source layer ●
 crs_destination = '9377' # Define the CRS fot the calculations ●
 cx_name = f'CX{crs_destination}'
@@ -55,7 +54,8 @@ if layer and layer.dataProvider().capabilities() & QgsVectorDataProvider.AddAttr
         print(f'Field "{field}" added to layer "{layer.name()}"')
     layer.commitChanges()
     
-    # Calculate xy projected values
+    # Calculate x projected values
+    field_index = layer.fields().indexOf(cx_name)
     for feature in layer.getFeatures():
         geometry = feature.geometry()
         point = geometry.asPoint()
@@ -64,13 +64,23 @@ if layer and layer.dataProvider().capabilities() & QgsVectorDataProvider.AddAttr
         y_in = point.y()
         point_out = transform.transform(QgsPointXY(x_in, y_in))
         layer.startEditing()
-        field_index = layer.fields().indexOf(cx_name)
         layer.changeAttributeValue(fid, field_index, point_out.x())
-        field_index = layer.fields().indexOf(cy_name)
+    layer.commitChanges()
+    print('Coordinates x calculated.')
+    
+    # Calculate y projected values
+    field_index = layer.fields().indexOf(cy_name)
+    for feature in layer.getFeatures():
+        geometry = feature.geometry()
+        point = geometry.asPoint()
+        fid = feature.id()
+        x_in = point.x()
+        y_in = point.y()
+        point_out = transform.transform(QgsPointXY(x_in, y_in))
+        layer.startEditing()
         layer.changeAttributeValue(fid, field_index, point_out.y())
     layer.commitChanges()
-    print('Coordinates xy calculated.')
-    
+    print('Coordinates y calculated.')
 
     # Calculate 2D distance
     layer.startEditing()

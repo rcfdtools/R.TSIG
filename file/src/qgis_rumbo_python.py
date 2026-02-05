@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools/R.TSIG
+# https://github.com/rcfdtools
 
 from qgis.core import *
 from qgis.gui import *
