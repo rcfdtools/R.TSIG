@@ -1,0 +1,7 @@
+Estrato,EstratoDes,EstratoSub,EstratoRGB,EstratoHex
+1,Estrato 1 (Bajo-bajo), Recibe el mayor subsidio en servicios públicos,"237, 50, 55",#ED3237
+2,Estrato 2 (Bajo)," Recibe subsidios, pero menores que el 1","248, 237, 70",#F8ED46
+3,Estrato 3 (Medio-bajo)," Recibe subsidios, principalmente en agua y luz, pero no en gas","140, 214, 242",#8CD6F2
+4,Estrato 4 (Medio), No recibe subsidios ni paga sobrecostos; paga tarifa plena,"214, 227, 122",#D6E37A
+5,Estrato 5 (Medio-alto), Paga tarifas más altas y contribuye a los subsidios de los estratos bajos,"246, 167, 50",#F6A732
+6,Estrato 6 (Alto)," Paga las tarifas más altas, financiando gran parte de los subsidios","55, 115, 68",#377344
