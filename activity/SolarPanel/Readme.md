@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.TSIG.svg" height="46px"></div>
+
 # Definición y edición de elementos / Potencial fotovoltáico campus
 Keywords:  `photovoltaic` `solar-panel`
 

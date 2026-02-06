@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="file/graph/R.TSIG.svg" height="46px"></div>
+
 # Licencia y cláusulas de autor
 
 Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:

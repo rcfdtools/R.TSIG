@@ -1,3 +1,5 @@
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.TSIG.svg" height="46px"></div>
+
 # Digitalización de campus
 Keywords:  `shapefile` `new_layer` `land_index` `buffer` `point` `line` `polygon`
 
