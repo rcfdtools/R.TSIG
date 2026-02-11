@@ -4,7 +4,7 @@
 # CURSO: Sistemas de información geográfica aplicados en ingeniería - TSIG
 Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` `mapping-system` `landsat` `lidar` `copernicus` `era5` `dem` `dsm` `dtm` `spatial-analyst` `3d-analyst` `network-analyst`
 
-Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y detallado del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones o complementos Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
+Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y particular del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones o complementos Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
 
 <div align="center"><img src="file/graph/Gemini_Generated_Image_z9aw69z9aw69z9aw_rounded.png" alt="R.SIGE" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/3c7be39d932df644">https://gemini.google.com</a></sub><br><br></div>
 
@@ -17,7 +17,7 @@ Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipo
 
 * Ofrecer a los participantes el conocimiento detallado de los SIG mediante el manejo de herramientas computacionales comerciales y públicas de amplia difusión, como Esri ArcGIS® y QGIS.
 * Diseñar, crear y editar un sistema de información geográfico a partir de procesos de digitalización directa o desde medios digitales. 
-* Obtener habilidades en el manejo de la representación gráfica de elementos geográficos desde visores y herramientas de edición, así como el diseño de plantillas para generación de mapas cartográficos digitales e impresos.* 
+* Obtener habilidades en el manejo de la representación gráfica de elementos geográficos desde visores y herramientas de edición, así como el diseño de plantillas para generación de mapas cartográficos digitales e impresos. 
 * Buscar, seleccionar y filtrar entidades espaciales y atributos de forma fácil y precisa. El participante además podrá ejecutar procesos de cálculo y difusión de atributos a partir de expresiones sencillas en SQL, VisualBasic, Python y Arcade. 
 * Obtener los conocimientos necesarios para el análisis de información por medio de búsquedas simples y complejas, proximidad, sobreimposición y unión de datos espaciales con bases de datos externas.
 * Descargar, procesar y analizar modelos de terreno e imágenes ráster a partir de sensores remotos e información satelital.

@@ -23,8 +23,8 @@ lyears_name = 'LYearS'
 lyearstw_name = 'LYearSTW'
 tw_start_date = QDate(1980, 1, 1) # Time-window start ●
 tw_end_date = QDate(2025, 12, 31) # Time-window end ●
-installation_date_field = 'FECHA_INST'
-suspension_date_field = 'FECHA_SUSP'
+installation_date_field = 'FInst'
+suspension_date_field = 'FSus'
 
 
 # Add fields and do calculations
