@@ -5,7 +5,7 @@ Keywords:  `era5` `ssr` `u10` `v10`
 
 Desde la plataforma [Copernicus](https://www.copernicus.eu/en) del [ECMWF](https://www.ecmwf.int/) y para el límite continental de Colombia en Suramérica: descargue las variables u10, v10 y ssr para el rango de años 1950 a 2024. Cargue y visualice todas las variables en un mapa. Para el límite geográfico definido y para cada variable, obtenga estadísticos zonales mes a mes y genere gráficos detallados agregados mensuales, anuales y decadales pada cada Departamento.  
 
-<div align="center"><img src="graph/ERA5.jpg" alt="R.TSIG" width="60%" border="0" /></div>
+<div align="center"><img src="graph/ERA5.jpg" alt="rcfdtools" width="60%" border="0" /></div>
 
 
 ## Objetivos

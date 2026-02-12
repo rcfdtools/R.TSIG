@@ -7,7 +7,7 @@ Bases de datos y su manejo en SIG. Creación y edición de tablas relacionales. 
 
 **Caso de estudio**: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
-<div align="center"><img src="graph/SolarPanel.jpg" alt="R.TSIG" width="60%" border="0" /></div>
+<div align="center"><img src="graph/SolarPanel.jpg" alt="rcfdtools" width="60%" border="0" /></div>
 
 
 ## Objetivos
@@ -39,19 +39,19 @@ A partir del archivo [TSIG_CubiertaNodoUECIJG.csv](../../file/table/TSIG_Cubiert
 
 1. En QGIS, cree un proyecto nuevo en blanco con el nombre _/map/SolarPanel.qgz_, asigne el CRS 9377 y desde el menú _Layer / Add Layer / Add Delimited Text Layer..._, cree la capa temporal de localización geográfica de puntos de cubierta.
 
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. Agregue el mapa base XYZ de Google Satellite desde la dirección: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
 
-<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_AddDelimitedTextLayer1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3. Desde la tabla de contenido, exporte la capa temporal a un archivo shapefile como _/shp/TSIG_CubiertaNodoUECIJG.shp_. Luego remueva la capa temporal.
 
-<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_SaveVectorLayerAs.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 4. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `"CubiertaID" ||  '- '   ||  "PuntoNum"`. Abra la tabla de atributos de la capa, observará que existen 24 grupos o zonas de cubierta y 259 nodos.
 
-<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 5. Para los puntos de cubierta, calcule la localización expresada en latitud y longitud en grados decimales a partir del sistema de proyección de coordenadas 4326.
 
@@ -60,13 +60,13 @@ A partir del archivo [TSIG_CubiertaNodoUECIJG.csv](../../file/table/TSIG_Cubiert
 * LonDD: `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 * LatDD: `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
 
-<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 6. Cree un campo de texto de 255 caracteres que le permita localizar cada punto de cubierta en Google Maps. Detenga la edición de la tabla y con la tecla <kbd>CTRL</kbd>, de clic en cualquier link de la tabla para verificar su funcionamiento.
 
 * GoogleMaps: `'http://maps.google.com/maps?q=' || "LatDD" || ',' || "LonDD"`
 
-<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 ## 2. Creación de líneas perimetrales de cubiertas
@@ -75,19 +75,19 @@ A partir de los nodos de cubierta, cree las líneas perimetrales de cada cubiert
 
 1. Utilizando la herramienta _Processing Toolbox / Vector creation / Point to path_, cree la capa de líneas y guarde como _/shp/TSIG_CubiertaLineaUECIJG.shp_.
 
-<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_PointsToPath.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. Simbolice por categorías a partir del código de la cubierta `CubiertaID` y rotule con la expresión `'Cubierta: ' || "CubiertaID"`. Abra la tabla de atributos de la capa, observará que existen 24 líneas perimetrales.
 
-<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Symbology1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3. En un campo de atributos numérico real de precisión 10, calcule la longitud planar de las líneas perimetrales, nombre el campo como `LPm`. Expresión: `length(@geometry)`.
 
-<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator2.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 En el rótulo incluya en un nuevo renglón, la longitud redondeada a dos decimales con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2)`. 
 
-<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_FieldCalculator3.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 ## 3. Polígonos de cubiertas
@@ -96,15 +96,15 @@ A partir de las líneas perimetrales, cree los polígonos de las cubiertas.
 
 1. Utilizando la herramienta _Processing Toolbox / Vector creation / Polygonize_, cree la capa de polígonos y guarde como _/shp/TSIG_CubiertaPoligonoUECIJG.shp_.
 
-<div align="center"><img src="graph/QGIS_Polygonize.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Polygonize.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 2. Ubique la cubierta del _Bloque C_ y elimine el polígono que delimita el patio interno. Abra la tabla de atributos, podrá observar que el proceso de conversión de líneas a polígonos no incluye los atributos correspondientes al código de cada cubierta.
 
-<div align="center"><img src="graph/QGIS_Edit.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Edit.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 3. Utilizando la herramienta _Processing Toolbox / Vector general / Join attributes by nearest_, una los atributos de las líneas a la capa de cubiertas, nombre como _/shp/TSIG_CubiertaPoligono1UECIJG.shp_. Remueva del mapa la capa previa de polígonos.
 
-<div align="center"><img src="graph/QGIS_JoinAttributesByNearest.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_JoinAttributesByNearest.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 4. Desde el calculador de campo y con la expresión `area(@geometry)`, calcule en área planar `APm2` de cada polígono, calcule también el perímetro planar `PPm` y las coordenadas planas en metros del centroide `CX` y `CY`, rotule con la expresión `'Cubierta: ' || "CubiertaID" || '\nP(m): ' || round( "LPm" , 2) || '\nA(m²): ' || round( "APm2" , 2) || '\nCX(m): ' || round( "CX" , 2) || '\nCY(m): ' || round( "CY" , 2)`.
 
@@ -115,7 +115,7 @@ Expresiones:
 * CX = `x(@geometry)`
 * CY = `y(@geometry)`
 
-<div align="center"><img src="graph/QGIS_Polygonize1.jpg" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/QGIS_Polygonize1.jpg" alt="rcfdtools" width="100%" border="0" /></div>
 
 
 ## 4. Área usable, número de paneles, potencial fotovoltáico y costos

@@ -7,7 +7,7 @@ Bases de datos y su manejo en SIG. Definición de elementos de un SIG (shapes, r
 
 **Caso de estudio**: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.
 
-<div align="center"><img src="graph/Digitizing.jpg" alt="R.TSIG" width="80%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
+<div align="center"><img src="graph/Digitizing.jpg" alt="rcfdtools" width="80%" border="0" /><sub><br><a href="https://www.google.com/maps/place/Colombian+School+of+Engineering+Julio+Garavito/@4.7829367,-74.0443354,566m">https://www.google.com/maps</a></sub><br><br></div>
 
 
 ## Objetivos
@@ -41,11 +41,11 @@ La escala (entendida como la relación existente entre la distancia en el terren
 
 La escala de la cartografía determina la forma y el tamaño en que se ven los elementos del paisaje. Un ejemplo claro de ello es la forma como se ven las construcciones. Cuando estas se representan en una escala general, se ven como puntos, y al aumentar la escala, las mismas aparecen como polígonos, siendo más grandes cuanto mayor es la escala.
 
-<div align="center"><img src="graph/IGAC_ConceptoEscala.png" alt="R.TSIG" width="100%" border="0" /><sub><br>Tomado de: <a href="../../ref/cartilla_pot.pdf">Concepto de escala. IGAC, 2019</a></sub><br><br></div>
+<div align="center"><img src="graph/IGAC_ConceptoEscala.png" alt="rcfdtools" width="100%" border="0" /><sub><br>Tomado de: <a href="../../ref/cartilla_pot.pdf">Concepto de escala. IGAC, 2019</a></sub><br><br></div>
 
 La cartografía básica de Colombia creada por el [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/), puede ser descargada desde www.colombiaenmapas.com a nivel general en escalas 1:500000 (Precisión planimétrica de 1000m y altimétrica de 100m), 1:100000 (Precisión planimétrica de 200m y altimétrica de 50m) y por planchas a escala 1:25000 (Precisión planimétrica de 50m y altimétrica de 25m). 
 
-<div align="center"><img src="graph/CartografiaBasicaIGAC.png" alt="R.TSIG" width="100%" border="0" /></div>
+<div align="center"><img src="graph/CartografiaBasicaIGAC.png" alt="rcfdtools" width="100%" border="0" /></div>
 
 Es de aclarar que, en el ámbito municipal, para el ejercicio del ordenamiento territorial, tradicionalmente se ha privilegiado el uso de cartografía a escala 1:25.000 para el sector rural y 1:5.000 o 1:2.000 en el sector urbano. Sin embargo, el IGAC recomienda que para la formulación y/o procesos de revisión y ajuste de los POT, la escala de la cartografía se defina en función de los procesos y dinámicas de cada territorio. En este sentido, se propone que para el suelo rural se contemplen factores como el área municipal, la pendiente, el tamaño de los predios, la densidad de la red hidrográfica y de la infraestructura vial, entre otros.
 
