@@ -407,7 +407,7 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 </div>
 
 
-## Exámenes finales por Tercio
+## Exámenes finales
 
 <div align="center">
 
