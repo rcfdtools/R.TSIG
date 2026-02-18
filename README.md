@@ -407,7 +407,7 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 </div>
 
 
-## Exámenes finales
+## Exámenes
 
 Los exámenes (parciales o final), son evaluaciones sumativas obligatorias que se realizan durante un ciclo académico (semestre) para medir el conocimiento y habilidad global adquirido en la asignatura, determinando la aprobación definitiva de la materia. Su objetivo es evaluar la integración de todos los temas vistos durante el curso.
 
