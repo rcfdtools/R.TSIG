@@ -407,6 +407,19 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 </div>
 
 
+## Exámenes finales por Tercio
+
+<div align="center">
+
+| Actividad                                                          | Descripción                                             |
+|:-------------------------------------------------------------------|:--------------------------------------------------------|
+| [Examen Final - Tercio 1](https://forms.office.com/r/tuU8sh4r4h)   | Duración: 1.5 horas.<br/>Se evalúan los Talleres 0 a 3. |
+| [Examen Final - Tercio 2]()                                        | Duración: 1.5 horas.<br/>Se evalúan los Talleres 4 a 6. |
+| [Examen Final - Tercio 3](https://forms.office.com/r/CRvbZwACa4)   | Duración: 1.5 horas.<br/>Se evalúan todos los talleres. |
+
+</div>
+
+
 ##
 
 _R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
