@@ -5,6 +5,7 @@ from qgis.gui import *
 # To test online https://www.online-python.com/
 # Require: import math as math
 from math import *
+import math as math
 
 @qgsfunction(group='Custom', referenced_columns=[])
 
