@@ -21,8 +21,8 @@ cx_ref = 4635914.2014494929 # Main station x coordinate ●
 cy_ref = 1953586.8749296966 # Main station y coordinate ●
 cz_ref = 1059.00000000000 # Main station z coordinate ●
 cz_ref_name = 'altitud' # CZ field in original stations table, e.g., COORD_Z_m or altitud ●
-crs_source = '4326' # Check the original CRS in source layer ●
-crs_destination = '9377' # Define the CRS fot the calculations ●
+crs_source = '4326' # Check the source CRS in source layer or crs_source = layer.crs()●
+crs_destination = '9377' # Define the CRS for the calculations ●
 cx_name = f'CX{crs_destination}'
 cy_name = f'CY{crs_destination}'
 dist2d_name = f'Dist2D{crs_destination}'

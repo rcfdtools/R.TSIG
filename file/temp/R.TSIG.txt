@@ -8,6 +8,7 @@ Pendientes
 ***********
 
 Varios
+	area(transform($geometry, 'EPSG:xxxx', 'EPSG:yyyy'))
 	Revisar todos los enlaces de interés.
 	Record the final T9 workshops.
 	Quiz 10 - Habilidad
