@@ -145,7 +145,10 @@ Cálculo de propiedades geométricas
 
 * Longitud de una poli-línea: `length(@geometry)`
 * Perimetro de un polígono: `perimeter(@geometry)`
-* Área planar de un polígono: `area(@geometry)` o `area`
+* Área planar de un polígono: `area(@geometry)`
+* Área planar de un polígono con transformación de coordenadas: `area(transform($geometry, layer_property(@layer, 'crs'),'EPSG:9377'))`
+* Área planar de un polígono con transformación de coordenadas: `area(transform($geometry, 'EPSG:4686', 'EPSG:9377'))`
+* Área geodésica de un polígono: `$area`
 * Coordenada x inicio: `x(start_point(@geometry))`
 * Coordenada y inicio: `y(start_point(@geometry))`
 * Coordenada x fin: `x(end_point(@geometry))`
