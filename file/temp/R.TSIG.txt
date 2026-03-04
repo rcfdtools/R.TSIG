@@ -364,3 +364,10 @@ Header
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools.png" alt="R.LTWB" width="100%" border="0" /></a></div>
+
+
+AMD Radeon Pro 5300M
+********************
+https://www.youtube.com/watch?v=ro6ZXe-V0YA
+27.20.14540.15002
+30.0.13045.18005
