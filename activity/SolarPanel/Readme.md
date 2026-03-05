@@ -25,10 +25,11 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                     | Descripción                                                                        |
-|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                         | QGIS 3.44 o superior.                                                              |  
-| [:date:TSIG_CubiertaNodoUECIJG.csv](../../file/table/TSIG_CubiertaNodoUECIJG.csv) | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta. |
+| Requerimiento                                                                     | Descripción                                                                                                          |
+|:----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                         | QGIS 3.44 o superior.                                                                                                |
+| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
+| [:date:TSIG_CubiertaNodoUECIJG.csv](../../file/table/TSIG_CubiertaNodoUECIJG.csv) | Tabla con geo-localizadores de nodos para generación de áreas útiles por cubierta.                                   |
 
 </div>
 

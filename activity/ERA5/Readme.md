@@ -22,13 +22,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                          | Descripción                                                                                                         |
-|:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                              | QGIS 3.44 o superior.                                                                                               |  
-| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login) | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.                 |  
-| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)            | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                                            |
-| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                          | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                 |
-| [qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                                | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools).  |
+| Requerimiento                                                                                           | Descripción                                                                                                          |
+|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                               | QGIS 3.44 o superior.                                                                                                |
+| [:round_pushpin:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                                      | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps). |
+| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login)  | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5.                  |  
+| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)             | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/.                                             |
+| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                           | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                  |
+| [qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                                 | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools).   |
 
 </div>
 
