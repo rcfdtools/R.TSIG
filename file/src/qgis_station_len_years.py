@@ -3,6 +3,7 @@
 # This script has to be run in the QGIS Python console
 # Stop editing before run the script
 # Make sure a layer is selected in the Layers panel
+# Before run create manually the follow fields:
 # FInst = to_date("FECHA_INSTALACION",'dd/M/yyyy')
 # FSus = to_date("FECHA_SUSPENSION",'dd/M/yyyy')
 # Tested in QGIS 3.44.6
