@@ -25,6 +25,12 @@
 * https://www.giss.nasa.gov/tools/panoply/
 * https://www.usgs.gov/
 
+Calibración de modelos hidrológicos
+
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/model-calibration-and-validation
+* https://www.youtube.com/watch?v=t5uzhfK-kFA
+* https://web.ics.purdue.edu/~vmerwade/education/hms7.pdf
+ 
 
 ## Textos guía
 
