@@ -55,15 +55,17 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 
 Se entiende por evaluación del aprendizaje el proceso que valora el logro de los objetivos, el avance del estudiante en su proceso formativo y sus resultados obtenidos, durante y al final de las asignaturas y actividades académicas en las que se inscribió, para un determinado período académico.
 
-La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas.
+La evaluación del desempeño de los estudiantes valora el cumplimiento de los objetivos propuestos y los compromisos adquiridos en la asignatura. Se realiza el seguimiento del avance de cada estudiante a través de la presentación de informes técnicos, verificando tanto los conocimientos adquiridos como las competencias o habilidades desarrolladas.
 
 * Asistencia: 10%
 * Quices: 40%
 * Examen: 50% _(sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)_.
 
-> Acorde con el Parágrafo del Artículo 38 del reglamento estudiantil de pregrado, _"La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)"_. Por lo cual, solo se calificará cada quiz si asistió al taller realizado en clase.
->
-> Acorde con el _Literal b_ del Artículo 46 del reglamento estudiantil de posgrado, los estudiantes de posgrado deben _"Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios"_.
+> **Pregrado**: acorde con el parágrafo del Artículo 38 del reglamento estudiantil, _“La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)”_.
+> 
+> **Posgrado**: acorde con el Literal b del Artículo 46 del reglamento estudiantil, los estudiantes de posgrado deben _“Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios”_.
+> 
+> **Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado al Quiz.
 
 
 ### Directrices para quices y exámenes (pregrado)
