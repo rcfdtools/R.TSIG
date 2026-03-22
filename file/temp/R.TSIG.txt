@@ -376,3 +376,19 @@ https://www.youtube.com/watch?v=ro6ZXe-V0YA
 Curso maestría HCMC: lunes de 6:30 a 8:45.
 Curso pregrado PYAS: lunes de 1:00 a 2:30 y martes de 10:00 a 11:30.
 Curso pregrado DAPC:  lunes de 2:30 a 4:00 y martes de 01:00 a 04:00.
+
+
+
+### Configuración regional en ingeniería
+
+* **Sistema operativo**: en _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca símbolo decimal (decimal symbol) como punto ` . `, símbolo de agrupación de miles (digit grouping symbol) como coma ` , ` y separador de listas (list separator) como coma ` , `.
+* **Microsoft Excel**: en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto ` . ` como separador decimal y coma ` , ` como separador de miles. 
+* **QGIS**, desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
+
+
+
+> **Pregrado**: acorde con el parágrafo del Artículo 38 del reglamento estudiantil, _“La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)”_.
+> 
+> **Posgrado**: acorde con el Literal b del Artículo 46 del reglamento estudiantil, los estudiantes de posgrado deben _“Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios”_.
+> 
+> **Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado al Quiz.
