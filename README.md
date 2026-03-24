@@ -414,11 +414,11 @@ Los exámenes (parciales o final), son evaluaciones sumativas obligatorias que s
 
 <div align="center">
 
-| Actividad                                                          | Descripción                                              |
-|:-------------------------------------------------------------------|:---------------------------------------------------------|
-| [Examen Parcial - Tercio 1](https://forms.office.com/r/tuU8sh4r4h)   | Duración: 1.5 horas.<br/>Se evalúan los Talleres 0 a 3.  |
-| [Examen Parcial - Tercio 2]()                                        | Duración: 1.5 horas.<br/>Se evalúan los Talleres 4 a 6.  |
-| [Examen Final - Tercio 3](https://forms.office.com/r/CRvbZwACa4)   | Duración: 2.0 horas.<br/>Se evalúan todos los talleres. |
+| Actividad                                                 | Descripción                                              |
+|:----------------------------------------------------------|:---------------------------------------------------------|
+| [Examen Tercio 1](https://forms.office.com/r/tuU8sh4r4h)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 0 a 3.  |
+| [Examen Tercio 2](https://forms.office.com/r/aNkMTqLCF0)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 4 a 6.  |
+| [Examen Tercio 3](https://forms.office.com/r/3PUs7aUeRt)  | Duración: 2.0 horas.<br/>Se evalúan todos los talleres. |
 
 </div>
 
