@@ -1,6 +1,6 @@
 # Estructura de directorios
 
-Para el desarrollo de las diferentes actividades del curso, son requeridos los siguientes directorios, que deben estar contenidos en la carpeta C:\TSIG\ o D:\TSIG\. [:package:Descargar.](TSIG_FileStructure.zip)
+Para el desarrollo de las diferentes actividades del curso, son requeridos los siguientes directorios, que deben estar contenidos en la carpeta `C:\TSIG` o `D:\TSIG`. [:package:Descargar.](TSIG_FileStructure.zip)
 
 > Atención: no incluya archivos en la raíz del repositorio, utilice la carpeta correspondiente. En caso de que requiera de la creación de archivos temporales, utilice la carpeta `\temp`.
 
