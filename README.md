@@ -103,7 +103,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:construction_worker:Usuario OpenTopography](https://portal.opentopography.org/newUser) | Cuenta de usuario en OpenTopography (high-resolution topographic data as LiDAR, radar, photogrammetry). |
 | [:package:Estructura de directorios](file/Readme.md)                                     | Estructura requerida para el desarrollo del curso.                                                      |
 | [:open_file_folder:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)      | Datos por taller temático.                                                                              |
-| [:open_file_folder:Plantilla informe técnico](file/report/)                              | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad.                 |
+| [:memo:Plantilla informe técnico](file/report/)                                          | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad.                 |
 
 </div>
 
