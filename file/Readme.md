@@ -1,8 +1,8 @@
 # Estructura de directorios
 
-Para el desarrollo del caso de estudio y del proyecto de clase, es necesario crear la siguiente estructura en su repositorio de proyecto.
+Para el desarrollo del curso son requeridos los siguientes directorios que deben estar contenidos en la carpeta C:/TSIG/ o D:/TSIG.
 
-[Descargar aquí.](TSIG.File.Structure.zip)
+[:open_file_folder:Descargar.](TSIG_FileStructure.zip)
 
 > Atención: no incluya archivos en la raíz del repositorio, utilice la carpeta correspondiente. En caso de que requiera de la creación de archivos temporales, utilice la carpeta `\temp`.
 
