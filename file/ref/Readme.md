@@ -42,3 +42,6 @@ Calibración de modelos hidrológicos
 * VÍCTOR OLAYA. Sistemas de Información Geográfica, Tomo I, versión 1.0, Rev. 21 de febrero de 2012.
 * VÍCTOR OLAYA. Sistemas de Información Geográfica, Tomo II, versión 1.0, Rev. 21 de febrero de 2012.
 * LibroSIG, Aprendiendo a manejar los SIG en la gestión ambiental. 1ª Edición. ISBN: 978-84-691-7370-1. Madrid – España. 2008.
+
+
+_R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
