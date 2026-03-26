@@ -437,13 +437,6 @@ Cree una visualización 3D con alzados que integre:
 * [QGIS Python (PyQGIS) - Create a new shapefile](https://www.youtube.com/watch?v=3PQiwTICGqs)
 
 
-## Control de versiones
-
-| Versión    | Descripción        | Autor                                      | Horas |
-|------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.29 | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
-
 ##
 
 _R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._

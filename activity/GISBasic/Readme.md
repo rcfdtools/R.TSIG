@@ -804,13 +804,6 @@ Extent
 * Especificaciones técnicas cartografía básica, Instituto Geográfico Agustín Codazzi – IGAC. Subdirección Geografía y Cartografía. 2016
 
 
-## Control de versiones
-
-| Versión      | Descripción        | Autor                                      | Horas |
-|--------------|:-------------------|--------------------------------------------|:-----:|
-| 2025.08.14   | Versión inicial.   | [rcfdtools](https://github.com/rcfdtools)  |  12   |
-
-
 ##
 
 _R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
