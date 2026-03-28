@@ -460,7 +460,7 @@ La georreferenciación es el uso de coordenadas de mapa para asignar una ubicaci
 <div align="center"><img src="graph/ECEF.svg" alt="R.SIGE" width="55%" border="0" /><sub><br>Diagram of Earth Centered, Earth Fixed coordinates in relation to latitude and longitude.<br>Tomado de: <a href="https://commons.wikimedia.org/wiki/File:ECEF.svg">https://commons.wikimedia.org</a></sub><br><br></div>
 
 
-### 1. ¿Qué es la georrefenciación y qué es un sistema de proyección de coordenadas?[^9]
+### 1. ¿Qué es la georreferenciación y qué es un sistema de proyección de coordenadas?[^9]
 
 La forma que convencionalmente se utiliza para definir la Tierra es el Geoide, qué se define teóricamente a partir del nivel medio de los mares. Debido a su forma irregular y para la definición de una forma geométrica que pueda ser resuelta matemáticamente de forma simple, se utilizan los conceptos de esfera y elipsoide.
 
