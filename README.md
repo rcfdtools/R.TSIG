@@ -98,6 +98,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                 | HEC-RAS 6.7 o superior.                                                                                 |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)              | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                 |
 | [:toolbox:Herramienta](https://www.7-zip.org/)                                           | 7-Zip File Manager (descompresor de archivos).                                                          |
+| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)                     | Acceso a recursos y actualizaciones del repositorio público del curso.                                  |
 | [:construction_worker:Usuario USGS](https://ers.cr.usgs.gov/register/contact)            | Cuenta de usuario en el USGS - United States Geological Survey (Satellital images).                     |
 | [:construction_worker:Usuario Copernicus](https://dataspace.copernicus.eu/)              | Cuenta de usuario en el European Union's Earth observation program (ERA5 data).                         |
 | [:construction_worker:Usuario OpenTopography](https://portal.opentopography.org/newUser) | Cuenta de usuario en OpenTopography (high-resolution topographic data as LiDAR, radar, photogrammetry). |
