@@ -8,8 +8,11 @@ Pendientes
 ***********
 
 Varios
-	Revisar todos los enlaces de interés.
-	Record the final T9 workshops.
+	Padlet
+	Move population to SIGE
+	References from old Sharepoint TSIG
+	Revisar todos los enlaces de interés
+	Record the final T9 workshops
 	Quiz 10 - Habilidad
 	Quiz 11 - Conocimiento
 	Incluir Python del Taller 7 en Taller temático de Algoritmos y programación.
