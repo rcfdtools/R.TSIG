@@ -51,7 +51,7 @@ Los contenidos presentados en este curso taller, están dirigidos a estudiantes 
 * Antes de cada clase, es recomendable que los participantes den lectura a las guías de clase para así comprender mejor las explicaciones recibidas en aula.
 
 
-### Evaluación
+### Evaluación y Micro-certificación
 
 Se entiende por evaluación del aprendizaje el proceso que valora el logro de los objetivos, el avance del estudiante en su proceso formativo y sus resultados obtenidos, durante y al final de las asignaturas y actividades académicas en las que se inscribió, para un determinado período académico.
 
