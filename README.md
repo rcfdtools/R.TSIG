@@ -60,6 +60,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * Asistencia: 10%
 * Quices: 40%
 * Examen: 50% _(sí el promedio de las calificaciones del tercio 1 o 2 es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen de tercio, si el promedio de calificaciones de todo el semestre es ≥ a 4.5 y su asistencia a clases es ≥ al 90% no presenta examen final)_.
+* Micro-certificación PYAS: se obtiene si el promedio de calificaciones durante el semestre y examen final es superior o igual 4.5 (es obligatoria la presentación del examen final). 
 
 > **Pregrado**: acorde con el parágrafo del Artículo 38 del reglamento estudiantil, _“La asistencia a talleres y laboratorios es de carácter obligatorio. La inasistencia a estas actividades se califica con cero coma cero (0,0)”_.
 > 
