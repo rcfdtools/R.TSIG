@@ -21,6 +21,7 @@ Lib/
 *.pyc
 # TIFF
 *.tif
+*.tif.*
 *.tfw
 # Grid temporal metadata
 *.aux.xml
@@ -67,44 +68,26 @@ Lib/
 #Section02/FdrDEM/FdrDEM.mp4
 
 # Large files exclusions
-#.dem/ASTER/ASTGTMV003Mosaic.tif
-#.dem/ASTER/ASTGTMV003Mosaic.tif.*
-#HECHMS/terrain/
-#HECHMS/gis/
-*.tif
-*.tif.*
+#file/dem/ASTER/ASTGTMV003Mosaic.tif
+#file/dem/ASTER/ASTGTMV003Mosaic.tif.*
 file/dem/ALOSPalsarFBS/*.zip
 file/dem/*.tif
 file/dem/*.tif.*
 file/dem/*.zip
 file/grid/LE07_L2SP/*.*
 file/grid/LC09_L2SP/*.*
-#.dem/*.rar
-#.dem/*.7z
+#file/dem/*.rar
+#file/dem/*.7z
 file/ref/Ley388de1997.pdf
-HECHMS_v0/
-HECHMS_v1/
-HECRAS_v0/
-HECRAS_v0_HD/
-HECRAS_v0_PrototipoCanal/
-HECRAS_v1/
-HECRAS_v1a/
-HECRAS_v1b/
-HECRAS_v1c/
-HECRAS_v2/
-HECRAS_v2a/
-HECRAS_v2b/
-HECRAS_v3/
-HECRAS_v4/
-HECRAS/
-HECRAS2D_v0/
-file/hec/HECHMS_v0
+file/hec/HECHMS_v0/
+file/hec/HECRAS_v0/
+file/hec/HECRAS2D_v0/
 
 
 # Tools
-HEC-DSSVue3.2.3/
-HEC-DSSVue 3.2.3/
-HEC-HMS-4.13-beta.6/
+file/tool/HEC-DSSVue3.2.3/
+file/tool/HEC-DSSVue 3.2.3/
+file/tool/HEC-HMS-4.13-beta.6/
 
 
 # Some samples
