@@ -8,23 +8,17 @@ Pendientes
 ***********
 
 Varios
+	How to run SAGA GIS tools in Python using PySAGA-cmd | Part 1: Introduction https://www.youtube.com/watch?v=1jH23CsRhmg
+	Which variables are the most correlated with precipitation data
+	https://acolita.com/aumentar-la-resolucion-de-un-raster-usando-la-tecnica-downscaling-en-qgis/
 	Run Uncensored AI from USB 🔥 No Internet, No Limits https://www.youtube.com/watch?v=cqrMfO6AZRU
 	Padlet
-	Move population to SIGE
 	References from old Sharepoint TSIG
 	Revisar todos los enlaces de interés
-	Record the final T9 workshops
 	Quiz 10 - Habilidad
 	Quiz 11 - Conocimiento
-	Incluir Python del Taller 7 en Taller temático de Algoritmos y programación.
-	Guardar forms de cada taller.
-	Verificar enlaces de interés en todas las clases.
 	Lista de herramientas de geoprocesamiento en cada clase.
-	Crear carpeta Ilustraciones en Tema 9 para cada clase.
 
-Videos TSIG Taller 0.
-	Clase estructura de directorios
-	
 Videos TSIG Taller 1.
 	Clase configuración O.S.
 	***Clase adicional mostrando la gráfica de cantidades con media y desviación std. Luego de TSIG0033 debido a que en esa clase no se visualizó la gráfica.
@@ -42,9 +36,6 @@ Videos TSIG Taller 6.
 Videos TSIG Taller 7.
 	3.9. Automatización de procesos usando Graphical Modeler en QGIS (No disponible en TSIG 2020-01)
 
-Videos TSIG Taller 9.
-	Modelación en HEC-HMS.
-
 
 ESRI Educational
 r.cfdtools@gmail.com
@@ -56,11 +47,8 @@ Elipsoides WKID o EPSG
 3116 MAGNAColombiaBogota
 9377 MAGNA-SIRGAS / Origen-Nacional
 
-Nvidia canvas for ilustrations
-
 Convert e57 to las
 https://lastools.github.io/download/
-
 
 Landsat 9
 https://www.youtube.com/watch?v=WvhxwGLkWdA
