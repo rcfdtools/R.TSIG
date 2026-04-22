@@ -2,9 +2,9 @@
 
 <div align="center"><img src="pnn.jpg" alt="rcfdtools" width="80%" border="0" /></div>
 
-Reportes presentados por estudiantes del curso [TSIG y PYAS](https://github.com/rcfdtools/R.TSIG/blob/main/README.md).
-
 <div align="center">
+
+Reportes presentados por estudiantes del curso [TSIG y PYAS](https://github.com/rcfdtools/R.TSIG/blob/main/README.md).
 
 | Parque Nacional                       | Categoría                  | Reporte                                                                                                                                                 |
 |---------------------------------------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
