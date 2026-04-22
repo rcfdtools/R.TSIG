@@ -1,6 +1,6 @@
 # Análisis de Parques Naturales Nacionales - PNN de Colombia
 
-<div align="center"><img src="graph/pnn.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="pnn.jpg" alt="rcfdtools" width="80%" border="0" /></div>
 
 Reportes presentados por estudiantes del curso [TSIG y PYAS](https://github.com/rcfdtools/R.TSIG/blob/main/README.md).
 
