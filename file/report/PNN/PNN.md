@@ -1,6 +1,6 @@
-# Análisis de Parques Naturales Nacionales - PNN de Colombia
+# Análisis de Parques Naturales Nacionales de Colombia - PNN
 
-<div align="center"><img src="pnn.jpg" alt="rcfdtools" width="80%" border="0" /></div>
+<div align="center"><img src="pnn.jpg" alt="rcfdtools" width="60%" border="0" /></div>
 
 <div align="center">
 
