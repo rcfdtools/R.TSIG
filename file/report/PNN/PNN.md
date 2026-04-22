@@ -8,6 +8,6 @@
 | Selva de Florencia           | Parque Nacional Natural     | [1000106805](1000106805_SelvaDeFlorencia)                                           |
 | Guanentá Alto Río Fonce      | Santuario de Fauna y Flora  | []()                                                                                |
 | Macuira                      | Parque Nacional Natural     | [1000102818](1000102818_Macuira)                                                                                |
-|                              |                             | []()                                                                                |
+| Iguaque                      | Santuario de Fauna y Flora  | [1000106431](1000106431_Iguaque)                                                                                |
 |                              |                             | []()                                                                                |
 |                              |                             | []()                                                                                |
