@@ -1,7 +1,7 @@
 # https://github.com/rcfdtools
 # ERA5 / Surface net solar radiation (ssr) / Zonal statistics
 # Dataset: ERA5-Land monthly averaged data from 1950 to present
-# Polygon layer requieres the area value over a real variable called AGm2
+# Polygon layer requieres the area value over a real variable (20, 20) called AGm2
 
 import processing
 from qgis.core import QgsRasterLayer, QgsVectorLayer
@@ -15,10 +15,11 @@ import calendar
 variable = 'SSR' 
 bands = 900 # 900 for 1950 to 2024
 original_date = date(1950, 1, 1) # Define a starting date yyyy-m-d
-raster_path = 'D:/R.TSIG/file/grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif'
-polygon_path = 'D:/R.TSIG/file/shp/ColombiaDptoContinental.shp'
-output_path = 'D:/R.TSIG/file/temp/stat/'
-output_stat_file = 'D:/R.TSIG/file/table/'+variable+'_stat.csv'
+main_path = 'C:/TSIG/'
+raster_path = main_path+'grid/ERA5_land_monthly_climatological_var_010dd_ssr_Colombia.tif'
+polygon_path = main_path+'shp/ColombiaDptoContinental.shp'
+output_path = main_path+'temp/stat/'
+output_stat_file = main_path+'table/'+variable+'_stat.csv'
 print(f'Temporal output path: {output_path}')
 
 # Run the Zonal Statistics algorithm
@@ -29,7 +30,7 @@ for i in range(bands):
         'COLUMN_PREFIX': variable+'_',
         'INPUT': polygon_path,
         'INPUT_RASTER': raster_path,
-        'RASTER_BAND': i+1,
+        'RASTER_BAND': 1,
         'STATISTICS': [0,2,4],  # 0-Count,1-Sum,2-Mean,3-Median,4-Standard deviation,5-Minimum,6-Maximum,7-Range,8-Minority (least common value),9-Majority (most common value),10-Variety (unique value count),11-Variance
         'OUTPUT': output_file
     }
