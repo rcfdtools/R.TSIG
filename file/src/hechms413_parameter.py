@@ -14,8 +14,9 @@ from math import pi
 main_path = 'D:/R.TSIG/file/hec/HECHMS_v0/'
 subbasin_path = main_path+'shp/ArroyoElZorroCuencasTest.shp' # ● Subbasin shapefile exported from HEC-HMS
 cn_path = main_path+'grid/CNII_v1.tif' # ● Curve Number has to be always normal CNII grid map
-cn_prefix = 'CNII_' # ● CN prefix for statistical fields
 total_gages = 39 # ● Gages correspond with the number of subbasins for PMax24h
+cn_prefix = 'CNII_' # ● CN prefix for statistical fields
+compute_tc_with_cn = 'CNII' # ● Compute ConcentrationTime Tc with curve number CNI-Dry, CNII-Normal or CNIII-Wet
 subbasin_prefix = 'W' # ● Subbasin prefix assigned in HEC-HMS
 # HEC-DSS database file parameters assigned for time series records
 dss_file_name = 'HECHMS_v0.dss' # ● Your HEC-DSS database file
@@ -25,7 +26,6 @@ start_time = '1 January 2004, 06:00' # ● Start time
 end_time = '6 January 2004, 06:00' # ● End time
 lagtime_multiplier = 0.6
 compute_tc_lt = True # Compute Concentration Time Tc and LagTime
-compute_tc_with_cn = 'CNII' # ● Compute ConcentrationTime Tc with curve number CNI, CNII or CNIII
 create_hms_sentences = True # Create .gage and .met sentences
 new_field_list = ['Akm2', # Subbasin area
                   'Pkm', # Subbasin perimeter
