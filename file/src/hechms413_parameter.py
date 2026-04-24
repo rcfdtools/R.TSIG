@@ -11,7 +11,7 @@ from math import pi
 
 
 # General parameters
-main_path = 'D:/R.TSIG/file/hec/HECHMS_v0/'
+main_path = 'D:/R.TSIG/file/hec/HECHMS_v0/' # ● Your local main path
 subbasin_path = main_path+'shp/ArroyoElZorroCuencasTest.shp' # ● Subbasin shapefile exported from HEC-HMS
 cn_path = main_path+'grid/CNII_v1.tif' # ● Curve Number has to be always normal CNII grid map
 total_gages = 39 # ● Gages correspond with the number of subbasins for PMax24h
