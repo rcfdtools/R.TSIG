@@ -1,8 +1,8 @@
 # https://github.com/rcfdtools
-# HEC-HMS 4.13 - Geometric properties calculator, Tc, LT, .gage and .met sentences generator
-# This script has to be run in QGIS 3+ (Tested versions: 3.449, 4.0.1)
+# HEC-HMS 4.13: Geometric properties calculator, Tc, LT, .gage and .met sentences generator
+# This script has to be run in QGIS 3+ (Tested versions: 3.44.9, 4.0.1)
 # Subbasin layer and CN map has to use the same projection system
-# Before run set Settings / Options / Processing / General / Invalid features filtering / Do not filter
+# Before run, set Settings / Options / Processing / General / Invalid features filtering / Do not filter
 
 
 # Libraries
@@ -14,7 +14,7 @@ from math import pi
 
 # General parameters
 main_path = 'D:/R.TSIG/file/hec/HECHMS_v0/' # ● Your local main path
-subbasin_path = main_path+'shp/ArroyoElZorroCuencasTest.shp' # ● Subbasin shapefile exported from HEC-HMS
+subbasin_path = main_path+'shp/ArroyoElZorroCuencas.shp' # ● Subbasin shapefile exported from HEC-HMS
 cn_path = main_path+'grid/CNII_v1.tif' # ● Curve Number has to be always normal CNII grid map
 total_gages = 39 # ● Gages correspond with the number of subbasins for PMax24h
 cn_prefix = 'CNII_' # ● CN prefix for statistical fields
@@ -30,6 +30,7 @@ lagtime_multiplier = 0.6
 output_file = main_path+'table/'+path_a+'CuencasCN.csv' # ● Output .csv results file
 compute_tc_lt = True # Compute Concentration Time Tc and LagTime
 create_hms_sentences = True # Create .gage and .met sentences
+# New fields and definitions
 new_field_list = ['Akm2', # Subbasin area
                   'APD', #Area Percentual Distribution
                   'Pkm', # Subbasin perimeter
@@ -87,7 +88,6 @@ print(f'Subbasin parameters: {output_file}\n')
 print('Definitions\n')
 for i in definitios:
     print(f'{i}\n')
-
 print('Calculations\n')
 layer = QgsVectorLayer(subbasin_path, 'InputLayer', 'ogr')
 if layer and layer.geometryType() == QgsWkbTypes.PolygonGeometry:
