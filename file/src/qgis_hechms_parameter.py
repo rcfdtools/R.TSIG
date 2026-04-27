@@ -9,6 +9,7 @@
 import processing
 from qgis.core import QgsRasterLayer, QgsVectorLayer
 import pandas as pd
+#import math as math
 from math import pi
 
 
