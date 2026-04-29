@@ -348,7 +348,7 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 | Actividad                                                             | Descripción                                                     |
 |:----------------------------------------------------------------------|:----------------------------------------------------------------|
 | [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS. |
-| [Quiz 10. Habilidad - General](https://forms.office.com/r/42Jqi7GifT) | Quiz general de habilidad.                                      |
+| [Quiz 10. Habilidad - General](https://forms.office.com/r/j3hYCsuLg2) | Quiz general de habilidad.                                      |
 
 </div>
 
