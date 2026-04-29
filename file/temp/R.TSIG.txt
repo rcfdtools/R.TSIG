@@ -8,6 +8,7 @@ Pendientes
 ***********
 
 Varios
+	Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
 	select * from UCAreaProyectoDissolve4686 order by Aha desc
 	How to run SAGA GIS tools in Python using PySAGA-cmd | Part 1: Introduction https://www.youtube.com/watch?v=1jH23CsRhmg
 	Which variables are the most correlated with precipitation data
@@ -385,3 +386,29 @@ Curso pregrado DAPC:  lunes de 2:30 a 4:00 y martes de 01:00 a 04:00.
 > **Posgrado**: acorde con el Literal b del Artículo 46 del reglamento estudiantil, los estudiantes de posgrado deben _“Asistir y participar cumplida y activamente en todas las actividades académicas contempladas en el plan de estudios”_.
 > 
 > **Informe técnico**: solo será válido si en cada una de las capturas de pantalla se observa su código de alumno en el título o nombre de archivo. Para las capturas de pantalla puede utilizar la Herramienta de Recortes o Snipping Tool, las teclas <kbd>Win</kbd>+<kbd>PrtScn</kbd> para guardar capturas de toda la ventana en la carpeta de imágenes, las teclas <kbd>Win</kbd>+<kbd>G</kbd> para obtener capturas desde la Game Bar, o las teclas <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> para capturas instantáneas. Una vez finalizada la elaboración del informe técnico, este debe ser convertido a formato Adobe Acrobat .pdf y adjuntado al Quiz.
+
+
+
+Quiz 10 Balances con QGIS
+****************************
+
+Q10
+SAGA
+
+Con la herramienta GDAL / Raster Projections / Warp (reproject), reproyecte al CRS 9377 los raster suministrados y defina en Output file resolution in target georeferenced units una resolución exacta de 30x30m.
+
+Con la herramienta Raster Analysis / Raster Calculator, calcule el caudal potencial de escurrimiento en m³/s, asigne el CRS 9377:
+PotEscTurc.tif = (("pmedmaidw_a_2003@1"-"etr_turc_eci@1")/1000)*(30*30)/(365*24*60*60)
+PotEscCeni.tif = (("pmedmaidw_a_2003@1"-"etr_cenicafe_eci@1")/1000)*(30*30)/(365*24*60*60)
+
+Con la herramienta QGIS / Vector Conversion / Rasterize (A fixed value to burn: 1, Output raster size units: Georeferenced units, Width: 30, Height: 30, Output extent: DrenajeNatural9377.shp)
+
+Con la herramienta SAGA / Tools / Terrain Analysis / Preprocessing / Fill Sinks (Wang & Liu) con Minimum Slope (Degree): 0.01 o desde QGIS / Raster Terrain Analysis / Fill Sinks (Wang & Liu), cree el mapa de direcciones de flujo. (usar el sinkfill.tif gerenado desde HEC-HMS 4.13 y reproyectado a 30x30m). Guarde como COP30_sinkfill_fdr_qgis.tif.
+
+Con la herramienta SAGA / Tools / Terrain Analysis / Hydrology / Flow Accumulation (Top-Down)
+
+
+ArroyoElZorroCuencasQmCenicafe.csv, columna QCenic_
+ArroyoElZorroCuencasQmTurc.csv, columna QTurc_
+
+Label = 'Cenicafe (m³/s): '  ||  round("ArroyoElZorroCuencasQmCenicafe_QCenic_sum", 3) ||  '\n'  || 'Cenicafe (m³/s): '  ||  round("ArroyoElZorroCuencasQmTurc_QTurc_sum", 3) 
