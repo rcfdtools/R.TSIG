@@ -7,6 +7,14 @@ dir /b >sss.txt
 Pendientes
 ***********
 
+TC research
+----------------
+TC_Bransby = 0.00032*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+TC_Passini = 0.108*(("Akm2"*("10_85_len"/1000))^0.333/("10_85_slo"^0.5))
+Revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+TC_FAA = 0.00013*(("10_85_len")^0.77/("10_85_slo"^0.385))
+TC_Kerby = 0.828*(("long_len"/1000)^0.467/("basin_slo"^0.235))
+
 Varios
 	Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
 	select * from UCAreaProyectoDissolve4686 order by Aha desc
