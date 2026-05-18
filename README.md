@@ -82,7 +82,7 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 * No se permite hablar con otros estudiantes durante el quiz, este será anulado.
 
 
-## Software requerido, repositorio de proyecto y estructura de directorios
+## Requerimientos y estructura de directorios
 
 Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas y estructura de directorios:
 
