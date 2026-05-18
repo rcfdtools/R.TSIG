@@ -31,6 +31,11 @@ Calibración de modelos hidrológicos
 * https://www.youtube.com/watch?v=t5uzhfK-kFA
 * https://web.ics.purdue.edu/~vmerwade/education/hms7.pdf
  
+Otras referencias
+
+* https://www.researchgate.net/publication/315484240_HYDROLOGY_AND_ITS_BRANCHES
+* https://www.earthdata.nasa.gov/data/catalog/asf-nisar-dem-1
+
 
 ## Textos guía
 
