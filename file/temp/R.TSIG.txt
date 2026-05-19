@@ -16,6 +16,8 @@ TC_FAA = 0.00013*(("10_85_len")^0.77/("10_85_slo"^0.385))
 TC_Kerby = 0.828*(("long_len"/1000)^0.467/("basin_slo"^0.235))
 
 Varios
+	DHIME: Con el script de Python creado por Jorge Iván Ramirez Tamayo, modificado por Juan Diego Rojas Muñoz y actualizado por Juan Sebastián Pinilla Tapias.
+
 	Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
 	select * from UCAreaProyectoDissolve4686 order by Aha desc
 	How to run SAGA GIS tools in Python using PySAGA-cmd | Part 1: Introduction https://www.youtube.com/watch?v=1jH23CsRhmg
