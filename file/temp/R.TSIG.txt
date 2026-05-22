@@ -16,6 +16,8 @@ TC_FAA = 0.00013*(("10_85_len")^0.77/("10_85_slo"^0.385))
 TC_Kerby = 0.828*(("long_len"/1000)^0.467/("basin_slo"^0.235))
 
 Varios
+	Vector Table / Refactor Fields
+	Raster Analysis / Raster layer unique values report
 	https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/cn-tables
 	DHIME: Con el script de Python creado por Jorge Iván Ramirez Tamayo, modificado por Juan Diego Rojas Muñoz y actualizado por Juan Sebastián Pinilla Tapias.
 	Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
