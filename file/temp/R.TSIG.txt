@@ -1,26 +1,18 @@
-Contenido detallado TSIG: 
+R.TSIG 
 
-Aula E-314
-dir /b >sss.txt
-✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”
-
-Pendientes
-***********
-
-TC research
-----------------
-TC_Bransby = 0.00032*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
-TC_Passini = 0.108*(("Akm2"*("10_85_len"/1000))^0.333/("10_85_slo"^0.5))
-Revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
-TC_FAA = 0.00013*(("10_85_len")^0.77/("10_85_slo"^0.385))
-TC_Kerby = 0.828*(("long_len"/1000)^0.467/("basin_slo"^0.235))
+Concentration time (TC) 
+	TC_Bransby = 0.00032*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+	TC_Passini = 0.108*(("Akm2"*("10_85_len"/1000))^0.333/("10_85_slo"^0.5))
+	Revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+	TC_FAA = 0.00013*(("10_85_len")^0.77/("10_85_slo"^0.385))
+	TC_Kerby = 0.828*(("long_len"/1000)^0.467/("basin_slo"^0.235))
 
 Varios
 	TSIG - Change Taller by Módulo
 	LTWB - Change Sección by Módulo
 	CTRG - Change Sección by Módulo
 	Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
-	select * from UCAreaProyectoDissolve4686 order by Aha desc
+	
 	How to run SAGA GIS tools in Python using PySAGA-cmd | Part 1: Introduction https://www.youtube.com/watch?v=1jH23CsRhmg
 	Which variables are the most correlated with precipitation data
 	https://acolita.com/aumentar-la-resolucion-de-un-raster-usando-la-tecnica-downscaling-en-qgis/
@@ -32,33 +24,10 @@ Varios
 	Quiz 11 - Conocimiento
 	Lista de herramientas de geoprocesamiento en cada clase.
 
-Videos TSIG Taller 1.
-	Clase configuración O.S.
-	***Clase adicional mostrando la gráfica de cantidades con media y desviación std. Luego de TSIG0033 debido a que en esa clase no se visualizó la gráfica.
-	Llevar datos de GIS a Excel por copiado y pegado o por apertura de archivos .dbf.
-
-Videos Taller 2
-	Crear Google api key
-
-Videos TSIG Taller 3.
-	Clase de reportes con ejemplo de exportación a pdf con 1 departamento por hoja y con escala ajustada.
-
-Videos TSIG Taller 6.
-	Introducción.
-	
-Videos TSIG Taller 7.
-	3.9. Automatización de procesos usando Graphical Modeler en QGIS (No disponible en TSIG 2020-01)
-
-
 ESRI Educational
 r.cfdtools@gmail.com
 User: r_cfdtools_LearnArcGIS
 Pass: P************2**************
-
-Elipsoides WKID o EPSG
-4326 WGS84
-3116 MAGNAColombiaBogota
-9377 MAGNA-SIRGAS / Origen-Nacional
 
 Convert e57 to las
 https://lastools.github.io/download/
