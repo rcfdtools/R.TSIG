@@ -4,13 +4,17 @@
 # CURSO: _“Sistemas de información geográfica aplicados en ingeniería - TSIG”_
 Keywords: `sig` `gis` `tsig` `pyas` `iamb` `hidg` `hpsd` `hcmc` `qgis` `arcgis` `mapping-system` `landsat` `lidar` `copernicus` `era5` `dem` `dsm` `dtm` `spatial-analyst` `3d-analyst` `network-analyst`
 
+<div align="center">
+
+🌸Videos: [Youtube Playlist](https://www.youtube.com/playlist?list=PLZGvAjHkhphA2DZsifSW5YBwPAJFSsBHV)
+
+</div>
+
 Bienvenid@, en este curso, los participantes obtendrán el conocimiento general y particular del uso de los sistemas de información geográfica mediante la utilización de herramientas comerciales y de dominio público, así como su interoperabilidad con otros sistemas especializados tales como HEC-RAS, HEC-HMS, HEC-DSS y el manejo las extensiones o complementos Spatial Analyst, 3D Analyst y Network Analyst. Además, desarrollará las habilidades necesarias para diseñar, crear, representar y editar sistemas geográficos, así como el uso avanzado de las funciones de geo-procesamiento, manejo de datos relacionales y automatización usando Python. El desarrollo de los diferentes talleres y clases del curso se ejemplifica a través de casos de estudio. 
 
 <div align="center"><img src="file/graph/Gemini_Generated_Image_z9aw69z9aw69z9aw_rounded.png" alt="R.SIGE" width="50%" border="0" /><sub><br>Generado con: <a href="https://gemini.google.com/app/3c7be39d932df644">https://gemini.google.com</a></sub><br><br></div>
 
 Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipos, herramientas computacionales y personal capacitado para el manejo de datos geográficos. Hoy en día se han convertido en herramientas indispensables para el análisis y soporte de toma de decisiones en la solución de problemas complejos, debido a que el manejo de la información se realiza de forma espacial y dinámica, permitiendo representar de forma esquemática muy próxima a la realidad el ambiente natural y el entorno construido. Igualmente, los SIG permiten interactuar eficientemente con otro tipo de información no geográfica y su incorporación para diferentes aplicaciones. La gran diferencia que existe entre un aplicativo SIG y otros paquetes de software gráfico radica en que el aplicativo SIG es esencialmente una base de datos espacial, lo que otorga una cualidad incomparable en el desarrollo de análisis enfocados a resolver problemas reales que afectan el espacio geográfico estudiado.
-
-<div align="center"><a href="https://www.youtube.com/playlist?list=PLZGvAjHkhphA2DZsifSW5YBwPAJFSsBHV" target="_blank"><img src="https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/CaseUse/.icons/IconCEHYouTube.svg" alt="R.LTWB" width="120px" border="0" /></a><sub><br>Playlist: https://www.youtube.com/playlist?list=PLZGvAjHkhphA2DZsifSW5YBwPAJFSsBHV</sub><br><br></div>
 
 
 ## Objetivos del curso
