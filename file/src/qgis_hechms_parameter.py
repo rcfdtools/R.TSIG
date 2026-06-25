@@ -213,15 +213,16 @@ if compute_tc_lt:
     df['TcWilliams'] = 0.683*((df['10_85_len']/1000)*(df['Akm2'])**0.40/((2*(df['Akm2']/pi)**0.5)*(df['10_85_slo']*100)**0.25))
     print('[TcBransby] Bransby: Done...')
     df['TcBransby'] = 0.00032*((df['10_85_len']/0.3048)^0.77/(df['10_85_slo']^0.385))
-    print('[TcPassini] Passini: Done...')
+    print('[TcPassini] Passini: Done...') 
+    print('Some regional variations of the Pasini formula adjust the leading constant, ranging between 0.04 and 0.13 depending on localized calibration. Hydrological studies have shown that the Pasini formula typically performs with relatively low error in certain rural and natural watersheds, making it a reliable tool in many professional toolkits.')
     df['TcPassini'] = 0.108*((df['Akm2']*(df['10_85_len']/1000))^0.333/(df['10_85_slo']^0.5))
-    print('[TcFAA] FAA: Done...')
+    print('[TcFAA] Federal Aviation Administration - FAA: Done...')
     df['TcFAA'] = 0.00013*((df['10_85_len'])^0.77/(df['10_85_slo']^0.385))
     print('[TcKerby] Kerby: Done...')
     df['TcKerby'] = 0.828*((df['long_len']/1000)^0.467/(df['basin_slo']^0.235))   
     # LagTime in minutes
-    a="df['LTSCS']"
-    b="lagtime_multiplier * df['TcSCS'] * 60"
+    #a="df['LTSCS']"
+    #b="lagtime_multiplier * df['TcSCS'] * 60"
     df['LTSCS'] = lagtime_multiplier * df['TcSCS'] * 60
     df['LTPilgrim'] = lagtime_multiplier * df['TcPilgrim'] * 60
     df['LTTemez'] = lagtime_multiplier * df['TcTemez'] * 60  
