@@ -211,6 +211,14 @@ if compute_tc_lt:
     df['TcUSArmyC'] = 0.28*((df['10_85_len']/1000)/(df['10_85_slo']**0.25))**0.76
     print('[TcWilliams] Williams: Done...')
     df['TcWilliams'] = 0.683*((df['10_85_len']/1000)*(df['Akm2'])**0.40/((2*(df['Akm2']/pi)**0.5)*(df['10_85_slo']*100)**0.25))
+    print('[TcBransby] Bransby: Done...')
+    df['TcBransby'] = 0.00032*((df['10_85_len']/0.3048)^0.77/(df['10_85_slo']^0.385))
+    print('[TcPassini] Passini: Done...')
+    df['TcPassini'] = 0.108*((df['Akm2']*(df['10_85_len']/1000))^0.333/(df['10_85_slo']^0.5))
+    print('[TcFAA] FAA: Done...')
+    df['TcFAA'] = 0.00013*((df['10_85_len'])^0.77/(df['10_85_slo']^0.385))
+    print('[TcKerby] Kerby: Done...')
+    df['TcKerby'] = 0.828*((df['long_len']/1000)^0.467/(df['basin_slo']^0.235))   
     # LagTime in minutes
     a="df['LTSCS']"
     b="lagtime_multiplier * df['TcSCS'] * 60"
@@ -227,6 +235,10 @@ if compute_tc_lt:
     df['LTVTChow'] = lagtime_multiplier * df['TcVTChow'] * 60 
     df['LTUSArmyC'] = lagtime_multiplier * df['TcUSArmyC'] * 60 
     df['LTWilliams'] = lagtime_multiplier * df['TcWilliams'] * 60 
+    df['LTBransby'] = lagtime_multiplier * df['TcBransby'] * 60 
+    df['LTPassini'] = lagtime_multiplier * df['TcPassini'] * 60 
+    df['LTFAA'] = lagtime_multiplier * df['TcFAA'] * 60 
+    df['LTKerby'] = lagtime_multiplier * df['TcKerby'] * 60 
     print('LagTime - LT (minutes): Done...') 
 df.to_csv(output_file, index=False)
 df = df.sort_values(by='name')
