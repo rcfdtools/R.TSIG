@@ -5,7 +5,7 @@
 # Before run, set Settings / Options / Processing / General / Invalid features filtering / Do not filter
 # Steps (QGIS does't recognize the geometric fields Akm2, Pkm.... after the first run)
 #   1. Run the script with compute_tc_lt = False
-#   2. Close QGIS and reopen the projection
+#   2. Close QGIS and reopen the projec
 #   3. Switch compute_tc_lt = True and run  
 
 
