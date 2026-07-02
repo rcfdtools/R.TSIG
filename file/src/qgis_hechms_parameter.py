@@ -42,7 +42,7 @@ new_field_list = ['Akm2', # Subbasin area
                   'ReachLTkm', # Subbasin total river length
                   'Kc' # Compactness factor (or Gravelius coefficient)
                  ]
-definitios = (
+definitions = (
               'name: Subbasin name with the prefix established by the user in HEC-HMS.'
               
               'long_len: Longest Flowpath Length (L) extends from the subbasin outlet to the most hydraulically-remote point upstream. Longest flowpath length is significant in that it is typically used to determine the time of concentration for a watershed.',
@@ -91,7 +91,7 @@ definitios = (
 print('\n****************************************\nDefinitions and parameters calculations\n****************************************\n')
 print(f'Subbasin parameters: {output_file}\n')
 print('Definitions\n')
-for i in definitios:
+for i in definitions:
     print(f'{i}\n')
 print('Calculations\n')
 layer = QgsVectorLayer(subbasin_path, 'InputLayer', 'ogr')
@@ -212,14 +212,14 @@ if compute_tc_lt:
     print('[TcWilliams] Williams: Done...')
     df['TcWilliams'] = 0.683*((df['10_85_len']/1000)*(df['Akm2'])**0.40/((2*(df['Akm2']/pi)**0.5)*(df['10_85_slo']*100)**0.25))
     print('[TcBransby] Bransby: Done...')
-    df['TcBransby'] = 0.00032*((df['10_85_len']/0.3048)^0.77/(df['10_85_slo']^0.385))
+    df['TcBransby'] = 0.00032*((df['10_85_len']/0.3048)**0.77/(df['10_85_slo']**0.385))
     print('[TcPassini] Passini: Done...') 
     print('Some regional variations of the Pasini formula adjust the leading constant, ranging between 0.04 and 0.13 depending on localized calibration. Hydrological studies have shown that the Pasini formula typically performs with relatively low error in certain rural and natural watersheds, making it a reliable tool in many professional toolkits.')
-    df['TcPassini'] = 0.108*((df['Akm2']*(df['10_85_len']/1000))^0.333/(df['10_85_slo']^0.5))
+    df['TcPassini'] = 0.108*((df['Akm2']*(df['10_85_len']/1000))**0.333/(df['10_85_slo']**0.5))
     print('[TcFAA] Federal Aviation Administration - FAA: Done...')
-    df['TcFAA'] = 0.00013*((df['10_85_len'])^0.77/(df['10_85_slo']^0.385))
+    df['TcFAA'] = 0.00013*((df['10_85_len'])**0.77/(df['10_85_slo']**0.385))
     print('[TcKerby] Kerby: Done...')
-    df['TcKerby'] = 0.828*((df['long_len']/1000)^0.467/(df['basin_slo']^0.235))   
+    df['TcKerby'] = 0.828*((df['long_len']/1000)**0.467/(df['basin_slo']**0.235))   
     # LagTime in minutes
     #a="df['LTSCS']"
     #b="lagtime_multiplier * df['TcSCS'] * 60"
