@@ -102,11 +102,11 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 |:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
 | [:toolbox:Herramienta](https://www.office.com/)                                          | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                           |
 | [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                   | Notepad++ (editor de texto).                                                                            |
-| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44 o superior.                                                                                   |
+| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44, 4.2 o superior.                                                                              |
 | [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)   | ESRI ArcGIS Pro 3.6 o superior (opcional).                                                              |
 | [:toolbox:Herramienta](file/tool)                                                        | Access Database Engine (requerido para apertura de archivos .xlsx en ArcGIS Pro).                       |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                 | HEC-HMS 4.13 o superior.                                                                                |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                 | HEC-RAS 6.7 o superior.                                                                                 |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                 | HEC-RAS 7.0.1 o superior.                                                                               |
 | [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)              | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                 |
 | [:toolbox:Herramienta](https://www.7-zip.org/)                                           | 7-Zip File Manager (descompresor de archivos).                                                          |
 | [:construction_worker:Cuenta de usuario GitHub](https://github.com/)                     | Acceso a recursos y actualizaciones del repositorio público del curso.                                  |
