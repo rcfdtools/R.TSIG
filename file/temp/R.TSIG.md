@@ -5,21 +5,11 @@
 
 * Calculate Flow Direction with the Native QGIS Tool and Style with Arrows https://www.youtube.com/watch?v=ttLxQBe0HIo
 * How to run SAGA GIS tools in Python using PySAGA-cmd | Part 1: Introduction https://www.youtube.com/watch?v=1jH23CsRhmg
-* Which variables are the most correlated with precipitation data
-* https://acolita.com/aumentar-la-resolucion-de-un-raster-usando-la-tecnica-downscaling-en-qgis/
-* Run Uncensored AI from USB 🔥 No Internet, No Limits https://www.youtube.com/watch?v=cqrMfO6AZRU
 * [Convert e57 to las](https://lastools.github.io/download/): 
-* [Landsat 9](https://www.youtube.com/watch?v=WvhxwGLkWdA)
-* [ArcGIS Pro / Tasseled Cap function](https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/tasseled-cap-function.htm)
-* [ArcGIS Pro / Recalculate Feature Class Extent (Data Management)](https://pro.arcgis.com/en/pro-app/2.8/tool-reference/data-management/recalculate-feature-class-extent.htm)
-* https://www.qr-code-generator.com/
-* Short url with https://bitly.com/
-* https://wildlandhydrology.com/resources/
-* https://extension.umass.edu/riversmart/publications
 * Mapas de pronósticos de clima en https://www.ecmwf.int/en/forecasts
 
 
-## Quiz 10 Balances con QGIS
+## Quiz 10 Balances hidrológico distribuido con QGIS (alpha version)
 
 1. Con la herramienta GDAL / Raster Projections / Warp (reproject), reproyecte al CRS 9377 los raster suministrados y defina en Output file resolution in target georeferenced units una resolución exacta de 30x30m.
 2. Con la herramienta Raster Analysis / Raster Calculator, calcule el caudal potencial de escurrimiento en m³/s, asigne el CRS 9377:
