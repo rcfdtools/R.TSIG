@@ -92,24 +92,24 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 
 <div align="center">
 
-| Requerimiento                                                                            | Descripción                                                                                             |
-|:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://www.office.com/)                                          | Microsoft 365 (Word, Excel, OneDrive, Teams).                                                           |
-| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                   | Notepad++ (editor de texto).                                                                            |
-| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44, 4.2 o superior.                                                                              |
-| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)   | ESRI ArcGIS Pro 3.6 o superior (opcional).                                                              |
-| [:toolbox:Herramienta](file/tool)                                                        | Access Database Engine (requerido para apertura de archivos .xlsx en ArcGIS Pro).                       |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                 | HEC-HMS 4.13 o superior.                                                                                |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                 | HEC-RAS 7.0.1 o superior.                                                                               |
-| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)              | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas).                                 |
-| [:toolbox:Herramienta](https://www.7-zip.org/)                                           | 7-Zip File Manager (descompresor de archivos).                                                          |
-| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)                     | Acceso a recursos y actualizaciones del repositorio público del curso.                                  |
-| [:construction_worker:Usuario USGS](https://ers.cr.usgs.gov/register/contact)            | Cuenta de usuario en el USGS - United States Geological Survey (Satellital images).                     |
-| [:construction_worker:Usuario Copernicus](https://dataspace.copernicus.eu/)              | Cuenta de usuario en el European Union's Earth observation program (ERA5 data).                         |
-| [:construction_worker:Usuario OpenTopography](https://portal.opentopography.org/newUser) | Cuenta de usuario en OpenTopography (high-resolution topographic data as LiDAR, radar, photogrammetry). |
-| [:package:Estructura de directorios](file/Readme.md)                                     | Estructura requerida para el desarrollo del curso.                                                      |
-| [:package:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)               | Datos por taller temático.                                                                              |
-| [:memo:Plantilla informe técnico](file/report/)                                          | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad.                 |
+| Requerimiento                                                                            | Descripción                                                                                            |
+|:-----------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://www.office.com/)                                          | Microsoft 365 (Word, Excel, OneDrive, Teams)                                                           |
+| [:toolbox:Herramienta](https://notepad-plus-plus.org/)                                   | Notepad++ (editor de texto)                                                                            |
+| [:toolbox:Herramienta](https://qgis.org/)                                                | QGIS 3.44, 4.2 o superior                                                                              |
+| [:toolbox:Herramienta](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)   | ESRI ArcGIS Pro 3.6 o superior (opcional)                                                              |
+| [:toolbox:Herramienta](file/tool)                                                        | Access Database Engine (requerido para apertura de archivos .xlsx en ArcGIS Pro)                       |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-hms/)                 | HEC-HMS 4.13 o superior                                                                                |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-ras/)                 | HEC-RAS 7.0.1 o superior                                                                               |
+| [:toolbox:Herramienta](https://www.hec.usace.army.mil/software/hec-dssvue/)              | HEC-DSSVue 3.2.3 (versión funcional para cargue masivo de hietogramas)                                 |
+| [:toolbox:Herramienta](https://www.7-zip.org/)                                           | 7-Zip File Manager (descompresor de archivos)                                                          |
+| [:construction_worker:Cuenta de usuario GitHub](https://github.com/)                     | Acceso a recursos y actualizaciones del repositorio público del curso                                  |
+| [:construction_worker:Usuario USGS](https://ers.cr.usgs.gov/register/contact)            | Cuenta de usuario en el USGS - United States Geological Survey (Satellital images)                     |
+| [:construction_worker:Usuario Copernicus](https://dataspace.copernicus.eu/)              | Cuenta de usuario en el European Union's Earth observation program (ERA5 data)                         |
+| [:construction_worker:Usuario OpenTopography](https://portal.opentopography.org/newUser) | Cuenta de usuario en OpenTopography (high-resolution topographic data as LiDAR, radar, photogrammetry) |
+| [:package:Estructura de directorios](file/Readme.md)                                     | Estructura requerida para el desarrollo del curso                                                      |
+| [:package:Paquetes de datos](https://github.com/rcfdtools/R.TSIG/releases)               | Datos por taller temático                                                                              |
+| [:memo:Plantilla informe técnico](file/report/)                                          | Plantilla para presentación de informes técnicos en quices de conocimiento y habilidad                 |
 
 </div>
 
@@ -129,10 +129,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                                            | Descripción                                                                                                                                                                                                                                                                                                                                                |
-|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md)  | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas.                                                                                                                                                                                                                                                                     |
-| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)                        | Quiz de conocimiento con cálculos básicos de la forma de la tierra.                                                                                                                                                                                                                                                                                        |
+| Actividad                                                                            | Descripción                                                                                                                                                                                                                                                                                                                                              |
+|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md)  | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas                                                                                                                                                                                                                                                                    |
+| [Quiz 0. Conocimiento](https://forms.office.com/r/vsmqjpvDpX)                        | Quiz de conocimiento con cálculos básicos de la forma de la tierra                                                                                                                                                                                                                                                                                       |
 
 </div>
 
@@ -152,11 +152,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                        |
-|:---------------------------------------------------------------------|:---------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller1.pdf)                          | Guía de fundamentos generales de herramientas GIS. |
-| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm)        | Quiz de conocimiento.                              |
-| [Quiz 1. Habilidad - General](https://forms.office.com/r/Q8uFjtQiuP) | Quiz general de habilidad.                         |
+| Actividad                                                            | Descripción                                       |
+|:---------------------------------------------------------------------|:--------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller1.pdf)                          | Guía de fundamentos generales de herramientas GIS |
+| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm)        | Quiz de conocimiento                              |
+| [Quiz 1. Habilidad - General](https://forms.office.com/r/Q8uFjtQiuP) | Quiz general de habilidad                         |
 
 </div>
 
@@ -175,11 +175,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                             |
-|:---------------------------------------------------------------------|:--------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller2.pdf)                          | Guía de búsqueda, selección y estadísticas generales.   |
-| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ)        | Quiz de conocimiento.                                   |
-| [Quiz 2. Habilidad - General](https://forms.office.com/r/j1HHQhmutN) | Quiz general de habilidad.                              |
+| Actividad                                                            | Descripción                                          |
+|:---------------------------------------------------------------------|:-----------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller2.pdf)                          | Guía de búsqueda, selección y estadísticas generales |
+| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ)        | Quiz de conocimiento                                 |
+| [Quiz 2. Habilidad - General](https://forms.office.com/r/j1HHQhmutN) | Quiz general de habilidad                            |
 
 </div>
 
@@ -197,11 +197,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                            | Descripción                             |
-|:---------------------------------------------------------------------|:----------------------------------------|
-| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes. |
-| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)        | Quiz de conocimiento.                   |
-| [Quiz 3. Habilidad - General](https://forms.office.com/r/WFZuF5c2ge) | Quiz general de habilidad.              |
+| Actividad                                                            | Descripción                            |
+|:---------------------------------------------------------------------|:---------------------------------------|
+| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes |
+| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)        | Quiz de conocimiento                   |
+| [Quiz 3. Habilidad - General](https://forms.office.com/r/WFZuF5c2ge) | Quiz general de habilidad              |
 
 </div>
 
@@ -216,13 +216,13 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                                                                                  |
-|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                         | Guía de entrada, edición y digitalización de datos geográficos.                                                              |
-| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                       | Quiz de conocimiento.                                                                                                        |
-| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)               | Quiz general de habilidad.                                                                                                   |
-| [Digitalización de campus](activity/Digitizing/Readme.md)                           | Caso de estudio: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.  |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/Sa1UHvwN5K) | Quiz aplicado de habilidad.                                                                                                  |
+| Actividad                                                                           | Descripción                                                                                                             |
+|:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                         | Guía de entrada, edición y digitalización de datos geográficos                                                          |
+| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                       | Quiz de conocimiento                                                                                                    |
+| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)               | Quiz general de habilidad                                                                                               |
+| [Digitalización de campus](activity/Digitizing/Readme.md)                           | Caso de estudio: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito  |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/Sa1UHvwN5K) | Quiz aplicado de habilidad                                                                                              |
 
 </div>
 
@@ -235,15 +235,15 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 
 <div align="center">
 
-| Actividad                                                                                              | Descripción                                                                                                                                                                                                              |
-|:-------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Guía de diseño, creación y operación de bases de datos geográficas.                                                                                                                                                      |
-| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                          | Quiz de conocimiento.                                                                                                                                                                                                    |
-| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                  | Quiz general de habilidad.                                                                                                                                                                                               |
-| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                         | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios de la Universidad Escuela Colombiana de Ingeniería Julio Garavito.  |
-| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.office.com/r/81LU7NjhTB)            | Quiz aplicado de habilidad.                                                                                                                                                                                              |
-| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad.                                                                                                                                                                                              |
-| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad.                                                                                                                                                                                              |
+| Actividad                                                                                              | Descripción                                                                                                                                                                                                        |
+|:-------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Guía de diseño, creación y operación de bases de datos geográficas                                                                                                                                                 |
+| [Quiz 5. Conocimiento](https://forms.office.com/r/9SHA1wmDms)                                          | Quiz de conocimiento                                                                                                                                                                                               |
+| [Quiz 5A. Habilidad - General](https://forms.office.com/r/uKunLJAnPR)                                  | Quiz general de habilidad                                                                                                                                                                                          |
+| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                         | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios de la Universidad Escuela Colombiana de Ingeniería Julio Garavito |
+| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.office.com/r/81LU7NjhTB)            | Quiz aplicado de habilidad                                                                                                                                                                                         |
+| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad                                                                                                                                                                                         |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad                                                                                                                                                                                         |
 
 </div>
 
@@ -272,17 +272,17 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                                                                                     | Descripción                                                |
-|:------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                   | Guía de imágenes y sensores remotos.                       |
-| [Quiz 6. Conocimiento](https://forms.office.com/r/r9zYLankHs)                                                                 | Quiz de conocimiento.                                      |
-| [Quiz 6A. Habilidad - DEM satélite](https://forms.office.com/r/cfnfrMbLrb)                                                    | Quiz aplicado de habilidad.                                |
-| [Quiz 6B. Habilidad - DEM Lidar](https://forms.office.com/r/scJK7euLJ2)                                                       | Quiz aplicado de habilidad.                                |
-| [Quiz 6C. Habilidad - Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                         | Quiz aplicado de habilidad.                                |
-| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.office.com/r/8VYS2BsaWZ) | Quiz aplicado de habilidad.                                |
-| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.office.com/r/UCdc5fYMes)                       | Quiz aplicado de habilidad.                                |
-| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                     | Análisis de potencial energético usando ERA5 Land Monthly. |
-| [Quiz 6F. Habilidad - ERA5](https://forms.office.com/r/QHZkx6aStQ)                                                            | Quiz aplicado de habilidad.                                |
+| Actividad                                                                                                                     | Descripción                                               |
+|:------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                   | Guía de imágenes y sensores remotos                       |
+| [Quiz 6. Conocimiento](https://forms.office.com/r/r9zYLankHs)                                                                 | Quiz de conocimiento                                      |
+| [Quiz 6A. Habilidad - DEM satélite](https://forms.office.com/r/cfnfrMbLrb)                                                    | Quiz aplicado de habilidad                                |
+| [Quiz 6B. Habilidad - DEM Lidar](https://forms.office.com/r/scJK7euLJ2)                                                       | Quiz aplicado de habilidad                                |
+| [Quiz 6C. Habilidad - Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                         | Quiz aplicado de habilidad                                |
+| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.office.com/r/8VYS2BsaWZ) | Quiz aplicado de habilidad                                |
+| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.office.com/r/UCdc5fYMes)                       | Quiz aplicado de habilidad                                |
+| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                     | Análisis de potencial energético usando ERA5 Land Monthly |
+| [Quiz 6F. Habilidad - ERA5](https://forms.office.com/r/QHZkx6aStQ)                                                            | Quiz aplicado de habilidad                                |
 
 </div>
 
@@ -295,11 +295,11 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                 |
-|:----------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización. |
-| [Quiz 7. Conocimiento](https://forms.office.com/r/PJB3yKeB6k)         | Quiz de conocimiento.                                                                       |
-| [Quiz 7. Habilidad - General](https://forms.office.com/r/vzfUdX2xmg) | Quiz general de habilidad.                                                                  |
+| Actividad                                                             | Descripción                                                                               |
+|:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |
+| [Quiz 7. Conocimiento](https://forms.office.com/r/PJB3yKeB6k)         | Quiz de conocimiento                                                                      |
+| [Quiz 7. Habilidad - General](https://forms.office.com/r/vzfUdX2xmg) | Quiz general de habilidad                                                                 |
 
 </div>
 
@@ -310,10 +310,10 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 
 <div align="center">
 
-| Actividad                                                                 | Descripción                                                                                                                                                                              |
-|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller8.pdf)                               | Guía de mapas cartográficos, plantillas y mapas distribuibles.<br/><br/>[Documentación oficial QGIS.](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html ) |
-| [Quiz 8. Habilidad - General](https://forms.cloud.microsoft/r/CvfhwgWwP7) | Quiz general de habilidad.                                                                                                                                                               |
+| Actividad                                                                 | Descripción                                                                                                                                                                             |
+|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller8.pdf)                               | Guía de mapas cartográficos, plantillas y mapas distribuibles.<br/><br/>[Documentación oficial QGIS.](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |
+| [Quiz 8. Habilidad - General](https://forms.cloud.microsoft/r/CvfhwgWwP7) | Quiz general de habilidad                                                                                                                                                               |
 
 
 </div>
@@ -335,11 +335,11 @@ Conceptos Generales de Modelos Hidrológicos Computacionales:
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                           |
-|:----------------------------------------------------------------------|:----------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller9.pdf)                           | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS.   |
-| [Quiz 9. Conocimiento](https://forms.office.com/r/KsbXuFjX2K)         | Quiz de conocimiento.                                                 |
-| [Quiz 9. Habilidad - General](https://forms.office.com/r/5xS3WwmKJs)  | Quiz general de habilidad.                                            |
+| Actividad                                                             | Descripción                                                        |
+|:----------------------------------------------------------------------|:-------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller9.pdf)                           | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS |
+| [Quiz 9. Conocimiento](https://forms.office.com/r/KsbXuFjX2K)         | Quiz de conocimiento                                               |
+| [Quiz 9. Habilidad - General](https://forms.office.com/r/5xS3WwmKJs)  | Quiz general de habilidad                                          |
 
 </div>
 
@@ -350,10 +350,10 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                     |
-|:----------------------------------------------------------------------|:----------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS. |
-| [Quiz 10. Habilidad - General](https://forms.office.com/r/j3hYCsuLg2) | Quiz general de habilidad.                                      |
+| Actividad                                                             | Descripción                                                    |
+|:----------------------------------------------------------------------|:---------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS |
+| [Quiz 10. Habilidad - General](https://forms.office.com/r/j3hYCsuLg2) | Quiz general de habilidad                                      |
 
 </div>
 
@@ -364,10 +364,10 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                 |
-|:----------------------------------------------------------------------|:--------------------------------------------|
-| [Documento guía](activity/TSIG_Taller11.pdf)                         | Guía de modelos hidráulicos 1D con HEC-RAS. |
-| [Quiz 11. Habilidad - General](https://forms.office.com/r/qifNWNrgDS) | Quiz general de habilidad.                  |
+| Actividad                                                              | Descripción                                |
+|:-----------------------------------------------------------------------|:-------------------------------------------|
+| [Documento guía](activity/TSIG_Taller11.pdf)                           | Guía de modelos hidráulicos 1D con HEC-RAS |
+| [Quiz 11. Habilidad - General](https://forms.office.com/r/qifNWNrgDS)  | Quiz general de habilidad                  |
 
 </div>
 
@@ -389,10 +389,10 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 
 <div align="center">
 
-| Actividad                                                       | Descripción                                                                        |
-|:----------------------------------------------------------------|:-----------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller12.pdf)                    | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia. |
-| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)  | Quiz de conocimiento.                                                              |
+| Actividad                                                       | Descripción                                                                       |
+|:----------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller12.pdf)                    | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia |
+| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)  | Quiz de conocimiento                                                              |
 
 </div>
 
@@ -407,10 +407,10 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                   |
-|:----------------------------------------------------------------------|:--------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller13.pdf)                          | Guía de Modelación y análisis de redes vehiculares en ArcGIS. |
-| [Quiz 13. Habilidad - General](https://forms.office.com/r/KcXauaEC31) | Quiz general de habilidad.                                    |
+| Actividad                                                             | Descripción                                                  |
+|:----------------------------------------------------------------------|:-------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller13.pdf)                          | Guía de Modelación y análisis de redes vehiculares en ArcGIS |
+| [Quiz 13. Habilidad - General](https://forms.office.com/r/KcXauaEC31) | Quiz general de habilidad                                    |
 
 </div>
 
@@ -421,11 +421,11 @@ Los exámenes (parciales o final), son evaluaciones sumativas obligatorias que s
 
 <div align="center">
 
-| Actividad                                                 | Descripción                                              |
-|:----------------------------------------------------------|:---------------------------------------------------------|
-| [Examen Tercio 1](https://forms.office.com/r/tuU8sh4r4h)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 0 a 3.  |
-| [Examen Tercio 2](https://forms.office.com/r/aNkMTqLCF0)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 4 a 6.  |
-| [Examen Tercio 3](https://forms.office.com/r/3PUs7aUeRt)  | Duración: 2.0 horas.<br/>Se evalúan todos los talleres. |
+| Actividad                                                 | Descripción                                            |
+|:----------------------------------------------------------|:-------------------------------------------------------|
+| [Examen Tercio 1](https://forms.office.com/r/tuU8sh4r4h)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 0 a 3 |
+| [Examen Tercio 2](https://forms.office.com/r/aNkMTqLCF0)  | Duración: 1.5 horas.<br/>Se evalúan los Talleres 4 a 6 |
+| [Examen Tercio 3](https://forms.office.com/r/3PUs7aUeRt)  | Duración: 2.0 horas.<br/>Se evalúan todos los talleres |
 
 </div>
 
