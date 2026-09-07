@@ -35,14 +35,14 @@ Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipo
 
 Los contenidos presentados en este curso taller, están dirigidos a estudiantes y profesionales de diferentes disciplinas, que requieran aprender y/o fortalecer sus conocimientos en el manejo de herramientas SIG y bases de datos geográficas, tales como:
 
-* Estudiantes de pregrado y posgrado en ingeniería.
-* Ingenieros.
-* Especialistas.
-* Funcionarios públicos.
-* Gestores territoriales.
-* Planificadores urbanos.
-* Topógrafos.
-* Arquitectos.
+* Estudiantes de pregrado y posgrado en ingeniería
+* Ingenieros
+* Especialistas
+* Funcionarios públicos
+* Gestores territoriales
+* Planificadores urbanos
+* Topógrafos
+* Arquitectos
 
 > Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario en este idioma.  
 > Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
@@ -75,15 +75,15 @@ La evaluación del desempeño de los estudiantes valora el cumplimiento de los o
 
 ### Directrices para quices y exámenes (pregrado)
 
-* La duración es indicada en clase al inicio de la prueba técnica.
-* Se permite la apertura de la guía de clase en el navegador de Internet.
-* Se presenta presencial e individualmente en el horario de clase.
-* Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas.
-* El quiz solo será válido sí se desarrolla en el aula de clase.
-* El quiz solo será válido sí registra sus respuestas en Forms y envía por correo electrónico los adjuntos solicitados.
-* No se admite presentación extemporánea.
-* No se permite el uso de ninguna aplicación de mensajería instantánea.
-* No se permite hablar con otros estudiantes durante el quiz, este será anulado.
+* La duración es indicada en clase al inicio de la prueba técnica
+* Se permite la apertura de la guía de clase en el navegador de Internet
+* Se presenta presencial e individualmente en el horario de clase
+* Se permite realizar consultas al profesor, por cada consulta se descontarán 5 décimas
+* El quiz solo será válido sí se desarrolla en el aula de clase
+* El quiz solo será válido sí registra sus respuestas en Forms y envía por correo electrónico los adjuntos solicitados
+* No se admite presentación extemporánea
+* No se permite el uso de ninguna aplicación de mensajería instantánea
+* No se permite hablar con otros estudiantes durante el quiz, este será anulado
 
 
 ## Requerimientos y estructura de directorios
@@ -143,12 +143,12 @@ Este taller es una introducción a ArcGIS y QGIS. Utilice estas aplicaciones par
 
 Adicionalmente aprenderá a:
 
-* Establecer el sistema de proyección de coordenadas para un mapa geográfico.
-* Proyectar al vuelo capas geográficas desde diferentes sistemas de proyección.
-* Crear rótulo dinámicos básicos y avanzados.
-* Representar capas vectoriales por múltiples métodos de visualización.
-* Crear filtros básicos y avanzados a partir de los atributos contenidos en una capa.
-* Crear gráficos de una o múltiples variables y matrices de dispersión dinámicas para evaluar datos atípicos en registros mensuales.
+* Establecer el sistema de proyección de coordenadas para un mapa geográfico
+* Proyectar al vuelo capas geográficas desde diferentes sistemas de proyección
+* Crear rótulo dinámicos básicos y avanzados
+* Representar capas vectoriales por múltiples métodos de visualización
+* Crear filtros básicos y avanzados a partir de los atributos contenidos en una capa
+* Crear gráficos de una o múltiples variables y matrices de dispersión dinámicas para evaluar datos atípicos en registros mensuales
 
 <div align="center">
 
@@ -167,11 +167,11 @@ En este taller aprenderá a visualizar fácilmente diferentes lugares en un mism
 
 Adicionalmente aprenderá a:
 
-* Obtener localización por coordenadas en diferentes sistemas y a consultar esta localización en mapas de dominio público.
-* Medir elementos vectoriales con precisión.
-* Crear mapas con etiquetas dinámicas e hipervínculos.
-* Crear máscaras para selección masiva de elementos de forma espacial.
-* Exportar datos vectoriales a formato .kml o .kmz y visualizarlos en Google Earth Pro para obtener imágenes satelitales históricas.
+* Obtener localización por coordenadas en diferentes sistemas y a consultar esta localización en mapas de dominio público
+* Medir elementos vectoriales con precisión
+* Crear mapas con etiquetas dinámicas e hipervínculos
+* Crear máscaras para selección masiva de elementos de forma espacial
+* Exportar datos vectoriales a formato .kml o .kmz y visualizarlos en Google Earth Pro para obtener imágenes satelitales históricas
 
 <div align="center">
 
@@ -258,16 +258,16 @@ Este taller le enseñará a descargar, georreferenciar y procesar imágenes sate
 
 Adicionalmente aprenderá a:
 
-* Procesar y comparar modelos de terreno.
-* Crear mapa de sombreado de colinas o Hillshade.
-* Componer bandas y hacer análisis clasificado.
-* Identificar nubes en modelos ASTER GDEM.
-* Crear mapas de pendientes de terreno.
-* Crear mapas binarizados.
-* Generar curvas de nivel categorizadas.
-* Ensamblar y visualizar escenas 3D.
-* Calcular el índice de vegetación NDVI.
-* Descargar, visualizar y procesar datos climatológicos en formato NetCDF.
+* Procesar y comparar modelos de terreno
+* Crear mapa de sombreado de colinas o Hillshade
+* Componer bandas y hacer análisis clasificado
+* Identificar nubes en modelos ASTER GDEM
+* Crear mapas de pendientes de terreno
+* Crear mapas binarizados
+* Generar curvas de nivel categorizadas
+* Ensamblar y visualizar escenas 3D
+* Calcular el índice de vegetación NDVI
+* Descargar, visualizar y procesar datos climatológicos en formato NetCDF
 
 
 <div align="center">
@@ -376,16 +376,16 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 
 Objetivos: 
 
-* Ofrecer a los participantes un panorama general acerca del uso de los SIG como sistemas complementarios en la elaboración, evaluación y seguimiento de los estudios ambientales.
-* Conocer la reglamentación nacional de la Autoridad Nacional de Licencias Ambientales – ANLA y el actual modelo de datos geográfico nacional para la presentación de los Estudios de Impacto Ambiental – EIA, Diagnósticos Ambientales de Alternativas DAA, Planes de Manejo Ambiental – PMA y los Informes de Cumplimiento Ambiental ICA.
-* Visualizar un caso de estudio ambiental usando herramientas geográficas SIG.
-* Obtener conceptos generales de la aplicación de SIG en la ingeniería ambiental: ordenamiento del territorio, gestión del riesgo, administración de recursos naturales, manejo integrado de cuencas, conservación de especies, salud pública, control de contaminantes atmosféricos, elaboración de estudios de impacto ambiental y zonificación ambiental.
+* Ofrecer a los participantes un panorama general acerca del uso de los SIG como sistemas complementarios en la elaboración, evaluación y seguimiento de los estudios ambientales
+* Conocer la reglamentación nacional de la Autoridad Nacional de Licencias Ambientales – ANLA y el actual modelo de datos geográfico nacional para la presentación de los Estudios de Impacto Ambiental – EIA, Diagnósticos Ambientales de Alternativas DAA, Planes de Manejo Ambiental – PMA y los Informes de Cumplimiento Ambiental ICA
+* Visualizar un caso de estudio ambiental usando herramientas geográficas SIG
+* Obtener conceptos generales de la aplicación de SIG en la ingeniería ambiental: ordenamiento del territorio, gestión del riesgo, administración de recursos naturales, manejo integrado de cuencas, conservación de especies, salud pública, control de contaminantes atmosféricos, elaboración de estudios de impacto ambiental y zonificación ambiental
 
 Mejoras que introducen los SIG a los Estudios Ambientales:
 
-* Soporte digital de información geográfica y series de datos no espaciales que permite concebir los estudios ambientales, no como un proyecto acabado y rígido, sino como un proyecto abierto a complementarse durante todas las etapas de su desarrollo, adaptándose y dando respuesta a nuevas dinámicas.
-* Uso de la tecnología como herramienta de soporte para la toma de decisiones en la que la elección de alternativas va acorde con el conocimiento de todas las áreas profesionales debido a que la información se utiliza de forma transversal y racional.
-* Permite contextualizar el proyecto ambiental mediante simulaciones hipotéticas para posteriormente someterlo a diferentes evaluaciones y análisis que pueden inducir al conocimiento de factores sub o sobreestimados.
+* Soporte digital de información geográfica y series de datos no espaciales que permite concebir los estudios ambientales, no como un proyecto acabado y rígido, sino como un proyecto abierto a complementarse durante todas las etapas de su desarrollo, adaptándose y dando respuesta a nuevas dinámicas
+* Uso de la tecnología como herramienta de soporte para la toma de decisiones en la que la elección de alternativas va acorde con el conocimiento de todas las áreas profesionales debido a que la información se utiliza de forma transversal y racional
+* Permite contextualizar el proyecto ambiental mediante simulaciones hipotéticas para posteriormente someterlo a diferentes evaluaciones y análisis que pueden inducir al conocimiento de factores sub o sobreestimados
 
 <div align="center">
 
