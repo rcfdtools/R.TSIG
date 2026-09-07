@@ -310,10 +310,10 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 
 <div align="center">
 
-| Actividad                                                                 | Descripción                                                                                                                                                                             |
-|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller8.pdf)                               | Guía de mapas cartográficos, plantillas y mapas distribuibles.<br/><br/>[Documentación oficial QGIS.](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |
-| [Quiz 8. Habilidad - General](https://forms.cloud.microsoft/r/CvfhwgWwP7) | Quiz general de habilidad                                                                                                                                                               |
+| Actividad                                                                 | Descripción                                                                                                                                                                   |
+|:--------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller8.pdf)                               | Guía de mapas cartográficos, plantillas y mapas distribuibles. [Documentación oficial QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |
+| [Quiz 8. Habilidad - General](https://forms.cloud.microsoft/r/CvfhwgWwP7) | Quiz general de habilidad                                                                                                                                                     |
 
 
 </div>
