@@ -11,7 +11,7 @@
 from qgis.PyQt.QtCore import QVariant
 from qgis.core import QgsField, edit
 import qgis.utils
-from PyQt5.QtCore import QDate
+from PyQt5.QtCore import QDate # ● PyQt5 for QGIS 3 or PyQt6 for QGIS 4
 
 
 # Get the active layer from Layer panel
@@ -19,14 +19,14 @@ layer = iface.activeLayer()
 
 
 # General parameters
+installation_date_field = 'FInst' # ● Your installation date field name
+suspension_date_field = 'FSus' # ● Your suspension date field name
+tw_start_date = QDate(1980, 1, 1) # ● Time-window start
+tw_end_date = QDate(2025, 12, 31) # ●Time-window end
 tw_start_date_name = 'InDateTW'
 tw_end_date_name = 'OutDateTW'
 lyears_name = 'LYearS'
 lyearstw_name = 'LYearSTW'
-tw_start_date = QDate(1980, 1, 1) # Time-window start ●
-tw_end_date = QDate(2025, 12, 31) # Time-window end ●
-installation_date_field = 'FInst'
-suspension_date_field = 'FSus'
 
 
 # Add fields and do calculations
