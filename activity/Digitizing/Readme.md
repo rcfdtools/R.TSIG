@@ -114,10 +114,11 @@ Atributos requeridos:
 
 Fuentes de datos para obtención de predios y/o lotes:
 
-* Predios Bogotá D.C.: https://mapas.bogota.gov.co
+* Lotes Bogotá D.C.: https://mapas.bogota.gov.co
 * Predios Bogotá D.C.: https://www.ideca.gov.co/recursos/mapas/predios-bogota-dc
 * Predios Bogotá D.C.: https://datosabiertos.bogota.gov.co/dataset/lote
 * Predios nacionales: https://geoportal.igac.gov.co/contenido/consulta-catastral
+* Predios por municipio: https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/CountyLayer_CO/Readme.md
 
 Código de creación en Python sobre QGIS:
 ```
@@ -170,10 +171,11 @@ Atributos requeridos:
 
 </div>
 
-Construcciones Bogotá: 
+Fuentes de datos para obtención de construcciones: 
 
-* https://ideca.gov.co/recursos/mapas/construccion-bogota-dc
-* https://ideca.gov.co/recursos/mapas/construccion
+* Construcciones Bogotá: https://www.ideca.gov.co/recursos/mapas/construccion-bogota-dc
+* Construcciones Bogotá: https://www.ideca.gov.co/recursos/mapas/construccion
+* Construcción por municipio: https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/CountyLayer_CO/Readme.md
 
 Código de creación en Python sobre QGIS:
 ```
@@ -224,6 +226,11 @@ Atributos requeridos:
 
 </div>
 
+Fuentes de datos para obtención de vías
+
+* Vías Bogotá: https://www.ideca.gov.co/recursos/mapas/malla-vial-integral-bogota-dc
+* Vías por municipio: https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/CountyLayer_CO/Readme.md
+
 Código de creación en Python sobre QGIS:
 ```
 # Creating TSIG_Vial.shp
@@ -270,7 +277,7 @@ Atributos requeridos:
 
 </div>
 
-Arbolado
+Fuentes de datos para obtención de arbolado
 
 * https://www.ideca.gov.co/recursos/mapas/arbolado-urbano-bogota-dc
 
@@ -324,6 +331,10 @@ Atributos requeridos:
 | LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
 
 </div>
+
+Fuentes de datos para análisis de alumbrado público
+
+* Bogotá: https://www.ideca.gov.co/recursos/mapas/alumbrado-publico-bogota-dc
 
 > La potencia en watts o vatios en iluminación, representa la cantidad de energía eléctrica por hora que consume una lámpara.
 
