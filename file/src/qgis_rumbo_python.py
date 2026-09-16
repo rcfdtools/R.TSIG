@@ -1,4 +1,10 @@
 # https://github.com/rcfdtools
+# Calling function and return:
+# dist = coursepy(cx, cy, dcx, dcy)[0]
+# course = coursepy(cx, cy, dcx, dcy)[1]
+# label = coursepy(cx, cy, dcx, dcy)[2]
+# Sample for label:
+# print(coursepy(10, 20, 50, 38)[2])
 
 from qgis.core import *
 from qgis.gui import *
@@ -29,10 +35,4 @@ def coursepy(cx, cy, dcx, dcy):
     label = f"D(m): {round(dist, roundv)}\nCourse: {course}"   
     return [round(dist, roundv), course, label]
 
-# Calling function and return
-# dist = coursepy(cx, cy, dcx, dcy)[0]
-# course = coursepy(cx, cy, dcx, dcy)[1]
-# label = coursepy(cx, cy, dcx, dcy)[2]
 
-# Sample for label
-# print(coursepy(10, 20, 50, 38)[2])
