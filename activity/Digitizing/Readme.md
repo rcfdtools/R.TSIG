@@ -163,7 +163,7 @@ Atributos requeridos:
 | Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional                                                                                                       |
 | AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
 | MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta |
-| TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
+| TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta                             |
 | CX         | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                                                                     |
 | CY         | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                                                                     |
 | LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
@@ -323,7 +323,7 @@ Atributos requeridos:
 | Altura   | Real (10)    | Alto de luminaria. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario                                                                                                    |
 | LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                   |
 | Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                               |
-| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros |
+| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros<br>Lámparas de más de 6 metros: entre 10 y 25 metros |
 | Consumo  | Real (10)    | Consumo eléctrico                                                                                                                                                                                                                           |
 | CX       | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                                                                                                                           |
 | CY       | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                                                                                                                           |
@@ -388,7 +388,7 @@ Para el cálculo de los índices, cree y calcule los siguientes campos de atribu
 | ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`              |
 | ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`                                             |
 | ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`                             |
-| VialArea  | Real (10)    | Área total de vías en m².                                                           |
+| VialArea  | Real (10)    | Área total de vías en m²                                                           |
 | VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`                             |
 | ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m²                                 |
 | ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`                     |
