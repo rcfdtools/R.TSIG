@@ -100,13 +100,13 @@ Atributos requeridos:
 
 | Campo    | Tipo         | Descripción                                                                                                                                                       |
 |:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención. |
-| AreaPm2  | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                           |
-| PerimPm  | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                  |
-| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                |
-| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
+| PredioID | String (200) | Consultar el catastro distrital o nacional y obtener el código CHIP o llave predial de este predio. Es necesario investigar y documentar el proceso de obtención |
+| AreaPm2  | Real (10)    | Área planar en m²<br>`area(@geometry)`                                                                                                                           |
+| PerimPm  | Real (10)    | Perímetro planar en m<br>`perimeter(@geometry)`                                                                                                                  |
+| CX       | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                                                |
+| CY       | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                                                |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                             |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                            |
 
 </div>
 
@@ -157,17 +157,17 @@ Atributos requeridos:
 
 | Campo      | Tipo         | Descripción                                                                                                                                                                            |
 |:-----------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc.                                                          |
-| AreaPm2    | Real (10)    | Área planar en m².<br>`area(@geometry)`                                                                                                                                                |
-| PerimPm    | Real (10)    | Perímetro planar en m.<br>`perimeter(@geometry)`                                                                                                                                       |
-| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional.                                                                                                        |
+| EdifID     | String (200) | Identificación de edificio o bloque. Texto de 100 caracteres. Ejemplo: Bloque A, Bloque B, Coliseo, Kiosco K1, Portería, etc                                                          |
+| AreaPm2    | Real (10)    | Área planar en m²<br>`area(@geometry)`                                                                                                                                                |
+| PerimPm    | Real (10)    | Perímetro planar en m<br>`perimeter(@geometry)`                                                                                                                                       |
+| Pisos      | Real (10)    | Número de pisos. En caso de existir altillos, incluir como 0.5 pisos adicional                                                                                                       |
 | AreaCons   | Real (10)    | Total de área construída `AreaCons = AreaPm2 * Pisos`.                                                                                                                                 |
-| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta. |
+| MaterialEs | String (100) | Material predominante en la estructura. Normalizar como:<br>• Concreto reforzado en pórticos<br>• Concreto reforzado en paneles<br>• Mampostería estructural<br>• Metálica<br>• Mixta |
 | TipoCubier | String (100) | Tipo de cubierta predominante. Normalizar como:<br>• Teja inclinada<br>• Placa<br>• Carpa<br>• Domo<br>• Curvada continua<br>• Paneles solares<br>• Mixta.                             |
-| CX         | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                                     |
-| CY         | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                                     |
-| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
-| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
+| CX         | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                                                                     |
+| CY         | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                                                                     |
+| LatDD      | Real (10)    | Latitud del centroide en grados geodésicos °<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                  |
+| LonDD      | Real (10)    | Longitud del centroide en grados geodésicos °<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                 |
 
 </div>
 
@@ -219,8 +219,8 @@ Atributos requeridos:
 | Campo     | Tipo         | Descripción                                                                                                                                                   |
 |:----------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ViaID     | String (200) | Identificación de vía. Ejemplo: Calle 207, Sendero peatonal entre Bloques A y G...                                                                            |
-| LPm       | Real (10)    | Longitud planar de la vía en metros.<br>`length(@geometry)`                                                                                                   |
-| AnchoProm | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base.                                                                                            |
+| LPm       | Real (10)    | Longitud planar de la vía en metros<br>`length(@geometry)`                                                                                                   |
+| AnchoProm | Real (10)    | Ancho promedio en m. Medir usando imagen satelital como mapa base                                                                                            |
 | ViaTipo   | String (100) | Tipo de Vía. Normalizar como:<br>• Vehicular<br>• Peatonal<br>• Sendero<br>• Privada<br>• Camino<br>• Andén                                                   |
 | Rodadura  | String (100) | Tipo de rodadura o recubrimiento. Normalizar como:<br>• Asfalto<br>• Concreto<br>• Adoquín<br>• Placa Huella<br>• Tierra<br>• Césped<br>• Arena<br>• Gravilla |
 
@@ -266,14 +266,14 @@ Atributos requeridos:
 
 | Campo       | Tipo         | Descripción                                                                                                                           |
 |:------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| ArbolID     | Long Integer | Identificación de cada árbol. Incluir un valor consecutivo que no debe repetirse.                                                     |
-| Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario. |
-| RadioC      | Real (10)    | Radio de cobertura del canopy. Medir utilizando imagen satelital como mapa base.                                                      |
+| ArbolID     | Long Integer | Identificación de cada árbol. Incluir un valor consecutivo que no debe repetirse                                                    |
+| Altura      | Real (10)    | Alto del árbol. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario |
+| RadioC      | Real (10)    | Radio de cobertura del canopy. Medir utilizando imagen satelital como mapa base                                                      |
 | TipoArbol   | String (100) | Tipo de árbol. Normalizar como:<br>• Árbol<br>• Arbusto<br>• Planta<br>• Matorral                                                     |
-| CX          | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                    |
-| CY          | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                    |
-| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
-| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
+| CX          | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                    |
+| CY          | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                    |
+| LatDD       | Real (10)    | Latitud del centroide en grados geodésicos °<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                 |
+| LonDD       | Real (10)    | Longitud del centroide en grados geodésicos °<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                |
 
 </div>
 
@@ -319,16 +319,16 @@ Atributos requeridos:
 
 | Campo    | Tipo         | Descripción                                                                                                                                                                                                                                  |
 |:---------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse.                                                                                                                                                        |
-| Altura   | Real (10)    | Alto de luminaria. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario.                                                                                                     |
+| LumID    | Long Integer | Identificación de cada luminaria. Incluir un valor consecutivo que no debe repetirse                                                                                                                                                        |
+| Altura   | Real (10)    | Alto de luminaria. Estimar con Google Street View, utilizando como referencia la altura de elementos cercanos, personas o el mobiliario                                                                                                    |
 | LumTipo  | String (100) | Tipo de luminaria. Normalizar como:<br>• LED<br>• Halogenuro Metálico (MH)<br>• Sodio (Na)                                                                                                                                                   |
 | Potencia | Real (10)    | Potencia de la luminaria (Watt o vatio). Utilizar como referencia:<br>• LED - 100W<br>• Halogenuro Metálico (MH) - 150W<br>• Sodio (Na) - 200W                                                                                               |
-| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros. |
-| Consumo  | Real (10)    | Consumo eléctrico.                                                                                                                                                                                                                           |
-| CX       | Real (10)    | Coordenada X del centroide en m.<br>`x(@geometry)`                                                                                                                                                                                           |
-| CY       | Real (10)    | Coordenada y del centroide en m.<br>`y(@geometry)`                                                                                                                                                                                           |
-| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °.<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
-| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °.<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
+| RadioC   | Real (10)    | Radio de iluminación directa o de cobertura en función de la potencia, altura y tipo. Investigar y estimar.<br><br>Por ejemplo:<br>Lámparas de menos de 6 metros de altura: 10 metros.<br>Lámparas de más de 6 metros: entre 10 y 25 metros |
+| Consumo  | Real (10)    | Consumo eléctrico                                                                                                                                                                                                                           |
+| CX       | Real (10)    | Coordenada X del centroide en m<br>`x(@geometry)`                                                                                                                                                                                           |
+| CY       | Real (10)    | Coordenada y del centroide en m<br>`y(@geometry)`                                                                                                                                                                                           |
+| LatDD    | Real (10)    | Latitud del centroide en grados geodésicos °<br>`y(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                        |
+| LonDD    | Real (10)    | Longitud del centroide en grados geodésicos °<br>`x(transform(@geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                       |
 
 </div>
 
@@ -376,24 +376,24 @@ Para las capas `TSIG_Vial.shp`, `TSIG_Arbolado.shp` y `TSIG_Luminaria.shp`, cree
 
 | Capa de aferencia        | Descripción                                                    |
 |--------------------------|----------------------------------------------------------------|
-| TSIG_VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2`. |
-| TSIG_ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`.  |
-| TSIG_LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`.          |
+| TSIG_VialBuffer.shp      | Aferencia a partir de ejes viales a partir de `AnchoProm / 2` |
+| TSIG_ArboladoBuffer.shp  | Aferencia a partir del radio de cobertura de canopy `RadioC`  |
+| TSIG_LuminariaBuffer.shp | Aferencia a partir del radio de iluminación `RadioC`          |
 
 Para el cálculo de los índices, cree y calcule los siguientes campos de atributos en la capa `TSIG_Predio.shp`:
 
 | Campo     | Tipo         | Descripción                                                                         |
 |:----------|:-------------|:------------------------------------------------------------------------------------|
-| ConsAreaH | Real (10)    | Área total horizontal ocupada por construcciones m². ∑ `AreaPm2` de construcciones. |
-| ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`.               |
-| ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`.                                             |
-| ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`.                             |
+| ConsAreaH | Real (10)    | Área total horizontal ocupada por construcciones m². ∑ `AreaPm2` de construcciones |
+| ConstIO   | Real (10)    | Índice de ocupación por construcción `ConstIO = ConsAreaH / AreaPm2`              |
+| ConsAreaV | Real (10)    | Área total construída m². ∑ `AreaCons`                                             |
+| ConstIC   | Real (10)    | Índice de construcción `ConstIC = ConsAreaV / AreaPm2`                             |
 | VialArea  | Real (10)    | Área total de vías en m².                                                           |
-| VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`.                             |
-| ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m².                                 |
-| ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`.                     |
-| LuminArea | Real (10)    | Área total iluminada en m².                                                         |
-| LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`.                |
+| VialIO    | Real (10)    | Índice de ocupación vial `VialIO = VialArea / AreaPm2`                             |
+| ArbolArea | Real (10)    | Área total cubierta por canopy de vegetación en m²                                 |
+| ArbolIO   | Real (10)    | Índice de ocupación por canopy `ArbolIO = ArbolArea / AreaPm2`                     |
+| LuminArea | Real (10)    | Área total iluminada en m²                                                         |
+| LuminIC   | Real (10)    | Índice de cobertura por iluminación `LuminIC = LuminArea / AreaPm2`                |
 
 </div>
 
