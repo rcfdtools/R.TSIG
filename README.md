@@ -200,8 +200,8 @@ Manejo de tablas en bases de datos
 | Actividad                                                            | Descripción                            |
 |:---------------------------------------------------------------------|:---------------------------------------|
 | [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes |
-| [Quiz 3. Conocimiento](https://forms.office.com/r/PeJWyKBAP7)        | Quiz de conocimiento                   |
-| [Quiz 3. Habilidad - General](https://forms.office.com/r/WFZuF5c2ge) | Quiz general de habilidad              |
+| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                   |
+| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad              |
 
 </div>
 
