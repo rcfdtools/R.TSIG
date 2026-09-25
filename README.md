@@ -219,8 +219,8 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 | Actividad                                                                           | Descripción                                                                                                             |
 |:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
 | [Documento guía](activity/TSIG_Taller4.pdf)                                         | Guía de entrada, edición y digitalización de datos geográficos                                                          |
-| [Quiz 4. Conocimiento](https://forms.office.com/r/tKy1NQFr6X)                       | Quiz de conocimiento                                                                                                    |
-| [Quiz 4A. Habilidad - General](https://forms.office.com/r/uWpMbm9ZGD)               | Quiz general de habilidad                                                                                               |
+| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                         | Quiz de conocimiento                                                                                                    |
+| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)                 | Quiz general de habilidad                                                                                               |
 | [Digitalización de campus](activity/Digitizing/Readme.md)                           | Caso de estudio: digitalización y cálculo de índices de la Universidad Escuela Colombiana de Ingeniería Julio Garavito  |
 | [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/Sa1UHvwN5K) | Quiz aplicado de habilidad                                                                                              |
 
