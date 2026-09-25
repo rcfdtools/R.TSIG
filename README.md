@@ -152,11 +152,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                       |
-|:---------------------------------------------------------------------|:--------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller1.pdf)                          | Guía de fundamentos generales de herramientas GIS |
-| [Quiz 1. Conocimiento](https://forms.office.com/r/G3nsqDKwEm)        | Quiz de conocimiento                              |
-| [Quiz 1. Habilidad - General](https://forms.office.com/r/Q8uFjtQiuP) | Quiz general de habilidad                         |
+| Actividad                                                           | Descripción                                       |
+|:--------------------------------------------------------------------|:--------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |
+| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |
+| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |
 
 </div>
 
@@ -175,11 +175,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                          |
-|:---------------------------------------------------------------------|:-----------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller2.pdf)                          | Guía de búsqueda, selección y estadísticas generales |
-| [Quiz 2. Conocimiento](https://forms.office.com/r/qjEJiugiZZ)        | Quiz de conocimiento                                 |
-| [Quiz 2. Habilidad - General](https://forms.office.com/r/j1HHQhmutN) | Quiz general de habilidad                            |
+| Actividad                                                           | Descripción                                          |
+|:--------------------------------------------------------------------|:-----------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |
+| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |
 
 </div>
 
