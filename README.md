@@ -235,15 +235,15 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 
 <div align="center">
 
-| Actividad                                                                                              | Descripción                                                                                                                                                 |
-|:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller5.pdf)                                                            | Guía de diseño, creación y operación de bases de datos geográficas                                                                                          |
-| [Quiz 5. Conocimiento](https://forms.gle/2coY8M8h1iPfEX3K7)                                            | Quiz de conocimiento                                                                                                                                        |
-| [Quiz 5A. Habilidad - General](https://forms.gle/q1yWi7RnzXdPbvD46)                                    | Quiz general de habilidad                                                                                                                                   |
-| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                         | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios del campus |
-| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.gle/jnZCzNZpEmxUGfbN8)              | Quiz aplicado de habilidad                                                                                                                                  |
-| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.office.com/r/3eSZ6tqXkp)                       | Quiz aplicado de habilidad                                                                                                                                  |
-| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.office.com/r/XvS91kL3FA) | Quiz aplicado de habilidad                                                                                                                                  |
+| Actividad                                                                                             | Descripción                                                                                                                                                 |
+|:------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                           | Guía de diseño, creación y operación de bases de datos geográficas                                                                                          |
+| [Quiz 5. Conocimiento](https://forms.gle/2coY8M8h1iPfEX3K7)                                           | Quiz de conocimiento                                                                                                                                        |
+| [Quiz 5A. Habilidad - General](https://forms.gle/q1yWi7RnzXdPbvD46)                                   | Quiz general de habilidad                                                                                                                                   |
+| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                        | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios del campus |
+| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.gle/jnZCzNZpEmxUGfbN8)             | Quiz aplicado de habilidad                                                                                                                                  |
+| [Quiz 5C. Habilidad - Ejercicio de clase](hhttps://forms.gle/JajquRG15ZcBr2vm6)                       | Quiz aplicado de habilidad                                                                                                                                  |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.gle/L4NnPQ4uZWSynkm69)  | Quiz aplicado de habilidad                                                                                                                                  |
 
 </div>
 
