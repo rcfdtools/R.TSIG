@@ -275,7 +275,7 @@ Adicionalmente aprenderá a:
 | Actividad                                                                                                                     | Descripción                                               |
 |:------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
 | [Documento guía](activity/TSIG_Taller6.pdf)                                                                                   | Guía de imágenes y sensores remotos                       |
-| [Quiz 6. Conocimiento](https://forms.office.com/r/r9zYLankHs)                                                                 | Quiz de conocimiento                                      |
+| [Quiz 6. Conocimiento](https://forms.gle/eJzCf9pXbgBoQMfU9)                                                                   | Quiz de conocimiento                                      |
 | [Quiz 6A. Habilidad - DEM satélite](https://forms.office.com/r/cfnfrMbLrb)                                                    | Quiz aplicado de habilidad                                |
 | [Quiz 6B. Habilidad - DEM Lidar](https://forms.office.com/r/scJK7euLJ2)                                                       | Quiz aplicado de habilidad                                |
 | [Quiz 6C. Habilidad - Landsat](https://forms.office.com/r/HtDuBDYPzU)                                                         | Quiz aplicado de habilidad                                |
