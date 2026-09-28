@@ -216,13 +216,13 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                      |
-|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                         | Guía de entrada, edición y digitalización de datos geográficos   |
-| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                         | Quiz de conocimiento                                             |
-| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)                 | Quiz general de habilidad                                        |
-| [Digitalización de campus](activity/Digitizing/Readme.md)                           | Caso de estudio: digitalización y cálculo de índices del campus  |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.office.com/r/Sa1UHvwN5K) | Quiz aplicado de habilidad                                       |
+| Actividad                                                                         | Descripción                                                      |
+|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos   |
+| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                             |
+| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                        |
+| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus  |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                       |
 
 </div>
 
