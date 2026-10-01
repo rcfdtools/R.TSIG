@@ -272,17 +272,17 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                                                                                     | Descripción                                               |
-|:------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                   | Guía de imágenes y sensores remotos                       |
-| [Quiz 6. Conocimiento](https://forms.gle/eJzCf9pXbgBoQMfU9)                                                                   | Quiz de conocimiento                                      |
-| [Quiz 6A. Habilidad - DEM satélite](https://forms.gle/2dRsGjvqSLg5pqde7)                                                      | Quiz aplicado de habilidad                                |
-| [Quiz 6B. Habilidad - DEM Lidar](https://forms.gle/Ed6yWK1ZUc59yTxV7)                                                         | Quiz aplicado de habilidad                                |
-| [Quiz 6C. Habilidad - Landsat](https://forms.gle/zdfbM7ugHuXRn6hH6)                                                           | Quiz aplicado de habilidad                                |
-| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.office.com/r/8VYS2BsaWZ) | Quiz aplicado de habilidad                                |
-| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.office.com/r/UCdc5fYMes)                       | Quiz aplicado de habilidad                                |
-| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                     | Análisis de potencial energético usando ERA5 Land Monthly |
-| [Quiz 6F. Habilidad - ERA5](https://forms.office.com/r/QHZkx6aStQ)                                                            | Quiz aplicado de habilidad                                |
+| Actividad                                                                                                                   | Descripción                                               |
+|:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                 | Guía de imágenes y sensores remotos                       |
+| [Quiz 6. Conocimiento](https://forms.gle/eJzCf9pXbgBoQMfU9)                                                                 | Quiz de conocimiento                                      |
+| [Quiz 6A. Habilidad - DEM satélite](https://forms.gle/2dRsGjvqSLg5pqde7)                                                    | Quiz aplicado de habilidad                                |
+| [Quiz 6B. Habilidad - DEM Lidar](https://forms.gle/Ed6yWK1ZUc59yTxV7)                                                       | Quiz aplicado de habilidad                                |
+| [Quiz 6C. Habilidad - Landsat](https://forms.gle/zdfbM7ugHuXRn6hH6)                                                         | Quiz aplicado de habilidad                                |
+| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.gle/o5ZvKuYKko6Jw6fk7) | Quiz aplicado de habilidad                                |
+| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.gle/jDzqKg2Qi6ZGQv2q8)                       | Quiz aplicado de habilidad                                |
+| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                   | Análisis de potencial energético usando ERA5 Land Monthly |
+| [Quiz 6F. Habilidad - ERA5](https://forms.office.com/r/QHZkx6aStQ)                                                          | Quiz aplicado de habilidad                                |
 
 </div>
 
