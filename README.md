@@ -295,10 +295,10 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                               |
-|:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |
-| [Quiz 7. Conocimiento](https://forms.office.com/r/PJB3yKeB6k)         | Quiz de conocimiento                                                                      |
+| Actividad                                                            | Descripción                                                                               |
+|:---------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller7.pdf)                          | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |
+| [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)          | Quiz de conocimiento                                                                      |
 | [Quiz 7. Habilidad - General](https://forms.office.com/r/vzfUdX2xmg) | Quiz general de habilidad                                                                 |
 
 </div>
