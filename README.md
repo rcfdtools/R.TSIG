@@ -364,10 +364,11 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                |
-|:---------------------------------------------------------------------|:-------------------------------------------|
-| [Documento guía](activity/TSIG_Taller11.pdf)                         | Guía de modelos hidráulicos 1D con HEC-RAS |
-| [Quiz 11. Habilidad - General](https://forms.gle/cp6dZcq2X16k9H4SA)  | Quiz general de habilidad                  |
+| Actividad                                                             | Descripción                                                                                                |
+|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller11.pdf)                          | Guía de modelos hidráulicos 1D con HEC-RAS                                                                 |
+| [Quiz 11. Habilidad - General](https://forms.gle/cp6dZcq2X16k9H4SA)   | Quiz general de habilidad                                                                                  |
+| [Curso HCMC](https://github.com/rcfdtools/R.HCMC/blob/main/README.md) | Curso complementario de Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos  |
 
 </div>
 
