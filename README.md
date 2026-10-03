@@ -413,10 +413,10 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                  |
-|:----------------------------------------------------------------------|:-------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller13.pdf)                          | Guía de Modelación y análisis de redes vehiculares en ArcGIS |
-| [Quiz 13. Habilidad - General](https://forms.office.com/r/KcXauaEC31) | Quiz general de habilidad                                    |
+| Actividad                                                           | Descripción                                                  |
+|:--------------------------------------------------------------------|:-------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller13.pdf)                        | Guía de Modelación y análisis de redes vehiculares en ArcGIS |
+| [Quiz 13. Habilidad - General](https://forms.gle/XUM8u56wbTwrh5fDA) | Quiz general de habilidad                                    |
 
 </div>
 
