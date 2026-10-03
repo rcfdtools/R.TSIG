@@ -296,11 +296,12 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                                               |
-|:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller7.pdf)                         | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |
-| [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)         | Quiz de conocimiento                                                                      |
-| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)  | Quiz general de habilidad                                                                 |
+| Actividad                                                             | Descripción                                                                               |
+|:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |
+| [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)           | Quiz de conocimiento                                                                      |
+| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)    | Quiz general de habilidad                                                                 |
+| [Curso WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md) | Curso complementario de Íngeniería y gestión de recursos hidráulicos                      |
 
 </div>
 
