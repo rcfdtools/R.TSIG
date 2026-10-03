@@ -339,7 +339,7 @@ Conceptos generales de modelos hidrológicos computacionales:
 |:---------------------------------------------------------------------|:-------------------------------------------------------------------|
 | [Documento guía](activity/TSIG_Taller9.pdf)                          | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS |
 | [Quiz 9. Conocimiento](https://forms.gle/Aj7MiwDYntPwC3es8)          | Quiz de conocimiento                                               |
-| [Quiz 9. Habilidad - General](https://forms.office.com/r/5xS3WwmKJs) | Quiz general de habilidad                                          |
+| [Quiz 9. Habilidad - General](https://forms.gle/BeuYwhgMBScELF8m7)   | Quiz general de habilidad                                          |
 
 </div>
 
