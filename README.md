@@ -350,10 +350,10 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                    |
-|:----------------------------------------------------------------------|:---------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS |
-| [Quiz 10. Habilidad - General](https://forms.office.com/r/j3hYCsuLg2) | Quiz general de habilidad                                      |
+| Actividad                                                            | Descripción                                                    |
+|:---------------------------------------------------------------------|:---------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller10.pdf)                         | Guía de Balance hidrológico discreto de largo plazo usando GIS |
+| [Quiz 10. Habilidad - General](https://forms.gle/Z6oecwb9SQa9Bmdt6)  | Quiz general de habilidad                                      |
 
 </div>
 
@@ -364,10 +364,10 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 
 <div align="center">
 
-| Actividad                                                              | Descripción                                |
-|:-----------------------------------------------------------------------|:-------------------------------------------|
-| [Documento guía](activity/TSIG_Taller11.pdf)                           | Guía de modelos hidráulicos 1D con HEC-RAS |
-| [Quiz 11. Habilidad - General](https://forms.office.com/r/qifNWNrgDS)  | Quiz general de habilidad                  |
+| Actividad                                                            | Descripción                                |
+|:---------------------------------------------------------------------|:-------------------------------------------|
+| [Documento guía](activity/TSIG_Taller11.pdf)                         | Guía de modelos hidráulicos 1D con HEC-RAS |
+| [Quiz 11. Habilidad - General](https://forms.gle/cp6dZcq2X16k9H4SA)  | Quiz general de habilidad                  |
 
 </div>
 
