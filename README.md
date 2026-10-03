@@ -216,13 +216,14 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                         | Descripción                                                      |
-|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos   |
-| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                             |
-| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                        |
-| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus  |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                       |
+| Actividad                                                                         | Descripción                                                           |
+|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |
+| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |
+| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                             |
+| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus       |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                            |
+| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería  |
 
 </div>
 
@@ -350,10 +351,11 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                                    |
-|:---------------------------------------------------------------------|:---------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller10.pdf)                         | Guía de Balance hidrológico discreto de largo plazo usando GIS |
-| [Quiz 10. Habilidad - General](https://forms.gle/Z6oecwb9SQa9Bmdt6)  | Quiz general de habilidad                                      |
+| Actividad                                                             | Descripción                                                                                               |
+|:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS                                            |
+| [Quiz 10. Habilidad - General](https://forms.gle/Z6oecwb9SQa9Bmdt6)   | Quiz general de habilidad                                                                                 |
+| [Curso LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md) | Curso complementario de Balance hidrológico de largo plazo para estimación de caudales medios usando SIG  |
 
 </div>
 
@@ -390,11 +392,12 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 
 <div align="center">
 
-| Actividad                                                               | Descripción                                                                       |
-|:------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller12.pdf)                            | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia |
-| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)          | Quiz de conocimiento                                                              |
-| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md)   | Curso complementario de usos y aplicaciones de GIS en estudios ambientales        |
+| Actividad                                                             | Descripción                                                                                                        |
+|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+| [Documento guía](activity/TSIG_Taller12.pdf)                          | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia                                  |
+| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)        | Quiz de conocimiento                                                                                               |
+| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                         |
+| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de Sistemas de Información Geográfica aplicados a Desarrollo y Ordenamiento Territorial (OT)  |
 
 </div>
 
