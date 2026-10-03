@@ -396,7 +396,7 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 | Actividad                                                             | Descripción                                                                                                        |
 |:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | [Documento guía](activity/TSIG_Taller12.pdf)                          | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia                                  |
-| [Quiz 12. Conocimiento](https://forms.office.com/r/8c36sLGa46)        | Quiz de conocimiento                                                                                               |
+| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                               |
 | [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                         |
 | [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de Sistemas de Información Geográfica aplicados a Desarrollo y Ordenamiento Territorial (OT)  |
 
