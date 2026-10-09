@@ -1,11 +1,10 @@
-# https://github.com/rcfdtools
-# Calculates distance, abscissa, and slope rate between coordinates nodes
-# ArcGIS Pro sample: https://github.com/rcfdtools/R.SIGE/blob/main/activity/DEMProfile/Readme.md
+# https://github.com/rcfdtools/R.TSIG/blob/main/file/src/qgis_profile_slope_from_distance_elevation.py
+# Calculates the slope rate from a distance - elevation table
 #
 # This script has to be run in the QGIS Python console
-# Runnable for any table with the attributes Distance and Elevation values anf one secuence, for multiple profiles you first filter one by one
+# Runnable for any table with the attributes Distance and Elevation values and one secuence profile, for multiple profiles you first filter one by one
 # Stop editing before run the script
-# Make sure a table layer is selected in the Layers panel
+# Make sure the table layer is selected in the Layers panel
 # Tested in QGIS 4.2.3
 #
 # QGIS preliminars
