@@ -3,7 +3,7 @@
 # ArcGIS Pro sample: https://github.com/rcfdtools/R.SIGE/blob/main/activity/DEMProfile/Readme.md
 #
 # This script has to be run in the QGIS Python console
-# Runnable for any geometry layer or table with the attributes CX, CY, CZ and only one secuence
+# Runnable for any geometry layer or table with the attributes CX, CY, CZ and only one secuence or entity, for multiple profiles you first filter one by one
 # Records in the table has to be in the original geometry secuence FID
 # Stop editing before run the script
 # Make sure a point layer is selected in the Layers panel
@@ -18,7 +18,7 @@
 # CX(real) = x(@geometry)
 # CY(real) = y(@geometry)
 # CZ(real) values >> Raster Analysis / Sample Raster Values
-# Label: 
+
 
 from qgis.PyQt.QtCore import QVariant
 from qgis.core import QgsField, edit
@@ -86,5 +86,5 @@ for feature in layer.getFeatures():
     layer.changeAttributeValue(feature.id(), field_index_node_abscissa, accumulate_distance)
     layer.changeAttributeValue(feature.id(), field_index_node_slope, slope)
 layer.commitChanges()
-print('Calculation completed...')
+print('Calculations completed...')
 
