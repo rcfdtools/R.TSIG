@@ -10,6 +10,7 @@
 # Tested in QGIS 4.2.3
 #
 # QGIS preliminars
+# Optional: Vector Geometry / Smooth (Iteration: 10, Offset: 0.25, Maximum node angle to smooth: 180)
 # From a vector line with multiple nodes >> Vector Geometry / Extract vertices
 # From a straigth vector line >> Vector General / Split Lines by Maximum Length
 # From a straigth vector line >> Vector Geometry / Extract specific vertices
