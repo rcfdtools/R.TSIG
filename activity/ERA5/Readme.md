@@ -40,17 +40,17 @@ ERA5 (ECMWF Re-Analysis) es el reanálisis climático y atmosférico de quinta g
 
 Características principales
 
-* Cobertura temporal: Desde enero de 1940 hasta el presente
-* Resolución espacial: Aproximadamente 31 km en la atmósfera global y 9 km en su versión de superficie llamada ERA5-Land
-* Frecuencia: Datos disponibles con resolución horaria
-* Acceso: Totalmente gratuito a través del portal Climate Data Store del programa Copernicus
+* Cobertura temporal: desde enero de 1940 hasta el presente
+* Resolución espacial: aproximadamente 31 km en la atmósfera global y 9 km en su versión de superficie llamada ERA5-Land
+* Frecuencia: datos disponibles con resolución horaria
+* Acceso: totalmente gratuito a través del portal Climate Data Store del programa Copernicus
 
 Para qué se utiliza
 
-* Estudios climáticos: Analizar tendencias de temperatura, olas de calor y eventos meteorológicos extremos
-* Energías renovables: Evaluar recursos de energía eólica y solar en proyectos históricos
-* Inteligencia Artificial: Entrenar modelos meteorológicos modernos de machine learning (como GraphCast o Pangu-Weather)
-* Validación: Verificar pronósticos y modelos meteorológicos locales o regionales
+* Estudios climáticos: analizar tendencias de temperatura, olas de calor y eventos meteorológicos extremos
+* Energías renovables: evaluar recursos de energía eólica y solar en proyectos históricos
+* Inteligencia artificial: entrenar modelos meteorológicos modernos de machine learning (como GraphCast o Pangu-Weather)
+* Validación: verificar pronósticos y modelos meteorológicos locales o regionales
 
 
 ## 1. Obtención de límites geográficos
@@ -147,7 +147,7 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 
 3. En la consola de Python, cargue el script [/src/qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py). Verifique y ajuste las rutas de ubicación de los archivos descargados.
 
-> Para la correcta ejecución del script, es necesario crear la carpeta _/temp/stat_.
+> 🔥Para la correcta ejecución del script, es necesario crear la carpeta _/temp/stat_ y la carpeta /table.
 
 Rutas
 

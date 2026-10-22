@@ -26,7 +26,7 @@ print(f'Temporal output path: {output_path}')
 # Run the Zonal Statistics algorithm
 for i in range(bands):
     output_file=output_path+variable+'_'+str(i+1)+'.csv'
-    print(f'Processing band {i+1} as {variable+str(i+1)+'.csv'}')
+    print(f'Processing band {i+1} as {variable+'_'+str(i+1)+'.csv'}')
     alg_params = {
         'COLUMN_PREFIX': variable+'_',
         'INPUT': polygon_path,
