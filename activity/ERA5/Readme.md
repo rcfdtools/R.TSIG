@@ -208,6 +208,15 @@ Podrá observar los siguientes campos de atributos:
 
 <div align="center"><img src="graph/QGIS_StatisticsByCategories1.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
+Opcionalmente, puede cargar la tabla de resultados _SSR_stat_depto.csv_ como una tabla virtual para ordenar ascendentemente los resultados a través de SQL.
+
+```
+SELECT * 
+FROM SSR_stat_depto 
+ORDER BY mean ASC;
+```
+<div align="center"><img src="graph/QGIS_VirtualLayer.jpg" alt="R.SIGE" width="80%" border="0" /></div>
+
 4. Utilizando el complemento _Data Plotly_, cree un gráfico de barras que represente los valores medios anuales obtenidos por Departamento.
 
 <div align="center"><img src="graph/QGIS_DataPlotly.jpg" alt="R.SIGE" width="100%" border="0" /></div>
