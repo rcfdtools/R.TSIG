@@ -22,14 +22,14 @@ Archivos, actividades previas, lecturas y herramientas requeridas para el desarr
 
 <div align="center">
 
-| Requerimiento                                                                                          | Descripción                                                                                                         |
-|:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| [:toolbox:Herramienta](https://qgis.org/)                                                              | QGIS 3.44 o superior                                                                                                |
-| [:zap:qgis_basemaps.py](../../file/src/qgis_basemaps.py)                                               | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
-| [:zap:qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py)                                           | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools)   |
-| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login) | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5                  |  
-| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)            | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/                                             |
-| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                          | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                 |
+| Requerimiento                                                                                               | Descripción                                                                                                         |
+|:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| [:toolbox:Herramienta](https://qgis.org/)                                                                   | QGIS 3.44 o superior                                                                                                |
+| [:zap:qgis_basemaps.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_basemaps.py)      | Script en Python para inclusión de mapas base XYZ en QGIS por [opengeos](https://github.com/opengeos/qgis-basemaps) |
+| [:zap:qgis_netcdfstat.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_netcdfstat.py)  | Script Python para análisis estadístico de radiación solar, creado por [r.cfdtools](https://github.com/rcfdtools)   |
+| [:man_technologist:Cuenta de usuario _ECMWF Copernicus_](https://cds.climate.copernicus.eu/user/login)      | Cuenta de usuario requerida para descarga de datos satelitales hidro-climatológicos mundiales ERA5                  |  
+| [:round_pushpin:IGAC_Departamento.shp](../../file/data/IGAC/IGAC_Departamento_20251023.zip)                 | Municipios de Colombia obtenidos de https://www.colombiaenmapas.gov.co/                                             |
+| [:round_pushpin:ERA5 Land Colombia.nc](../../file/data/ERA5/)                                               | Datos satelitales hidro-climatológicos mundiales ERA5 de [Copernicus](https://www.copernicus.eu/en)                 |
 
 </div>
 
@@ -145,7 +145,7 @@ Automáticamente, será redirigido a la ventana de solicitudes donde será neces
 
 <div align="center"><img src="graph/QGIS_SaveRasterLayerAs.jpg" alt="R.SIGE" width="100%" border="0" /></div>
 
-3. En la consola de Python, cargue el script [/src/qgis_netcdfstat.py](../../file/src/qgis_netcdfstat.py). Verifique y ajuste las rutas de ubicación de los archivos descargados.
+3. En la consola de Python, cargue el script [/src/qgis_netcdfstat.py](https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/qgis_netcdfstat.py). Verifique y ajuste las rutas de ubicación de los archivos descargados.
 
 > 🔥Para la correcta ejecución del script, es necesario crear la carpeta _/temp/stat_ y la carpeta /table.
 
