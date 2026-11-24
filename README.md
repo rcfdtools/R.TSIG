@@ -132,10 +132,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.00 horas |
-|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:-------------------------:|
-| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |      1.50 (lectura)       |
-| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.50            |
+| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.0 horas |
+|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:------------------------:|
+| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |      1.5 (lectura)       |
+| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.5            |
 
 </div>
 
@@ -155,11 +155,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                       | Dedicación,<br>4.00 horas |
-|:--------------------------------------------------------------------|:--------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |      1.00 (lectura)       |
-| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |           0.50            |
-| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |           2.50            |
+| Actividad                                                           | Descripción                                       | Dedicación,<br>4.0 horas |
+|:--------------------------------------------------------------------|:--------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |      1.0 (lectura)       |
+| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |           0.5            |
+| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |           2.5            |
 
 </div>
 
@@ -178,11 +178,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                          | Dedicación,<br>5.00 horas |
-|:--------------------------------------------------------------------|:-----------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |      1.00 (lectura)       |
-| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |           0.50            |
-| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |           3.50            |
+| Actividad                                                           | Descripción                                          | Dedicación,<br>5.0 horas |
+|:--------------------------------------------------------------------|:-----------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |      1.0 (lectura)       |
+| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |           0.5            |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |           3.5            |
 
 </div>
 
@@ -200,11 +200,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                            | Descripción                             | Dedicación,<br>4.00 horas |
-|:---------------------------------------------------------------------|:----------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes  |      1.00 (lectura)       |
-| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                    |           0.50            |
-| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad               |           2.50            | 
+| Actividad                                                            | Descripción                             | Dedicación,<br>4.0 horas |
+|:---------------------------------------------------------------------|:----------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes  |      1.0 (lectura)       |
+| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                    |           0.5            |
+| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad               |           2.5            | 
 
 </div>
 
@@ -219,14 +219,14 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                         | Descripción                                                           | Dedicación,<br>7.50 horas |
-|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |      1.00 (lectura)       |
-| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |           0.50            |
-| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                             |           2.00            |
-| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus       |      1.00 (lectura)       |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                            |           3.00            |
-| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería  |     (complementario)      |
+| Actividad                                                                         | Descripción                                                           | Dedicación,<br>7.5 horas |
+|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |      1.0 (lectura)       |
+| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |           0.5            |
+| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                             |           2.0            |
+| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus       |      1.0 (lectura)       |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                            |           3.0            |
+| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería  |     (complementario)     |
 
 </div>
 
@@ -239,15 +239,15 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 
 <div align="center">
 
-| Actividad                                                                                            | Descripción                                                                                                                                                 | Dedicación,<br>13.00 horas |
-|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------:|
-| [Documento guía](activity/TSIG_Taller5.pdf)                                                          | Guía de diseño, creación y operación de bases de datos geográficas                                                                                          |       1.00 (lectura)       |
-| [Quiz 5. Conocimiento](https://forms.gle/2coY8M8h1iPfEX3K7)                                          | Quiz de conocimiento                                                                                                                                        |            0.50            |
-| [Quiz 5A. Habilidad - General](https://forms.gle/q1yWi7RnzXdPbvD46)                                  | Quiz general de habilidad                                                                                                                                   |            3.50            |
-| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                       | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios del campus |            1.00            |
-| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.gle/jnZCzNZpEmxUGfbN8)            | Quiz aplicado de habilidad                                                                                                                                  |            2.00            |
-| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.gle/JajquRG15ZcBr2vm6)                       | Quiz aplicado de habilidad                                                                                                                                  |            3.00            |
-| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.gle/L4NnPQ4uZWSynkm69) | Quiz aplicado de habilidad                                                                                                                                  |            2.00            |
+| Actividad                                                                                            | Descripción                                                                                                                                                 | Dedicación,<br>13.0 horas |
+|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller5.pdf)                                                          | Guía de diseño, creación y operación de bases de datos geográficas                                                                                          |       1.0 (lectura)       |
+| [Quiz 5. Conocimiento](https://forms.gle/2coY8M8h1iPfEX3K7)                                          | Quiz de conocimiento                                                                                                                                        |            0.5            |
+| [Quiz 5A. Habilidad - General](https://forms.gle/q1yWi7RnzXdPbvD46)                                  | Quiz general de habilidad                                                                                                                                   |            3.5            |
+| [Potencial fotovoltáico campus](activity/SolarPanel/Readme.md)                                       | Caso de estudio: cálculo de energía fotovoltáica que puede ser producida instalando paneles solares en las cubiertas de los diferentes edificios del campus |            1.0            |
+| [Quiz 5B. Habilidad - Potencial fotovoltaico campus](https://forms.gle/jnZCzNZpEmxUGfbN8)            | Quiz aplicado de habilidad                                                                                                                                  |            2.0            |
+| [Quiz 5C. Habilidad - Ejercicio de clase](https://forms.gle/JajquRG15ZcBr2vm6)                       | Quiz aplicado de habilidad                                                                                                                                  |            3.0            |
+| [Quiz 5D. Habilidad - Topología red acueducto y alcantarillado](https://forms.gle/L4NnPQ4uZWSynkm69) | Quiz aplicado de habilidad                                                                                                                                  |            2.0            |
 
 </div>
 
@@ -276,17 +276,17 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                                                                                   | Descripción                                               | Dedicación,<br>19.50 horas |
-|:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|:--------------------------:|
-| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                 | Guía de imágenes y sensores remotos                       |       1.00 (lectura)       |
-| [Quiz 6. Conocimiento](https://forms.gle/eJzCf9pXbgBoQMfU9)                                                                 | Quiz de conocimiento                                      |            0.50            |
-| [Quiz 6A. Habilidad - DEM satélite](https://forms.gle/2dRsGjvqSLg5pqde7)                                                    | Quiz aplicado de habilidad                                |            4.50            |
-| [Quiz 6B. Habilidad - DEM Lidar](https://forms.gle/Ed6yWK1ZUc59yTxV7)                                                       | Quiz aplicado de habilidad                                |            1.50            |
-| [Quiz 6C. Habilidad - Landsat](https://forms.gle/zdfbM7ugHuXRn6hH6)                                                         | Quiz aplicado de habilidad                                |            3.00            |
-| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.gle/o5ZvKuYKko6Jw6fk7) | Quiz aplicado de habilidad                                |            5.00            |
-| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.gle/jDzqKg2Qi6ZGQv2q8)                       | Quiz aplicado de habilidad                                |            2.00            |
-| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                   | Análisis de potencial energético usando ERA5 Land Monthly |            1.00            |
-| [Quiz 6F. Habilidad - ERA5 Land Monthly](https://forms.gle/o4cQGrkkVHTzxJiS6)                                               | Quiz aplicado de habilidad                                |            1.00            |
+| Actividad                                                                                                                   | Descripción                                               | Dedicación,<br>19.5 horas |
+|:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller6.pdf)                                                                                 | Guía de imágenes y sensores remotos                       |       1.0 (lectura)       |
+| [Quiz 6. Conocimiento](https://forms.gle/eJzCf9pXbgBoQMfU9)                                                                 | Quiz de conocimiento                                      |            0.5            |
+| [Quiz 6A. Habilidad - DEM satélite](https://forms.gle/2dRsGjvqSLg5pqde7)                                                    | Quiz aplicado de habilidad                                |            4.5            |
+| [Quiz 6B. Habilidad - DEM Lidar](https://forms.gle/Ed6yWK1ZUc59yTxV7)                                                       | Quiz aplicado de habilidad                                |            1.5            |
+| [Quiz 6C. Habilidad - Landsat](https://forms.gle/zdfbM7ugHuXRn6hH6)                                                         | Quiz aplicado de habilidad                                |            3.0            |
+| [Quiz 6D. Habilidad - Índice de vegetación NDVI y mapa de reclasificación vectorizado](https://forms.gle/o5ZvKuYKko6Jw6fk7) | Quiz aplicado de habilidad                                |            5.0            |
+| [Quiz 6E. Habilidad - NetCDF, Clima Mundial y Humedad en Suelos](https://forms.gle/jDzqKg2Qi6ZGQv2q8)                       | Quiz aplicado de habilidad                                |            2.0            |
+| [Análisis hidro-climatológico ERA5 Land Monthly](activity/ERA5/Readme.md)                                                   | Análisis de potencial energético usando ERA5 Land Monthly |            1.0            |
+| [Quiz 6F. Habilidad - ERA5 Land Monthly](https://forms.gle/o4cQGrkkVHTzxJiS6)                                               | Quiz aplicado de habilidad                                |            1.0            |
 
 </div>
 
@@ -299,12 +299,12 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                               | Dedicación,<br>7.50 horas |
-|:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |      1.00 (lectura)       |
-| [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)           | Quiz de conocimiento                                                                      |           0.30            |
-| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)    | Quiz general de habilidad                                                                 |           6.00            |
-| [Curso WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md) | Curso complementario de Íngeniería y gestión de recursos hidráulicos                      |     (complementario)      |
+| Actividad                                                             | Descripción                                                                               | Dedicación,<br>7.5 horas |
+|:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |      1.0 (lectura)       |
+| [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)           | Quiz de conocimiento                                                                      |           0.5            |
+| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)    | Quiz general de habilidad                                                                 |           6.0            |
+| [Curso WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md) | Curso complementario de Íngeniería y gestión de recursos hidráulicos                      |     (complementario)     |
 
 </div>
 
@@ -315,10 +315,10 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                                                                                                                                   | Dedicación,<br>2.50 horas |
-|:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller8.pdf)                         | Guía de mapas cartográficos, plantillas y mapas distribuibles. [Documentación oficial QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |      0.50 (lectura)       |
-| [Quiz 8. Habilidad - General](https://forms.gle/EXGZxXea6AziBwPx6)  | Quiz general de habilidad                                                                                                                                                     |           2.00            |
+| Actividad                                                           | Descripción                                                                                                                                                                   | Dedicación,<br>2.5 horas |
+|:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller8.pdf)                         | Guía de mapas cartográficos, plantillas y mapas distribuibles. [Documentación oficial QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |      0.5 (lectura)       |
+| [Quiz 8. Habilidad - General](https://forms.gle/EXGZxXea6AziBwPx6)  | Quiz general de habilidad                                                                                                                                                     |           2.0            |
 
 
 </div>
@@ -340,11 +340,11 @@ Conceptos generales de modelos hidrológicos computacionales:
 
 <div align="center">
 
-| Actividad                                                            | Descripción                                                        | Dedicación,<br>7.50 horas |
-|:---------------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller9.pdf)                          | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS |      0.50 (lectura)       |
-| [Quiz 9. Conocimiento](https://forms.gle/Aj7MiwDYntPwC3es8)          | Quiz de conocimiento                                               |           1.00            |
-| [Quiz 9. Habilidad - General](https://forms.gle/BeuYwhgMBScELF8m7)   | Quiz general de habilidad                                          |           6.00            |
+| Actividad                                                            | Descripción                                                        | Dedicación,<br>7.0 horas |
+|:---------------------------------------------------------------------|:-------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller9.pdf)                          | Guía de modelos hidrológicos computacionales con HEC-HMS y HEC-DSS |      0.5 (lectura)       |
+| [Quiz 9. Conocimiento](https://forms.gle/Aj7MiwDYntPwC3es8)          | Quiz de conocimiento                                               |           0.5            |
+| [Quiz 9. Habilidad - General](https://forms.gle/BeuYwhgMBScELF8m7)   | Quiz general de habilidad                                          |           6.0            |
 
 </div>
 
@@ -355,11 +355,11 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                               | Dedicación,<br>2.00 horas |
-|:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS                                            |      1.00 (lectura)       |
-| [Quiz 10. Habilidad - General](https://forms.gle/Z6oecwb9SQa9Bmdt6)   | Quiz general de habilidad                                                                                 |           1.00            |
-| [Curso LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md) | Curso complementario de Balance hidrológico de largo plazo para estimación de caudales medios usando SIG  |     (complementario)      |
+| Actividad                                                             | Descripción                                                                                               | Dedicación,<br>2.0 horas |
+|:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller10.pdf)                          | Guía de Balance hidrológico discreto de largo plazo usando GIS                                            |      1.0 (lectura)       |
+| [Quiz 10. Habilidad - General](https://forms.gle/Z6oecwb9SQa9Bmdt6)   | Quiz general de habilidad                                                                                 |           1.0            |
+| [Curso LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md) | Curso complementario de Balance hidrológico de largo plazo para estimación de caudales medios usando SIG  |     (complementario)     |
 
 </div>
 
@@ -370,11 +370,11 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                                | Dedicación,<br>2.00 horas |
-|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller11.pdf)                          | Guía de modelos hidráulicos 1D con HEC-RAS                                                                 |      1.00 (lectura)       |
-| [Quiz 11. Habilidad - General](https://forms.gle/cp6dZcq2X16k9H4SA)   | Quiz general de habilidad                                                                                  |           3.00            |
-| [Curso HCMC](https://github.com/rcfdtools/R.HCMC/blob/main/README.md) | Curso complementario de Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos  |       (complementario)    |
+| Actividad                                                             | Descripción                                                                                                | Dedicación,<br>4.0 horas |
+|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller11.pdf)                          | Guía de modelos hidráulicos 1D con HEC-RAS                                                                 |      1.0 (lectura)       |
+| [Quiz 11. Habilidad - General](https://forms.gle/cp6dZcq2X16k9H4SA)   | Quiz general de habilidad                                                                                  |           3.0            |
+| [Curso HCMC](https://github.com/rcfdtools/R.HCMC/blob/main/README.md) | Curso complementario de Herramientas computacionales para el diseño y modelación 1D/2D de cauces sinuosos  |     (complementario)     |
 
 </div>
 
@@ -396,12 +396,12 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                                        | Dedicación,<br>2.00 horas |
-|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller12.pdf)                          | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia                                  |      1.00 (lectura)       |
-| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                               |           1.00            |
-| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                         |     (complementario)      |
-| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de Sistemas de Información Geográfica aplicados a Desarrollo y Ordenamiento Territorial (OT)  |     (complementario)      |
+| Actividad                                                             | Descripción                                                                                                        | Dedicación,<br>1.5 horas |
+|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller12.pdf)                          | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia                                  |      1.0 (lectura)       |
+| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                               |           0.5            |
+| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                         |     (complementario)     |
+| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de Sistemas de Información Geográfica aplicados a Desarrollo y Ordenamiento Territorial (OT)  |     (complementario)     |
 
 </div>
 
@@ -416,10 +416,10 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                  | Dedicación,<br>3.00 horas |
-|:--------------------------------------------------------------------|:-------------------------------------------------------------|:-------------------------:|
-| [Documento guía](activity/TSIG_Taller13.pdf)                        | Guía de Modelación y análisis de redes vehiculares en ArcGIS |      1.00 (lectura)       |
-| [Quiz 13. Habilidad - General](https://forms.gle/XUM8u56wbTwrh5fDA) | Quiz general de habilidad                                    |           2.00            | 
+| Actividad                                                           | Descripción                                                  | Dedicación,<br>3.0 horas |
+|:--------------------------------------------------------------------|:-------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller13.pdf)                        | Guía de Modelación y análisis de redes vehiculares en ArcGIS |      1.0 (lectura)       |
+| [Quiz 13. Habilidad - General](https://forms.gle/XUM8u56wbTwrh5fDA) | Quiz general de habilidad                                    |           2.0            | 
 
 </div>
 
