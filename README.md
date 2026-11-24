@@ -121,6 +121,8 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 * **Microsoft Excel**: en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto ` . ` como separador decimal y coma ` , ` como separador de miles. 
 * **QGIS**: desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
 
+> Los tiempos de dedicación corresponden a horas mínimas que el estudiante debe dedicar al desarrollo del caso de estudio con el cual se ejemplificó este curso y a las actividades complementarias indicadas al final de cada clase. Estudiantes bajo el esquema de certificación y caso de estudio asignado requerirán de al menos 96 horas de trabajo y horas complementarias, de acuerdo a su experticia en el manejo de las herramientas computacionales utilizadas.
+
 
 ## :large_blue_circle:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
 
@@ -130,10 +132,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.0 horas |
-|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:------------------------:|
-| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |           1.5            |
-| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.5            |
+| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.00 horas |
+|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:-------------------------:|
+| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |      1.50 (lectura)       |
+| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.50            |
 
 </div>
 
@@ -153,11 +155,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                       |
-|:--------------------------------------------------------------------|:--------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |
-| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |
-| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |
+| Actividad                                                           | Descripción                                       | Dedicación,<br>4.00 horas |
+|:--------------------------------------------------------------------|:--------------------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |      1.00 (lectura)       |
+| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |           0.50            |
+| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |           2.50            |
 
 </div>
 
@@ -176,11 +178,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                          |
-|:--------------------------------------------------------------------|:-----------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |
-| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |
-| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |
+| Actividad                                                           | Descripción                                          | Dedicación,<br>5.00 horas |
+|:--------------------------------------------------------------------|:-----------------------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |      1.00 (lectura)       |
+| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |           0.50            |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |           3.50            |
 
 </div>
 
@@ -198,11 +200,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                            | Descripción                            |
-|:---------------------------------------------------------------------|:---------------------------------------|
-| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes |
-| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                   |
-| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad              |
+| Actividad                                                            | Descripción                             | Dedicación,<br>4.00 horas |
+|:---------------------------------------------------------------------|:----------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes  |      1.00 (lectura)       |
+| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                    |           0.50            |
+| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad               |           2.50            | 
 
 </div>
 
@@ -217,14 +219,14 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                         | Descripción                                                           |
-|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |
-| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |
-| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                             |
-| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus       |
-| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                            |
-| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería  |
+| Actividad                                                                         | Descripción                                                           | Dedicación,<br>4.00 horas |
+|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------:|
+| [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |      1.00 (lectura)       |
+| [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |           0.50            |
+| [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Quiz general de habilidad                                             |           2.00            |
+| [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus       |      1.00 (lectura)       |
+| [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Quiz aplicado de habilidad                                            |           3.00            |
+| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería  |     (complementario)      |
 
 </div>
 
