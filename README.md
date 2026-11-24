@@ -219,7 +219,7 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 
 <div align="center">
 
-| Actividad                                                                         | Descripción                                                           | Dedicación,<br>4.00 horas |
+| Actividad                                                                         | Descripción                                                           | Dedicación,<br>7.50 horas |
 |:----------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-------------------------:|
 | [Documento guía](activity/TSIG_Taller4.pdf)                                       | Guía de entrada, edición y digitalización de datos geográficos        |      1.00 (lectura)       |
 | [Quiz 4. Conocimiento](https://forms.gle/K1Nv3dK67LGrNrKJ9)                       | Quiz de conocimiento                                                  |           0.50            |
