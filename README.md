@@ -130,10 +130,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                                                                                                                                                                                                                                                                                                              |
-|:------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas                                                                                                                                                                                                                                                                    |
-| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                                                                                                                                                                                                                                                                                       |
+| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.0 horas |
+|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:------------------------:|
+| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |           1.5            |
+| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.5            |
 
 </div>
 
