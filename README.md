@@ -169,11 +169,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                          | Dedicación,<br>5.0 horas |
-|:--------------------------------------------------------------------|:-----------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller2.pdf)                         | Guía de búsqueda, selección y estadísticas generales |      1.0 (lectura)       |
-| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                 |           0.5            |
-| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Quiz general de habilidad                            |           3.5            |
+| Actividad                                                           | Descripción                                                                                                                                                                                                                                                                                                                                            | Dedicación,<br>5.0 horas |
+|:--------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller2.pdf)                         | Herramientas de búsqueda por visualización. Identificación de atributos. Búsqueda y localización por coordenada xy. Medición de elementos. Map tips en mapas e hipervínculos. Métodos de selección: interactiva, por atributos, por localización, por dibujo manual. Generación de resúmenes estadísticos. Exportación y visualización en Google Earth |      1.0 (lectura)       |
+| [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                                                                                                                                                                                                                                                                                                                   |           0.5            |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Evaluación general usando software GIS. Análisis de distribución porcentual. Análisis de densidad, cobertura y elevación, general y por áreas hidrográficas de las estaciones hidroclimatológicas de Colombia. Análisis categórico de la zonificación hidrográfica de Colombia (AH, ZH, SZH)                                                           |           3.5            |
 
 </div>
 
