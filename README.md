@@ -173,7 +173,7 @@ Adicionalmente aprenderá a:
 |:--------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
 | [Documento guía](activity/TSIG_Taller2.pdf)                         | Herramientas de búsqueda por visualización. Identificación de atributos. Búsqueda y localización por coordenada xy. Medición de elementos. Map tips en mapas e hipervínculos. Métodos de selección: interactiva, por atributos, por localización, por dibujo manual. Generación de resúmenes estadísticos. Exportación y visualización en Google Earth |      1.0 (lectura)       |
 | [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                                                                                                                                                                                                                                                                                                                   |           0.5            |
-| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Evaluación general usando software GIS. Análisis de distribución porcentual. Análisis de densidad, cobertura y elevación, general y por áreas hidrográficas de las estaciones hidroclimatológicas de Colombia. Análisis categórico de la zonificación hidrográfica de Colombia (AH, ZH, SZH)                                                           |           3.5            |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Evaluación general usando software GIS. Análisis de distribución porcentual manual y con Python. Análisis de densidad, cobertura y elevación, general y por áreas hidrográficas de las estaciones hidroclimatológicas de Colombia. Análisis categórico de la zonificación hidrográfica de Colombia (AH, ZH, SZH)                                       |           3.5            |
 
 </div>
 
@@ -191,11 +191,11 @@ Manejo de tablas en bases de datos
 
 <div align="center">
 
-| Actividad                                                            | Descripción                             | Dedicación,<br>4.0 horas |
-|:---------------------------------------------------------------------|:----------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller3.pdf)                          | Guía de tablas relacionales y reportes  |      1.0 (lectura)       |
-| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                    |           0.5            |
-| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Quiz general de habilidad               |           2.5            | 
+| Actividad                                                            | Descripción                                                                                                                                                                                                                                                         | Dedicación,<br>4.0 horas |
+|:---------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller3.pdf)                          | Conceptos generales. Uniones y relaciones entre tablas y capas. Tablas geocodificadas. Ensable de llaves catastrales. Generación de reportes                                                                                                                        |      1.0 (lectura)       |
+| [Quiz 3. Conocimiento](https://forms.gle/1mBd5yFCdCH222Vo6)          | Quiz de conocimiento                                                                                                                                                                                                                                                |           0.5            |
+| [Quiz 3. Habilidad - General](https://forms.gle/igsL4UzUXVTm7M9c7)   | Evaluación general usando software GIS. Análisis espacial de estratificación. Análisis de destinaciones económicas catastrales. Análisis de longitudes hipotéticas de series en estaciones hidroclimatológicas usando Python y representación usando mapas de calor |           2.5            | 
 
 </div>
 
