@@ -33,16 +33,7 @@ Los Sistemas de Información Geográficos (SIG o GIS), son un conjunto de equipo
 
 ## Participantes, metodología y evaluación
 
-Los contenidos presentados en este curso taller, están dirigidos a estudiantes y profesionales de diferentes disciplinas, que requieran aprender y/o fortalecer sus conocimientos en el manejo de herramientas SIG y bases de datos geográficas, tales como:
-
-* Estudiantes de pregrado y posgrado en ingeniería
-* Ingenieros
-* Especialistas
-* Funcionarios públicos
-* Gestores territoriales
-* Planificadores urbanos
-* Topógrafos
-* Arquitectos
+Los contenidos presentados en este curso taller, están dirigidos a estudiantes y profesionales de diferentes disciplinas, que requieran aprender y/o fortalecer sus conocimientos en el manejo de herramientas SIG y bases de datos geográficas, tales como: Estudiantes de pregrado y posgrado en ingeniería, Ingenieros, Especialistas, Funcionarios públicos, Gestores territoriales, Planificadores urbanos, Topógrafos, Arquitectos.
 
 > Es requerido un nivel básico del idioma inglés debido a que utilizaremos las interfaces de usuario en este idioma.  
 > Como prerrequisito, los estudiantes requieren de conocimientos básicos en programación de computadores.
@@ -132,10 +123,10 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 
 <div align="center">
 
-| Actividad                                                                           | Descripción                                                                           | Dedicación,<br>2.0 horas |
-|:------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:------------------------:|
-| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Sistemas de información geográfica, fundamentos, proyecciones y origen de coordenadas |      1.5 (lectura)       |
-| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                    |           0.5            |
+| Actividad                                                                           | Descripción                                                                                                       | Dedicación,<br>2.0 horas |
+|:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Introducción, conceptos básicos y georreferenciación](activity/GISBasic/Readme.md) | Conceptos básicos de topografía, fotogrametría y fotointerpretación. Conceptos básicos de SIG. Georreferenciación |      1.5 (lectura)       |
+| [Quiz 0. Conocimiento](https://forms.gle/suVLbYJvhQX9SKa57)                         | Quiz de conocimiento con cálculos básicos de la forma de la tierra                                                |           0.5            |
 
 </div>
 
@@ -155,11 +146,11 @@ Adicionalmente aprenderá a:
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                       | Dedicación,<br>4.0 horas |
-|:--------------------------------------------------------------------|:--------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller1.pdf)                         | Guía de fundamentos generales de herramientas GIS |      1.0 (lectura)       |
-| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                              |           0.5            |
-| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                         |           2.5            |
+| Actividad                                                           | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Dedicación,<br>4.0 horas |
+|:--------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller1.pdf)                         | Visualización general de capas geográficas y mapas base: shapefile, metadatos, mapas base locales, mapas base en línea, instalación de complementos y activación de extensiones. Simbología de representación geográfica: rotulación, tabla de atributos, representación simple,representación por categoría, representación por cantidades, visualización con gráficos, métodos de representación asociados a de datos numéricos. Manipulación gráfica: símbolos, rótulos avanzados, escalas, filtros de datos usando Query. Gráficas a partir de tablas de atributos: barras, pastel, matriz de dispersión, box-plot, polar   |      1.0 (lectura)       |
+| [Quiz 1. Conocimiento](https://forms.gle/ioB6AysMcAhMX3WG6)         | Quiz de conocimiento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |           0.5            |
+| [Quiz 1. Habilidad - General](https://forms.gle/oEe2euoz31kmKE9h8)  | Quiz general de habilidad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |           2.5            |
 
 </div>
 
