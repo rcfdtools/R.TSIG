@@ -373,12 +373,12 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                                        | Dedicación,<br>1.5 horas |
-|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller12.pdf)                          | Guía de Sistemas de información geográfica y los estudios ambientales en Colombia                                  |      1.0 (lectura)       |
-| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                               |           0.5            |
-| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                         |     (complementario)     |
-| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de Sistemas de Información Geográfica aplicados a Desarrollo y Ordenamiento Territorial (OT)  |     (complementario)     |
+| Actividad                                                             | Descripción                                                                                                                       | Dedicación,<br>1.5 horas |
+|:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller12.pdf)                          | Marco normativo. Modelo nacional para presentación de estudios ambientales - componente geográfico. Caso de estudio - Ejemplo EIA |      1.0 (lectura)       |
+| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                                              |           0.5            |
+| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                                        |     (complementario)     |
+| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de sistemas de información geográfica aplicados a desarrollo y ordenamiento territorial (OT)                 |     (complementario)     |
 
 </div>
 
