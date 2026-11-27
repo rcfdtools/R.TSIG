@@ -222,7 +222,7 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 </div>
 
 
-## :large_blue_circle:Taller U5. Diseño, creación y operación de bases de datos geográficas
+## :large_blue_circle:Taller 5. Diseño, creación y operación de bases de datos geográficas
 
 Este taller le enseñará como planificar y crear la estructura de una base de datos geográfica o Geodatabase sobre ESRI ArcGIS y QGIS, también a través del ArcCatalog, definir los dominios de un determinado campo numérico de atributos. El caso de estudio está relacionado con la creación de un modelo de datos geográfico para la representación de un tramo de río.
 
