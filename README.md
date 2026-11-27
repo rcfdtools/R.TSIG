@@ -278,9 +278,9 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 
 | Actividad                                                             | Descripción                                                                               | Dedicación,<br>7.5 horas |
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller7.pdf)                           | Guía de conceptos de geo-procesamiento, análisis de datos climatológicos y automatización |      1.0 (lectura)       |
+| [Documento guía](activity/TSIG_Taller7.pdf)                           | Conceptos generales de geoprocesamiento. Interpolación espacial: IDW, Kriging, Spline, Trend, Vecino Natural. Generación de mapas de iso-líneas. Áreas aferentes utilizando polígonos de Thiessen Voronoi. Estadísticas zonales como grilla y tabla. Algebra de mapas. Cálculo de curvas de elevación-almacenamiento y elevación–área en embalses. Automatización de geoprocesos: Model Builder, Model Designer, Python |      1.0 (lectura)       |
 | [Quiz 7. Conocimiento](https://forms.gle/1GzzKiuxf125gj8u6)           | Quiz de conocimiento                                                                      |           0.5            |
-| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)    | Quiz general de habilidad                                                                 |           6.0            |
+| [Quiz 7. Habilidad - General](https://forms.gle/c6eRQzAKH5spLbLx6)    | Evaluación general usando software GIS: Interpolación espacial de variables hidro-climatológicas. Áreas aferentes utilizando polígonos de Thiessen Voronoi. Generación de mapas de isolíneas. Estadísticas zonales como grilla y tabla. Algebra de mapas. Cálculo de curvas de elevación-almacenamiento y elevación–área en embalses. Automatización de procesos                                                                 |           6.0            |
 | [Curso WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md) | Curso complementario de Íngeniería y gestión de recursos hidráulicos                      |     (complementario)     |
 
 </div>
