@@ -292,10 +292,10 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                                                                                                                                   | Dedicación,<br>2.5 horas |
-|:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller8.pdf)                         | Guía de mapas cartográficos, plantillas y mapas distribuibles. [Documentación oficial QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |      0.5 (lectura)       |
-| [Quiz 8. Habilidad - General](https://forms.gle/EXGZxXea6AziBwPx6)  | Quiz general de habilidad                                                                                                                                                     |           2.0            |
+| Actividad                                                           | Descripción                                                                                                                                                                                                                                                                                               | Dedicación,<br>2.5 horas |
+|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller8.pdf)                         | Mapas cartográficos y plantillas de impresión. Mapas digitales impresos en formato pdf. Mapas en intranet. Mapas distribuibles en entornos web. Mapas portables para dispositivos móbiles. [Documentación oficial QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_layout/overview_layout.html) |      0.5 (lectura)       |
+| [Quiz 8. Habilidad - General](https://forms.gle/EXGZxXea6AziBwPx6)  | Evaluación general usando software GIS: Diseño y creación de plantillas de impresión. Generación de mapas digitales impreso en formato pdf                                                                                                                                                                |           2.0            |
 
 
 </div>
