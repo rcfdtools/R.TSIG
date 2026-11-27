@@ -249,7 +249,7 @@ Este taller le enseñará a descargar, georreferenciar y procesar imágenes sate
 
 **¿Qué es la Teledetección?**: Los sensores remotos o teledetección comprenden diversas técnicas para localización, captura y transmisión de datos de objetos y fenómenos a distancia, sin contacto físico con el elemento o fenómeno de interés. Algunas de sus aplicaciones más interesantes en la ingeniería civil y ambiental son: representación y análisis de modelos de terreno - elevación, elaboración de mapas de pendientes, composición de bandas de imágenes para la restitución masiva de cuerpos de agua, delimitación detallada de cuencas hidrográficas y morfometría, monitoreo de vegetación y evaluación de su calidad por medio de índices, monitoreo de contaminación atmosférica, seguir trayectoria de huracanes, medir fenómenos de remoción en masa, flujo por avalanchas, inundaciones y fenómenos de expansión urbana, entre otros.
 
-**¿Qué son las [Pirámides de visualización ráster](https://pro.arcgis.com/es/pro-app/help/data/imagery/raster-pyramids.htm)?**: Las pirámides se utilizan para mejorar el rendimiento de visualización. Son una versión con submuestreo del dataset ráster original y pueden contener varias capas con submuestreo. Se realiza un submuestreo a cada capa consecutiva de la pirámide en una escala de 2:1.
+**¿Qué son las Pirámides de visualización ráster?**: Las pirámides se utilizan para mejorar el rendimiento de visualización. Son una versión con sub-muestreo del dataset ráster original y pueden contener varias capas con sub-muestreo. Se realiza un sub-muestreo a cada capa consecutiva de la pirámide en una escala de 2:1.
 
 <div align="center">
 
