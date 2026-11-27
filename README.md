@@ -373,12 +373,12 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 
 <div align="center">
 
-| Actividad                                                             | Descripción                                                                                                                       | Dedicación,<br>1.5 horas |
-|:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller12.pdf)                          | Marco normativo. Modelo nacional para presentación de estudios ambientales - componente geográfico. Caso de estudio - Ejemplo EIA |      1.0 (lectura)       |
-| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                                              |           0.5            |
-| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                                        |     (complementario)     |
-| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de sistemas de información geográfica aplicados a desarrollo y ordenamiento territorial (OT)                 |     (complementario)     |
+| Actividad                                                             | Descripción                                                                                                            | Dedicación,<br>1.5 horas |
+|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller12.pdf)                          | Marco normativo. Modelo nacional para presentación de estudios ambientales - componente geográfico. Ejemplo básico EIA |      1.0 (lectura)       |
+| [Quiz 12. Conocimiento](https://forms.gle/poVspJ4m2eRfULoT6)          | Quiz de conocimiento                                                                                                   |           0.5            |
+| [Curso IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md) | Curso complementario de usos y aplicaciones de GIS en estudios ambientales                                             |     (complementario)     |
+| [Curso SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md) | Curso complementario de sistemas de información geográfica aplicados a desarrollo y ordenamiento territorial (OT)      |     (complementario)     |
 
 </div>
 
@@ -393,10 +393,10 @@ En el desarrollo de esta guía se han utilizado los conceptos generales del tuto
 
 <div align="center">
 
-| Actividad                                                           | Descripción                                                  | Dedicación,<br>3.0 horas |
-|:--------------------------------------------------------------------|:-------------------------------------------------------------|:------------------------:|
-| [Documento guía](activity/TSIG_Taller13.pdf)                        | Guía de Modelación y análisis de redes vehiculares en ArcGIS |      1.0 (lectura)       |
-| [Quiz 13. Habilidad - General](https://forms.gle/XUM8u56wbTwrh5fDA) | Quiz general de habilidad                                    |           2.0            | 
+| Actividad                                                           | Descripción                                                                                                                                                                                       | Dedicación,<br>3.0 horas |
+|:--------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
+| [Documento guía](activity/TSIG_Taller13.pdf)                        | Conceptos generales. Creación de Dataset de red. Estudio de rutas. Indicaciones para ruta. Estudio de áreas de servicio. Estudio de instalaciones más cercanas por evento o incidente en la red   |      1.0 (lectura)       |
+| [Quiz 13. Habilidad - General](https://forms.gle/XUM8u56wbTwrh5fDA) | Evaluación general usando software GIS: Rutas de viaje óptimas para centros educativos. Simulación de incidentes. Obtención de áreas de servicio. Instalaciones próximas para atender incidentes  |           2.0            | 
 
 </div>
 
