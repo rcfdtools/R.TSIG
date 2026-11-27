@@ -115,7 +115,7 @@ Para el desarrollo del curso y las actividades del proyecto final, son requerida
 > Los tiempos de dedicación corresponden a horas mínimas que el estudiante debe dedicar al desarrollo del caso de estudio con el cual se ejemplificó este curso y a las actividades complementarias indicadas al final de cada clase. Estudiantes bajo el esquema de certificación y caso de estudio asignado requerirán de al menos 96 horas de trabajo y horas complementarias, de acuerdo a su experticia en el manejo de las herramientas computacionales utilizadas.
 
 
-## :large_blue_circle:Taller 0. Introducción y conceptos básicos de GIS en ingeniería
+## :large_blue_circle:Taller U0. Introducción y conceptos básicos de GIS en ingeniería
 
 Este taller presenta los conceptos generales de los sistemas de información geográfica, aplicación, utilidad, georreferenciación, funciones de un SIG, tipos de datos y codificación, formatos para almacenamiento geográfico, tipos de herramientas SIG, versiones y herramientas que componen los paquetes ArcGIS y QGIS. Este taller es una introducción general a los SIG como herramienta de toma de decisiones en ingeniería y presenta contenidos relacionados con conceptos de sistemas de proyección y georreferenciación.
 
@@ -131,7 +131,7 @@ La gran diferencia que existe entre un aplicativo SIG y otros paquetes de softwa
 </div>
 
 
-## :large_blue_circle:Taller 1. Fundamentos generales de herramientas GIS
+## :large_blue_circle:Taller U1. Fundamentos generales de herramientas GIS
 
 Este taller es una introducción a ArcGIS y QGIS. Utilice estas aplicaciones para crear un mapa vectorial de la zona central de Colombia para departamentos, municipios y de las estaciones de temperatura, precipitación y evaporación; luego elabore gráfica de los datos mensuales en diferentes valores. Utilice ArcCatalog para visualizar cada shapefile, sus tablas de atributos y metadatos.
 
@@ -155,7 +155,7 @@ Adicionalmente aprenderá a:
 </div>
 
 
-## :large_blue_circle:Taller 2. Búsqueda, selección y estadísticas generales
+## :large_blue_circle:Taller U2. Búsqueda, selección y estadísticas generales
 
 En este taller aprenderá a visualizar fácilmente diferentes lugares en un mismo mapa, realizar búsquedas simples y complejas sobre los diferentes atributos de cada capa y a seleccionar elementos y exportarlos a diferentes formatos utilizando diferentes criterios. Aprenderá a realizar análisis estadísticos por campos independientes y resúmenes estadísticos de agrupamiento de múltiples variables.
 
@@ -173,12 +173,12 @@ Adicionalmente aprenderá a:
 |:--------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------:|
 | [Documento guía](activity/TSIG_Taller2.pdf)                         | Herramientas de búsqueda por visualización. Identificación de atributos. Búsqueda y localización por coordenada (x,y). Medición de elementos. Map tips en mapas e hipervínculos. Métodos de selección: interactiva, por atributos, por localización, por dibujo manual. Generación de resúmenes estadísticos. Exportación y visualización en Google Earth                        |      1.0 (lectura)       |
 | [Quiz 2. Conocimiento](https://forms.gle/AsPxCdRpGVqN4N4DA)         | Quiz de conocimiento                                                                                                                                                                                                                                                                                                                                                             |           0.5            |
-| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Evaluación general usando software GIS. Análisis de distribución porcentual manual y con Python. Análisis de densidad, cobertura y elevación, general y por áreas hidrográficas de las estaciones hidroclimatológicas de Colombia. Análisis categórico de la zonificación hidrográfica de Colombia (Área hidrográfica - AH, Zona hidrohráfica - ZH, Subzona hidrográfica - SZH)  |           3.5            |
+| [Quiz 2. Habilidad - General](https://forms.gle/w2bLtynmSdthEUqT7)  | Evaluación general usando software GIS. Análisis de distribución porcentual manual y con Python. Análisis de densidad, cobertura y elevación, general y por áreas hidrográficas de las estaciones hidroclimatológicas de Colombia. Análisis categórico de la zonificación hidrográfica de Colombia (Área hidrográfica - AH, Zona hidrográfica - ZH, Subzona hidrográfica - SZH)  |           3.5            |
 
 </div>
 
 
-## :large_blue_circle:Taller 3. Tablas relacionales y reportes
+## :large_blue_circle:Taller U3. Tablas relacionales y reportes
 
 En este taller aprenderá a realizar uniones y relaciones de tablas de datos externos con elementos geográficos a partir de una llave de unión. Por otra parte, podrá crear entidades geográficas a partir de tablas geo-codificadas XY e informes o reportes con atributos básicos de elementos espaciales y con los datos de unión a tablas externas.
 
@@ -200,7 +200,7 @@ Manejo de tablas en bases de datos
 </div>
 
 
-## :large_blue_circle:Taller 4. Entrada, edición y digitalización de datos geográficos
+## :large_blue_circle:Taller U4. Entrada, edición y digitalización de datos geográficos
 
 A través de este taller aprenderá el manejo de las herramientas de edición y digitalización esquemática y de precisión con ArcGIS y QGIS.
 
@@ -217,12 +217,12 @@ ArcGIS y QGIS proveen una gran variedad de herramientas para la creación y modi
 | [Quiz 4A. Habilidad - General](https://forms.gle/iBErivqRVMiZGRqF6)               | Evaluación general usando software GIS. Dibujo de figuras geométricas regulares e irregulares. Cálculo de rumbos y distancias usando Python                                                                                                              |           2.0            |
 | [Digitalización de campus](activity/Digitizing/Readme.md)                         | Caso de estudio: digitalización y cálculo de índices del campus. Conceptos generales de escala de digitalización. Creación de capas usando Python. Generación de áreas aferentes y cálculo de índices urbanísticos                                       |      1.0 (lectura)       |
 | [Quiz 4B. Habilidad - Digitalización campus](https://forms.gle/rf9xzRwFmG37u1dK8) | Evaluación general usando software GIS. Representación 3D                                                                                                                                                                                                |           3.0            |
-| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de Dibujo asistido por computador en ingeniería                                                                                                                                                                                     |     (complementario)     |
+| [Curso DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)             | Curso complementario de dibujo asistido por computador en ingeniería                                                                                                                                                                                     |     (complementario)     |
 
 </div>
 
 
-## :large_blue_circle:Taller 5. Diseño, creación y operación de bases de datos geográficas
+## :large_blue_circle:Taller U5. Diseño, creación y operación de bases de datos geográficas
 
 Este taller le enseñará como planificar y crear la estructura de una base de datos geográfica o Geodatabase sobre ESRI ArcGIS y QGIS, también a través del ArcCatalog, definir los dominios de un determinado campo numérico de atributos. El caso de estudio está relacionado con la creación de un modelo de datos geográfico para la representación de un tramo de río.
 
@@ -243,7 +243,7 @@ La manipulación de datos en un proyecto SIG requiere de elementos vectoriales y
 </div>
 
 
-## :large_blue_circle:Taller 6. Imágenes y sensores remotos
+## :large_blue_circle:Taller U6. Imágenes y sensores remotos
 
 Este taller le enseñará a descargar, georreferenciar y procesar imágenes satelitales y datos espaciales desde diferentes fuentes públicas de información.
 
@@ -282,7 +282,7 @@ Adicionalmente aprenderá a:
 </div>
 
 
-## :large_blue_circle:Taller 7. Conceptos de geo-procesamiento, análisis de datos climatológicos y automatización
+## :large_blue_circle:Taller U7. Conceptos de geo-procesamiento, análisis de datos climatológicos y automatización
 
 En este taller aprenderá a utilizar varias de las herramientas comunes utilizadas para análisis espacial, como interpolación espacial de variables a partir de puntos geográficos, estudio y evaluación de áreas aferentes, creación de isolíneas a partir de mapas interpolados, cálculo de estadísticas espaciales, utilización de la herramienta de algebra de mapas para crear nuevas grillas, analizar modelos de terreno para obtener curvas de almacenamiento en embalses y automatización de procesos geográficos utilizando Model Builder y Python.
 
@@ -300,7 +300,7 @@ En este taller aprenderá a utilizar varias de las herramientas comunes utilizad
 </div>
 
 
-## :large_blue_circle:Taller 8. Mapas cartográficos, plantillas y mapas distribuibles
+## :large_blue_circle:Taller U8. Mapas cartográficos, plantillas y mapas distribuibles
 
 En este taller se presentan los conceptos generales para tener en cuenta para la producción de mapas cartográficos y plantillas, además de diferentes procedimientos para distribución de mapas en intranet o en Internet a través de herramientas comerciales y de dominio público. 
 
@@ -315,7 +315,7 @@ En este taller se presentan los conceptos generales para tener en cuenta para la
 </div>
 
 
-## :large_blue_circle:Taller 9. Modelos hidrológicos computacionales con HEC-HMS y HEC-DSS
+## :large_blue_circle:Taller U9. Modelos hidrológicos computacionales con HEC-HMS y HEC-DSS
 
 En este taller aprenderá el proceso de construcción de un modelo hidrológico en HEC-HMS, a partir de un modelo digital de terreno DEM, con el objetivo de determinar los caudales pico en las cuencas y subcuencas de una determinada zona de estudio.
 
@@ -340,7 +340,7 @@ Conceptos generales de modelos hidrológicos computacionales:
 </div>
 
 
-## :large_blue_circle:Taller 10. Balance hidrológico discreto de largo plazo usando GIS
+## :large_blue_circle:Taller U10. Balance hidrológico discreto de largo plazo usando GIS
 
 En este taller aprenderá a calcular una grilla de caudales medios acumulados por celda a partir de grillas suministradas de precipitación media, evaporación real y direcciones de flujo en la zona central del Departamento del Cesar – Colombia.
 
@@ -355,7 +355,7 @@ En este taller aprenderá a calcular una grilla de caudales medios acumulados po
 </div>
 
 
-## :large_blue_circle:Taller 11. Modelos hidráulicos 1D con HEC-RAS
+## :large_blue_circle:Taller U11. Modelos hidráulicos 1D con HEC-RAS
 
 En este taller aprenderá a construir y ejecutar un modelo topológico hidráulico 1D de un tramo de río usando HEC-RAS. Los datos del proyecto han sido extraídos de una topografía real y fueron procesados en el taller de creación y operación de bases de datos geográficas. El objetivo del taller es determinar riesgos por inundación en las parcelas de un proyecto de vivienda campestre, localizar diques de protección y estimar cotas máximas en un paso de vía para determinar los gálibos horizontal y vertical de un puente.
 
@@ -370,7 +370,7 @@ En este taller aprenderá a construir y ejecutar un modelo topológico hidráuli
 </div>
 
 
-## :large_blue_circle:Taller 12. Sistemas de información geográfica y los estudios ambientales
+## :large_blue_circle:Taller U12. Sistemas de información geográfica y los estudios ambientales
 
 Objetivos: 
 
@@ -397,7 +397,7 @@ Mejoras que introducen los SIG a los Estudios Ambientales:
 </div>
 
 
-## :large_blue_circle:Taller 13. Modelación y análisis de redes vehiculares en ArcGIS
+## :large_blue_circle:Taller U13. Modelación y análisis de redes vehiculares en ArcGIS
 
 A través de este taller y utilizando la extensión de análisis de redes en ArcGIS podrá representar las principales características de una red vehicular y/o peatonal para determinar rutas óptimas de viaje (en función del tiempo o de la distancia), rutas alternas por interferencias, análisis de proximidad, y áreas de servicio. 
 
